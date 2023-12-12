@@ -64,6 +64,7 @@ Knowledge:
 - Java
 - bootstrap-server : 10.24.36.25:35002
 - schema-registry : 10.24.36.25:35003
+- topic : table-update
 
 
 ### Setup
