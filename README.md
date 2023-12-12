@@ -76,7 +76,7 @@ To clone this repository to your desired folder, follow the steps below:
 
 ```sh
   cd my-folder
-  git clone https://github.com/kazaneza/tv-shows.git
+  git clone https://github.com/kazaneza/tables-update-kafka
 ```
 
 
