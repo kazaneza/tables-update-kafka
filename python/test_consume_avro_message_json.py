@@ -1,6 +1,6 @@
 import json
 from confluent_kafka import DeserializingConsumer
-from confluent_kafka.serialization import StringDeserializer, SerializationContext, MessageField
+from confluent_kafka.serialization import StringDeserializer
 from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.avro import AvroDeserializer
 
@@ -28,7 +28,7 @@ def main():
             if msg is None:
                 continue
             if msg.error():
-                print("Consumer error: {}".format(msg.error()))
+                print("Consumer error {}".format(msg.error()))
                 continue
 
             # Convert message to JSON
@@ -41,7 +41,7 @@ def main():
             }
             print(json.dumps(message_json, indent=4, default=str))
 
-            message_count += 1
+            message_count +=1
     except KeyboardInterrupt:
         pass
     finally:
