@@ -1,0 +1,416 @@
+{
+    "key": "U18359259_4a17cddd-b026-45f5-814d-d000b25a74f6_0001_3",
+    "value": {
+        "eventId": "U18359259_4a17cddd-b026-45f5-814d-d000b25a74f6_0001",
+        "eventSize": 4,
+        "eventIndex": 2,
+        "emittedTime": 1702043592063,
+        "processingTime": 1701384256048,
+        "company": "FBNK",
+        "context": {
+            "jobName": "AA.SERVICE.PROCESS",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S016",
+            "processName": "BNK/AA.EOD.PROCESS",
+            "cobDate": "20231130",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
+        "entityId": "AA21323VZR8H-CRINTEREST-ACCRUAL",
+        "application": "AA.ARRANGEMENT.ACTIVITY",
+        "payload": {
+            "recId": "AA21323VZR8H-CRINTEREST-ACCRUAL",
+            "ArrSequence": null,
+            "Arrangement": "AA21323VZR8H",
+            "Activity": "ACCOUNTS-ACCRUE-CRINTEREST",
+            "EffectiveDate": "20231130",
+            "ARRAY_Customer": [],
+            "TradeDate": null,
+            "AlternateId": null,
+            "Remarks": null,
+            "ArrangementLinkType": null,
+            "MasterArrangement": null,
+            "Product": "BKQuickAccount",
+            "Currency": "RWF",
+            "Channel": null,
+            "ArrCompanyCode": null,
+            "Branch": null,
+            "LineOfBusiness": null,
+            "LinkedActivity": null,
+            "ARRAY_InitiationType": [
+                {
+                    "InitiationType": "SCHEDULED*EOD"
+                },
+                {
+                    "InitiationType": "NOLOG"
+                }
+            ],
+            "SecondaryType": null,
+            "ARRAY_AdjActivity": [],
+            "ARRAY_ChildActivity": [],
+            "OrigContractDate": null,
+            "MasterAaa": "AA21323VZR8H-CRINTEREST-ACCRUAL",
+            "RevMasterAaa": null,
+            "Adjustment": null,
+            "RealMasterId": null,
+            "AssessmentActivity": null,
+            "TxnAmount": null,
+            "TxnAmountLcy": null,
+            "TxnExchRate": null,
+            "TxnContractId": null,
+            "TxnSystemId": null,
+            "ExposureDate": null,
+            "ARRAY_AdviceNo": [],
+            "ActivityClass": "ACCOUNTS-ACCRUE-INTEREST",
+            "ARRAY_Property": [],
+            "ARRAY_ContextName": [],
+            "ARRAY_TransCustomer": [],
+            "ARRAY_Signatory": [],
+            "ProcessingMode": null,
+            "AutoRun": null,
+            "SimRunRef": null,
+            "OrigTxnAmt": null,
+            "OrigTxnAmtLcy": null,
+            "ARRAY_Narrative": [],
+            "ExtEventRef": null,
+            "ProductVariation": null,
+            "PricingSelection": null,
+            "PricingPlan": null,
+            "ARRAY_Reason": [],
+            "EventId": null,
+            "ARRAY_AgentId": [],
+            "ARRAY_ErrorSource": [],
+            "RewardsArrId": null,
+            "OrgSystemDate": "20211119",
+            "ClosureReason": null,
+            "ARRAY_ClosureNotes": [],
+            "CrOpportunity": null,
+            "ARRAY_ActivityLinkType": [],
+            "LinkedParentRef": null,
+            "ARRAY_StmtNos": [],
+            "ARRAY_Override": [],
+            "RecordStatus": null,
+            "CurrNo": "488",
+            "ARRAY_Inputter": [
+                {
+                    "Inputter": "18359259_INPUTTER_I_INAU_OFS_AA.COB"
+                }
+            ],
+            "ARRAY_DateTime": [
+                {
+                    "DateTime": "2312010044"
+                },
+                {
+                    "DateTime": "2312010044"
+                }
+            ],
+            "Authoriser": "18359259_INPUTTER_OFS_AA.COB",
+            "CoCode": "RW0010045",
+            "DeptCode": "1",
+            "AuditorCode": null,
+            "AuditDateTime": null,
+            "ARRAY_DefDoc": [],
+            "InsuranceCom": null,
+            "InsuranceType": null,
+            "InsuredAmt": null,
+            "InsuranceChg": null,
+            "InsuranceExp": null,
+            "FrtLossPay": null,
+            "LoanAppId": null,
+            "EconSector": null,
+            "EconSectorIsi": null,
+            "EconSectorIs": null,
+            "RestReason": null,
+            "BkEcoSector": null,
+            "BkEcoSubSect": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
+            "createdTime": "1701384253719",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 564246276
+}
+{
+    "key": "U18359259_4a17cddd-b026-45f5-814d-d000b25a74f6_0001_4",
+    "value": {
+        "eventId": "U18359259_4a17cddd-b026-45f5-814d-d000b25a74f6_0001",
+        "eventSize": 4,
+        "eventIndex": 3,
+        "emittedTime": 1702043592063,
+        "processingTime": 1701384256048,
+        "company": "FBNK",
+        "context": {
+            "jobName": "AA.SERVICE.PROCESS",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S016",
+            "processName": "BNK/AA.EOD.PROCESS",
+            "cobDate": "20231130",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
+        "entityId": "AAACT23334CV2NR0GS",
+        "application": "AA.ARRANGEMENT.ACTIVITY",
+        "payload": {
+            "recId": "AAACT23334CV2NR0GS",
+            "ArrSequence": null,
+            "Arrangement": "AA21323VZR8H",
+            "Activity": "ACCOUNTS-ISSUEBILL-SCHEDULE*CHARGE",
+            "EffectiveDate": "20231130",
+            "ARRAY_Customer": [],
+            "TradeDate": null,
+            "AlternateId": null,
+            "Remarks": null,
+            "ArrangementLinkType": null,
+            "MasterArrangement": null,
+            "Product": "BKQuickAccount",
+            "Currency": "RWF",
+            "Channel": null,
+            "ArrCompanyCode": null,
+            "Branch": null,
+            "LineOfBusiness": null,
+            "LinkedActivity": null,
+            "ARRAY_InitiationType": [
+                {
+                    "InitiationType": "SCHEDULED*EOD"
+                }
+            ],
+            "SecondaryType": null,
+            "ARRAY_AdjActivity": [],
+            "ARRAY_ChildActivity": [],
+            "OrigContractDate": null,
+            "MasterAaa": "AAACT23334CV2NR0GS",
+            "RevMasterAaa": null,
+            "Adjustment": null,
+            "RealMasterId": null,
+            "AssessmentActivity": null,
+            "TxnAmount": null,
+            "TxnAmountLcy": null,
+            "TxnExchRate": null,
+            "TxnContractId": null,
+            "TxnSystemId": null,
+            "ExposureDate": null,
+            "ARRAY_AdviceNo": [
+                {
+                    "RECORD_AdviceNo": {
+                        "AdviceNo": "AA-2003",
+                        "MappingKey": "8581.AA.1",
+                        "DeliveryRef": "D20231201325790265400"
+                    }
+                }
+            ],
+            "ActivityClass": "ACCOUNTS-ISSUEBILL-PAYMENT.SCHEDULE",
+            "ARRAY_Property": [],
+            "ARRAY_ContextName": [],
+            "ARRAY_TransCustomer": [],
+            "ARRAY_Signatory": [],
+            "ProcessingMode": null,
+            "AutoRun": null,
+            "SimRunRef": null,
+            "OrigTxnAmt": null,
+            "OrigTxnAmtLcy": null,
+            "ARRAY_Narrative": [],
+            "ExtEventRef": null,
+            "ProductVariation": null,
+            "PricingSelection": null,
+            "PricingPlan": null,
+            "ARRAY_Reason": [],
+            "EventId": null,
+            "ARRAY_AgentId": [],
+            "ARRAY_ErrorSource": [],
+            "RewardsArrId": null,
+            "OrgSystemDate": "20231130",
+            "ClosureReason": null,
+            "ARRAY_ClosureNotes": [],
+            "CrOpportunity": null,
+            "ARRAY_ActivityLinkType": [],
+            "LinkedParentRef": null,
+            "ARRAY_StmtNos": [],
+            "ARRAY_Override": [],
+            "RecordStatus": null,
+            "CurrNo": "1",
+            "ARRAY_Inputter": [
+                {
+                    "Inputter": "18359259_INPUTTER_I_INAU_OFS_AA.COB"
+                }
+            ],
+            "ARRAY_DateTime": [
+                {
+                    "DateTime": "2312010044"
+                },
+                {
+                    "DateTime": "2312010044"
+                }
+            ],
+            "Authoriser": "18359259_INPUTTER_OFS_AA.COB",
+            "CoCode": "RW0010045",
+            "DeptCode": "1",
+            "AuditorCode": null,
+            "AuditDateTime": null,
+            "ARRAY_DefDoc": [],
+            "InsuranceCom": null,
+            "InsuranceType": null,
+            "InsuredAmt": null,
+            "InsuranceChg": null,
+            "InsuranceExp": null,
+            "FrtLossPay": null,
+            "LoanAppId": null,
+            "EconSector": null,
+            "EconSectorIsi": null,
+            "EconSectorIs": null,
+            "RestReason": null,
+            "BkEcoSector": null,
+            "BkEcoSubSect": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
+            "createdTime": "1701384253719",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 564246277
+}
+{
+    "key": "U18360520_5964bc39-483b-4f45-aaa8-7e9cc96d8b11_0001_1",
+    "value": {
+        "eventId": "U18360520_5964bc39-483b-4f45-aaa8-7e9cc96d8b11_0001",
+        "eventSize": 7,
+        "eventIndex": 0,
+        "emittedTime": 1702043592064,
+        "processingTime": 1701384256085,
+        "company": "FBNK",
+        "context": {
+            "jobName": "AA.SERVICE.PROCESS",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S016",
+            "processName": "BNK/AA.EOD.PROCESS",
+            "cobDate": "20231130",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.CATEG.ENTRY",
+        "entityId": "204243865102655.000001",
+        "application": "CATEG.ENTRY",
+        "payload": {
+            "recId": "204243865102655.000001",
+            "SourceId": null,
+            "AccountNumber": null,
+            "CompanyCode": "RW0010050",
+            "AmountLcy": "15",
+            "TransactionCode": "862",
+            "TheirReference": null,
+            "ARRAY_Narrative": [],
+            "PlCategory": "52277",
+            "CustomerId": "1081527",
+            "AccountOfficer": "301041",
+            "ProductCategory": "3004",
+            "ValueDate": "20231130",
+            "Currency": "RWF",
+            "AmountFcy": null,
+            "ExchangeRate": null,
+            "NegotiatedRefNum": null,
+            "PositionType": "TR",
+            "OurReference": "AA22103F8PSC",
+            "ReversalMarker": null,
+            "ExposureDate": null,
+            "CurrencyMarket": "1",
+            "ARRAY_LocalRef": [],
+            "DepartmentCode": null,
+            "TransReference": "EB.COMM.ACCRUAL*AA22103F8PSC*Q547NVDV*PROCESSINGFEE*20220413",
+            "SystemId": "AAAA",
+            "BookingDate": "20231130",
+            "ARRAY_StmtNo": [
+                {
+                    "StmtNo": "204243865102655.00"
+                },
+                {
+                    "StmtNo": "1"
+                }
+            ],
+            "ARRAY_Override": [],
+            "RecordStatus": null,
+            "CurrNo": "1",
+            "ARRAY_Inputter": [
+                {
+                    "Inputter": "18360520_INPUTTER"
+                }
+            ],
+            "ARRAY_DateTime": [
+                {
+                    "DateTime": "2312010044"
+                }
+            ],
+            "Authoriser": "18360520_INPUTTER",
+            "SuspenseCategory": null,
+            "SuspnseValueDate": null,
+            "SuppressPosition": null,
+            "CrfType": null,
+            "CrfTxnCode": null,
+            "CrfCurrency": null,
+            "CrfAmount": null,
+            "CrfMatDate": null,
+            "CrfProdCat": null,
+            "PmType": null,
+            "DealerDesk": "00",
+            "Counterparty": null,
+            "LiquidationMode": null,
+            "RepaymentDate": null,
+            "ARRAY_RepaymentType": [],
+            "OutstandingBal": null,
+            "ContractIntRate": null,
+            "ContractIntKey": null,
+            "CycleForward": null,
+            "OrigLocalEquiv": null,
+            "OriginalAmount": null,
+            "OriginalCcy": null,
+            "ConsolKey": "PL.52277.3004.1000.301041.RW...CUR.....RW0010050",
+            "OriginalExchRate": null,
+            "CusPlAccount": null,
+            "ProcessingDate": "20231130",
+            "ARRAY_AddDetailName": [],
+            "Reserved_D_7": null,
+            "Reserved_D_6": null,
+            "Reserved_D_5": null,
+            "AccountingDate": null,
+            "ARRAY_PcPeriodEnd": [],
+            "Reserved_D_4": null,
+            "Reserved_D_3": null,
+            "Reserved_D_2": null,
+            "SoftAcctngDtls": null,
+            "Reserved_D_8": null,
+            "NetParam": null,
+            "ARRAY_TdglDetails": [
+                {
+                    "TdglDetails": "TD"
+                },
+                {
+                    "TdglDetails": "VALUE.DATE"
+                }
+            ]
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
+            "createdTime": "1701384254280",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 564246278
+}
