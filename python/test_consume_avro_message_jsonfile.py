@@ -1,6 +1,6 @@
 import json
 from confluent_kafka import DeserializingConsumer
-from confluent_kafka.serialization import StringDeserializer, SerializationContext, MessageField
+from confluent_kafka.serialization import StringDeserializer
 from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.avro import AvroDeserializer
 
@@ -22,9 +22,9 @@ def main():
     consumer.subscribe(['table-update'])
 
     # Open a JSON file for writing
-    with open('kafka_messages.json', 'w') as file:
+    with open('kafka_messages.json', 'w') as  file:
         message_count = 0
-        while message_count < 3:
+        while message_count < 10:
             msg = consumer.poll(1.0)
             if msg is None:
                 continue
@@ -42,8 +42,8 @@ def main():
             }
             file.write(json.dumps(message_json, indent=4, default=str) + "\n")
 
-            message_count += 1
-
+            message_count +=1
+    
     consumer.close()
 
 if __name__ == '__main__':
