@@ -26,7 +26,7 @@ def main():
     # Database configuration
     conn_str = (
         "Driver={SQL Server};"
-        "Server=localhost;"
+        "Server=ACADEMY06;"
         "Database=KafkaMessageJson;"
         "Trusted_Connection=yes;"
     )
