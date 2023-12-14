@@ -1,11 +1,11 @@
 {
-    "key": "U18360522_c04423f6-0a83-46a1-b85c-baab5058c3c7_0001_1",
+    "key": "U18359295_8855305b-6522-4b76-8072-c2a1e2e895df_0001_1",
     "value": {
-        "eventId": "U18360522_c04423f6-0a83-46a1-b85c-baab5058c3c7_0001",
-        "eventSize": 5,
+        "eventId": "U18359295_8855305b-6522-4b76-8072-c2a1e2e895df_0001",
+        "eventSize": 4,
         "eventIndex": 0,
-        "emittedTime": 1702043593938,
-        "processingTime": 1701384332798,
+        "emittedTime": 1702043593941,
+        "processingTime": 1701384336848,
         "company": "FBNK",
         "context": {
             "jobName": "AA.SERVICE.PROCESS",
@@ -17,1891 +17,18 @@
             "operation": "WRITE"
         },
         "entityName": "FBNK.AA.ACCOUNT.DETAILS",
-        "entityId": "AA221534HKT2",
+        "entityId": "AA21288MPM1T",
         "application": "AA.ACCOUNT.DETAILS",
         "payload": {
-            "recId": "AA221534HKT2",
+            "recId": "AA21288MPM1T",
             "ArrangementId": null,
             "ARRAY_ContractDate": [
                 {
-                    "ContractDate": "20220602"
+                    "ContractDate": "20211015"
                 }
             ],
-            "ValueDate": "20220602",
+            "ValueDate": "20211015",
             "StartDate": null,
-            "DrawdownEndDate": null,
-            "PaymentStartDate": "20220630",
-            "MaturityDate": null,
-            "ArrAgeStatus": null,
-            "RenewalDate": null,
-            "CoolingDate": null,
-            "CancelDate": null,
-            "BaseDate": "20220602",
-            "ARRAY_BillPayDate": [],
-            "AllAgeStatus": null,
-            "Suspended": null,
-            "ReportEndDate": null,
-            "ARRAY_ScheduleType": [
-                {
-                    "RECORD_ScheduleType": {
-                        "ScheduleType": "INTEREST-CRINTEREST",
-                        "NumPayments": "18",
-                        "SUB_ARRAY_PaymentDate": [
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20231130",
-                                    "ActPayDate": "20231130",
-                                    "FinPayDate": "20231130"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20231031",
-                                    "ActPayDate": "20231031",
-                                    "FinPayDate": "20231031"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230930",
-                                    "ActPayDate": "20230930",
-                                    "FinPayDate": "20230929"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230831",
-                                    "ActPayDate": "20230831",
-                                    "FinPayDate": "20230831"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230731",
-                                    "ActPayDate": "20230731",
-                                    "FinPayDate": "20230731"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230630",
-                                    "ActPayDate": "20230630",
-                                    "FinPayDate": "20230630"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230531",
-                                    "ActPayDate": "20230531",
-                                    "FinPayDate": "20230531"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230430",
-                                    "ActPayDate": "20230430",
-                                    "FinPayDate": "20230428"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230331",
-                                    "ActPayDate": "20230331",
-                                    "FinPayDate": "20230331"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230228",
-                                    "ActPayDate": "20230228",
-                                    "FinPayDate": "20230228"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230131",
-                                    "ActPayDate": "20230131",
-                                    "FinPayDate": "20230131"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20221231",
-                                    "ActPayDate": "20221231",
-                                    "FinPayDate": "20221230"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20221130",
-                                    "ActPayDate": "20221130",
-                                    "FinPayDate": "20221130"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20221031",
-                                    "ActPayDate": "20221031",
-                                    "FinPayDate": "20221031"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220930",
-                                    "ActPayDate": "20220930",
-                                    "FinPayDate": "20220930"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220831",
-                                    "ActPayDate": "20220831",
-                                    "FinPayDate": "20220831"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220731",
-                                    "ActPayDate": "20220731",
-                                    "FinPayDate": "20220729"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220630",
-                                    "ActPayDate": "20220630",
-                                    "FinPayDate": "20220630"
-                                }
-                            }
-                        ],
-                        "SUB_ARRAY_InterimDate": []
-                    }
-                },
-                {
-                    "RECORD_ScheduleType": {
-                        "ScheduleType": "INTEREST-DRINTEREST",
-                        "NumPayments": "18",
-                        "SUB_ARRAY_PaymentDate": [
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20231130",
-                                    "ActPayDate": "20231130",
-                                    "FinPayDate": "20231130"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20231031",
-                                    "ActPayDate": "20231031",
-                                    "FinPayDate": "20231031"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230930",
-                                    "ActPayDate": "20230930",
-                                    "FinPayDate": "20230929"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230831",
-                                    "ActPayDate": "20230831",
-                                    "FinPayDate": "20230831"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230731",
-                                    "ActPayDate": "20230731",
-                                    "FinPayDate": "20230731"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230630",
-                                    "ActPayDate": "20230630",
-                                    "FinPayDate": "20230630"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230531",
-                                    "ActPayDate": "20230531",
-                                    "FinPayDate": "20230531"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230430",
-                                    "ActPayDate": "20230430",
-                                    "FinPayDate": "20230428"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230331",
-                                    "ActPayDate": "20230331",
-                                    "FinPayDate": "20230331"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230228",
-                                    "ActPayDate": "20230228",
-                                    "FinPayDate": "20230228"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230131",
-                                    "ActPayDate": "20230131",
-                                    "FinPayDate": "20230131"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20221231",
-                                    "ActPayDate": "20221231",
-                                    "FinPayDate": "20221230"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20221130",
-                                    "ActPayDate": "20221130",
-                                    "FinPayDate": "20221130"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20221031",
-                                    "ActPayDate": "20221031",
-                                    "FinPayDate": "20221031"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220930",
-                                    "ActPayDate": "20220930",
-                                    "FinPayDate": "20220930"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220831",
-                                    "ActPayDate": "20220831",
-                                    "FinPayDate": "20220831"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220731",
-                                    "ActPayDate": "20220731",
-                                    "FinPayDate": "20220729"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220630",
-                                    "ActPayDate": "20220630",
-                                    "FinPayDate": "20220630"
-                                }
-                            }
-                        ],
-                        "SUB_ARRAY_InterimDate": []
-                    }
-                },
-                {
-                    "RECORD_ScheduleType": {
-                        "ScheduleType": "CHARGE-SUBSCRIBEFEES",
-                        "NumPayments": "18",
-                        "SUB_ARRAY_PaymentDate": [
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20231130",
-                                    "ActPayDate": "20231130",
-                                    "FinPayDate": "20231130"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20231031",
-                                    "ActPayDate": "20231031",
-                                    "FinPayDate": "20231031"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230930",
-                                    "ActPayDate": "20230930",
-                                    "FinPayDate": "20230929"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230831",
-                                    "ActPayDate": "20230831",
-                                    "FinPayDate": "20230831"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230731",
-                                    "ActPayDate": "20230731",
-                                    "FinPayDate": "20230731"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230630",
-                                    "ActPayDate": "20230630",
-                                    "FinPayDate": "20230630"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230531",
-                                    "ActPayDate": "20230531",
-                                    "FinPayDate": "20230531"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230430",
-                                    "ActPayDate": "20230430",
-                                    "FinPayDate": "20230428"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230331",
-                                    "ActPayDate": "20230331",
-                                    "FinPayDate": "20230331"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230228",
-                                    "ActPayDate": "20230228",
-                                    "FinPayDate": "20230228"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230131",
-                                    "ActPayDate": "20230131",
-                                    "FinPayDate": "20230131"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20221231",
-                                    "ActPayDate": "20221231",
-                                    "FinPayDate": "20221230"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20221130",
-                                    "ActPayDate": "20221130",
-                                    "FinPayDate": "20221130"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20221031",
-                                    "ActPayDate": "20221031",
-                                    "FinPayDate": "20221031"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220930",
-                                    "ActPayDate": "20220930",
-                                    "FinPayDate": "20220930"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220831",
-                                    "ActPayDate": "20220831",
-                                    "FinPayDate": "20220831"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220731",
-                                    "ActPayDate": "20220731",
-                                    "FinPayDate": "20220729"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220630",
-                                    "ActPayDate": "20220630",
-                                    "FinPayDate": "20220630"
-                                }
-                            }
-                        ],
-                        "SUB_ARRAY_InterimDate": []
-                    }
-                }
-            ],
-            "TakeoverArr": null,
-            "ARRAY_RepayReference": [],
-            "ARRAY_SuspStatus": [],
-            "ARRAY_LastRenewDate": [],
-            "PaymentEndDate": null,
-            "BillsSettledCnt": null,
-            "StaticUpdate": null,
-            "Reserved_D_5": null,
-            "ARRAY_RpyReference": [],
-            "ARRAY_WofActivityRef": [],
-            "ChargeoffDate": null,
-            "ARRAY_ChargeoffReference": [],
-            "Reserved_D_2": null,
-            "Reserved_D_1": null,
-            "OverdraftStatus": null,
-            "ReservedOd": null,
-            "PrimaryOdDate": null,
-            "ARRAY_ActualRenewDate": [],
-            "ARRAY_HolPaymentType": [],
-            "OnlineCapitalise": null,
-            "ArrDormancyStatus": "DOM.CLOSED",
-            "ARRAY_DormancyStatus": [
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": "DOM.CLOSED",
-                        "DormancyDate": "20230615",
-                        "DormancyProcess": "AUTO"
-                    }
-                },
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": "DORMANT",
-                        "DormancyDate": "20221215",
-                        "DormancyProcess": "AUTO"
-                    }
-                },
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": "INACTIVE",
-                        "DormancyDate": "20220915",
-                        "DormancyProcess": "AUTO"
-                    }
-                },
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": null,
-                        "DormancyDate": "20220602",
-                        "DormancyProcess": "AUTO"
-                    }
-                }
-            ],
-            "ARRAY_IntStatementType": [],
-            "PendingAdjustmentDate": null,
-            "Branch": null,
-            "LineOfBusiness": null,
-            "ARRAY_SuspendedBy": [],
-            "DeferClosureDate": null,
-            "FullChargeoff": null,
-            "BaseCcyRate": null,
-            "BaseCcyAmount": null,
-            "CurRestructureStatus": null,
-            "RiskStage": null,
-            "ARRAY_RuleEffectiveDate": [],
-            "BaseCcyOvdAmount": null,
-            "CommtExpiryDate": null,
-            "CommitmentStatus": null,
-            "ManualAgeing": null,
-            "ARRAY_ManualAgeBillType": [],
-            "ARRAY_RfrIntProperties": []
-        },
-        "metadata": {
-            "recIdColumn": "RECID",
-            "databasePartition": "6",
-            "partitionIdColumn": "PARTITIONID",
-            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
-            "createdTime": "1701384329178",
-            "databaseTable": "F_DATA_EVENTS"
-        }
-    },
-    "topic": "table-update",
-    "partition": 0,
-    "offset": 564246706
-}
-{
-    "key": "U18360522_c04423f6-0a83-46a1-b85c-baab5058c3c7_0001_2",
-    "value": {
-        "eventId": "U18360522_c04423f6-0a83-46a1-b85c-baab5058c3c7_0001",
-        "eventSize": 5,
-        "eventIndex": 1,
-        "emittedTime": 1702043593938,
-        "processingTime": 1701384332798,
-        "company": "FBNK",
-        "context": {
-            "jobName": "AA.SERVICE.PROCESS",
-            "companyCode": "RW0010001",
-            "transactionType": "BATCH",
-            "processState": "S016",
-            "processName": "BNK/AA.EOD.PROCESS",
-            "cobDate": "20231130",
-            "operation": "WRITE"
-        },
-        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
-        "entityId": "AAACT233340B6GKVL0",
-        "application": "AA.ARRANGEMENT.ACTIVITY",
-        "payload": {
-            "recId": "AAACT233340B6GKVL0",
-            "ArrSequence": null,
-            "Arrangement": "AA221534HKT2",
-            "Activity": "ACCOUNTS-CAPITALISE-SCHEDULE",
-            "EffectiveDate": "20231130",
-            "ARRAY_Customer": [],
-            "TradeDate": null,
-            "AlternateId": null,
-            "Remarks": null,
-            "ArrangementLinkType": null,
-            "MasterArrangement": null,
-            "Product": "Current.Account.Extra",
-            "Currency": "RWF",
-            "Channel": null,
-            "ArrCompanyCode": null,
-            "Branch": null,
-            "LineOfBusiness": null,
-            "LinkedActivity": null,
-            "ARRAY_InitiationType": [
-                {
-                    "InitiationType": "SCHEDULED*EOD"
-                }
-            ],
-            "SecondaryType": null,
-            "ARRAY_AdjActivity": [],
-            "ARRAY_ChildActivity": [],
-            "OrigContractDate": null,
-            "MasterAaa": "AAACT233340B6GKVL0",
-            "RevMasterAaa": null,
-            "Adjustment": null,
-            "RealMasterId": null,
-            "AssessmentActivity": null,
-            "TxnAmount": null,
-            "TxnAmountLcy": null,
-            "TxnExchRate": null,
-            "TxnContractId": null,
-            "TxnSystemId": null,
-            "ExposureDate": null,
-            "ARRAY_AdviceNo": [],
-            "ActivityClass": "ACCOUNTS-CAPITALISE-PAYMENT.SCHEDULE",
-            "ARRAY_Property": [],
-            "ARRAY_ContextName": [],
-            "ARRAY_TransCustomer": [],
-            "ARRAY_Signatory": [],
-            "ProcessingMode": null,
-            "AutoRun": null,
-            "SimRunRef": null,
-            "OrigTxnAmt": null,
-            "OrigTxnAmtLcy": null,
-            "ARRAY_Narrative": [],
-            "ExtEventRef": null,
-            "ProductVariation": null,
-            "PricingSelection": null,
-            "PricingPlan": null,
-            "ARRAY_Reason": [],
-            "EventId": null,
-            "ARRAY_AgentId": [],
-            "ARRAY_ErrorSource": [],
-            "RewardsArrId": null,
-            "OrgSystemDate": "20231130",
-            "ClosureReason": null,
-            "ARRAY_ClosureNotes": [],
-            "CrOpportunity": null,
-            "ARRAY_ActivityLinkType": [],
-            "LinkedParentRef": null,
-            "ARRAY_StmtNos": [],
-            "ARRAY_Override": [],
-            "RecordStatus": null,
-            "CurrNo": "1",
-            "ARRAY_Inputter": [
-                {
-                    "Inputter": "18360522_INPUTTER_I_INAU_OFS_AA.COB"
-                }
-            ],
-            "ARRAY_DateTime": [
-                {
-                    "DateTime": "2312010045"
-                },
-                {
-                    "DateTime": "2312010045"
-                }
-            ],
-            "Authoriser": "18360522_INPUTTER_OFS_AA.COB",
-            "CoCode": "RW0010026",
-            "DeptCode": "1",
-            "AuditorCode": null,
-            "AuditDateTime": null,
-            "ARRAY_DefDoc": [],
-            "InsuranceCom": null,
-            "InsuranceType": null,
-            "InsuredAmt": null,
-            "InsuranceChg": null,
-            "InsuranceExp": null,
-            "FrtLossPay": null,
-            "LoanAppId": null,
-            "EconSector": null,
-            "EconSectorIsi": null,
-            "EconSectorIs": null,
-            "RestReason": null,
-            "BkEcoSector": null,
-            "BkEcoSubSect": null
-        },
-        "metadata": {
-            "recIdColumn": "RECID",
-            "databasePartition": "6",
-            "partitionIdColumn": "PARTITIONID",
-            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
-            "createdTime": "1701384329178",
-            "databaseTable": "F_DATA_EVENTS"
-        }
-    },
-    "topic": "table-update",
-    "partition": 0,
-    "offset": 564246707
-}
-{
-    "key": "U18360522_c04423f6-0a83-46a1-b85c-baab5058c3c7_0001_3",
-    "value": {
-        "eventId": "U18360522_c04423f6-0a83-46a1-b85c-baab5058c3c7_0001",
-        "eventSize": 5,
-        "eventIndex": 2,
-        "emittedTime": 1702043593938,
-        "processingTime": 1701384332798,
-        "company": "FBNK",
-        "context": {
-            "jobName": "AA.SERVICE.PROCESS",
-            "companyCode": "RW0010001",
-            "transactionType": "BATCH",
-            "processState": "S016",
-            "processName": "BNK/AA.EOD.PROCESS",
-            "cobDate": "20231130",
-            "operation": "WRITE"
-        },
-        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
-        "entityId": "AAACT233340B6GKVGR",
-        "application": "AA.ARRANGEMENT.ACTIVITY",
-        "payload": {
-            "recId": "AAACT233340B6GKVGR",
-            "ArrSequence": null,
-            "Arrangement": "AA221534HKT2",
-            "Activity": "ACCOUNTS-ISSUEBILL-SCHEDULE*CHARGE",
-            "EffectiveDate": "20231130",
-            "ARRAY_Customer": [],
-            "TradeDate": null,
-            "AlternateId": null,
-            "Remarks": null,
-            "ArrangementLinkType": null,
-            "MasterArrangement": null,
-            "Product": "Current.Account.Extra",
-            "Currency": "RWF",
-            "Channel": null,
-            "ArrCompanyCode": null,
-            "Branch": null,
-            "LineOfBusiness": null,
-            "LinkedActivity": null,
-            "ARRAY_InitiationType": [
-                {
-                    "InitiationType": "SCHEDULED*EOD"
-                }
-            ],
-            "SecondaryType": null,
-            "ARRAY_AdjActivity": [],
-            "ARRAY_ChildActivity": [],
-            "OrigContractDate": null,
-            "MasterAaa": "AAACT233340B6GKVGR",
-            "RevMasterAaa": null,
-            "Adjustment": null,
-            "RealMasterId": null,
-            "AssessmentActivity": null,
-            "TxnAmount": null,
-            "TxnAmountLcy": null,
-            "TxnExchRate": null,
-            "TxnContractId": null,
-            "TxnSystemId": null,
-            "ExposureDate": null,
-            "ARRAY_AdviceNo": [
-                {
-                    "RECORD_AdviceNo": {
-                        "AdviceNo": "AA-2003",
-                        "MappingKey": "8581.AA.1",
-                        "DeliveryRef": "D20231201009060273000"
-                    }
-                }
-            ],
-            "ActivityClass": "ACCOUNTS-ISSUEBILL-PAYMENT.SCHEDULE",
-            "ARRAY_Property": [],
-            "ARRAY_ContextName": [],
-            "ARRAY_TransCustomer": [],
-            "ARRAY_Signatory": [],
-            "ProcessingMode": null,
-            "AutoRun": null,
-            "SimRunRef": null,
-            "OrigTxnAmt": null,
-            "OrigTxnAmtLcy": null,
-            "ARRAY_Narrative": [],
-            "ExtEventRef": null,
-            "ProductVariation": null,
-            "PricingSelection": null,
-            "PricingPlan": null,
-            "ARRAY_Reason": [],
-            "EventId": null,
-            "ARRAY_AgentId": [],
-            "ARRAY_ErrorSource": [],
-            "RewardsArrId": null,
-            "OrgSystemDate": "20231130",
-            "ClosureReason": null,
-            "ARRAY_ClosureNotes": [],
-            "CrOpportunity": null,
-            "ARRAY_ActivityLinkType": [],
-            "LinkedParentRef": null,
-            "ARRAY_StmtNos": [],
-            "ARRAY_Override": [],
-            "RecordStatus": null,
-            "CurrNo": "1",
-            "ARRAY_Inputter": [
-                {
-                    "Inputter": "18360522_INPUTTER_I_INAU_OFS_AA.COB"
-                }
-            ],
-            "ARRAY_DateTime": [
-                {
-                    "DateTime": "2312010045"
-                },
-                {
-                    "DateTime": "2312010045"
-                }
-            ],
-            "Authoriser": "18360522_INPUTTER_OFS_AA.COB",
-            "CoCode": "RW0010026",
-            "DeptCode": "1",
-            "AuditorCode": null,
-            "AuditDateTime": null,
-            "ARRAY_DefDoc": [],
-            "InsuranceCom": null,
-            "InsuranceType": null,
-            "InsuredAmt": null,
-            "InsuranceChg": null,
-            "InsuranceExp": null,
-            "FrtLossPay": null,
-            "LoanAppId": null,
-            "EconSector": null,
-            "EconSectorIsi": null,
-            "EconSectorIs": null,
-            "RestReason": null,
-            "BkEcoSector": null,
-            "BkEcoSubSect": null
-        },
-        "metadata": {
-            "recIdColumn": "RECID",
-            "databasePartition": "6",
-            "partitionIdColumn": "PARTITIONID",
-            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
-            "createdTime": "1701384329178",
-            "databaseTable": "F_DATA_EVENTS"
-        }
-    },
-    "topic": "table-update",
-    "partition": 0,
-    "offset": 564246708
-}
-{
-    "key": "U18360522_c04423f6-0a83-46a1-b85c-baab5058c3c7_0001_4",
-    "value": {
-        "eventId": "U18360522_c04423f6-0a83-46a1-b85c-baab5058c3c7_0001",
-        "eventSize": 5,
-        "eventIndex": 3,
-        "emittedTime": 1702043593938,
-        "processingTime": 1701384332798,
-        "company": "FBNK",
-        "context": {
-            "jobName": "AA.SERVICE.PROCESS",
-            "companyCode": "RW0010001",
-            "transactionType": "BATCH",
-            "processState": "S016",
-            "processName": "BNK/AA.EOD.PROCESS",
-            "cobDate": "20231130",
-            "operation": "WRITE"
-        },
-        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
-        "entityId": "AA221534HKT2-DRINTEREST-ACCRUAL",
-        "application": "AA.ARRANGEMENT.ACTIVITY",
-        "payload": {
-            "recId": "AA221534HKT2-DRINTEREST-ACCRUAL",
-            "ArrSequence": null,
-            "Arrangement": "AA221534HKT2",
-            "Activity": "ACCOUNTS-ACCRUE-DRINTEREST",
-            "EffectiveDate": "20231130",
-            "ARRAY_Customer": [],
-            "TradeDate": null,
-            "AlternateId": null,
-            "Remarks": null,
-            "ArrangementLinkType": null,
-            "MasterArrangement": null,
-            "Product": "Current.Account.Extra",
-            "Currency": "RWF",
-            "Channel": null,
-            "ArrCompanyCode": null,
-            "Branch": null,
-            "LineOfBusiness": null,
-            "LinkedActivity": null,
-            "ARRAY_InitiationType": [
-                {
-                    "InitiationType": "SCHEDULED*EOD"
-                },
-                {
-                    "InitiationType": "NOLOG"
-                }
-            ],
-            "SecondaryType": null,
-            "ARRAY_AdjActivity": [],
-            "ARRAY_ChildActivity": [],
-            "OrigContractDate": null,
-            "MasterAaa": "AA221534HKT2-DRINTEREST-ACCRUAL",
-            "RevMasterAaa": null,
-            "Adjustment": null,
-            "RealMasterId": null,
-            "AssessmentActivity": null,
-            "TxnAmount": null,
-            "TxnAmountLcy": null,
-            "TxnExchRate": null,
-            "TxnContractId": null,
-            "TxnSystemId": null,
-            "ExposureDate": null,
-            "ARRAY_AdviceNo": [],
-            "ActivityClass": "ACCOUNTS-ACCRUE-INTEREST",
-            "ARRAY_Property": [],
-            "ARRAY_ContextName": [],
-            "ARRAY_TransCustomer": [],
-            "ARRAY_Signatory": [],
-            "ProcessingMode": null,
-            "AutoRun": null,
-            "SimRunRef": null,
-            "OrigTxnAmt": null,
-            "OrigTxnAmtLcy": null,
-            "ARRAY_Narrative": [],
-            "ExtEventRef": null,
-            "ProductVariation": null,
-            "PricingSelection": null,
-            "PricingPlan": null,
-            "ARRAY_Reason": [],
-            "EventId": null,
-            "ARRAY_AgentId": [],
-            "ARRAY_ErrorSource": [],
-            "RewardsArrId": null,
-            "OrgSystemDate": "20220602",
-            "ClosureReason": null,
-            "ARRAY_ClosureNotes": [],
-            "CrOpportunity": null,
-            "ARRAY_ActivityLinkType": [],
-            "LinkedParentRef": null,
-            "ARRAY_StmtNos": [],
-            "ARRAY_Override": [],
-            "RecordStatus": null,
-            "CurrNo": "373",
-            "ARRAY_Inputter": [
-                {
-                    "Inputter": "18360522_INPUTTER_I_INAU_OFS_AA.COB"
-                }
-            ],
-            "ARRAY_DateTime": [
-                {
-                    "DateTime": "2312010045"
-                },
-                {
-                    "DateTime": "2312010045"
-                }
-            ],
-            "Authoriser": "18360522_INPUTTER_OFS_AA.COB",
-            "CoCode": "RW0010026",
-            "DeptCode": "1",
-            "AuditorCode": null,
-            "AuditDateTime": null,
-            "ARRAY_DefDoc": [],
-            "InsuranceCom": null,
-            "InsuranceType": null,
-            "InsuredAmt": null,
-            "InsuranceChg": null,
-            "InsuranceExp": null,
-            "FrtLossPay": null,
-            "LoanAppId": null,
-            "EconSector": null,
-            "EconSectorIsi": null,
-            "EconSectorIs": null,
-            "RestReason": null,
-            "BkEcoSector": null,
-            "BkEcoSubSect": null
-        },
-        "metadata": {
-            "recIdColumn": "RECID",
-            "databasePartition": "6",
-            "partitionIdColumn": "PARTITIONID",
-            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
-            "createdTime": "1701384329178",
-            "databaseTable": "F_DATA_EVENTS"
-        }
-    },
-    "topic": "table-update",
-    "partition": 0,
-    "offset": 564246709
-}
-{
-    "key": "U18360522_c04423f6-0a83-46a1-b85c-baab5058c3c7_0001_5",
-    "value": {
-        "eventId": "U18360522_c04423f6-0a83-46a1-b85c-baab5058c3c7_0001",
-        "eventSize": 5,
-        "eventIndex": 4,
-        "emittedTime": 1702043593938,
-        "processingTime": 1701384332798,
-        "company": "FBNK",
-        "context": {
-            "jobName": "AA.SERVICE.PROCESS",
-            "companyCode": "RW0010001",
-            "transactionType": "BATCH",
-            "processState": "S016",
-            "processName": "BNK/AA.EOD.PROCESS",
-            "cobDate": "20231130",
-            "operation": "WRITE"
-        },
-        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
-        "entityId": "AA221534HKT2-CRINTEREST-ACCRUAL",
-        "application": "AA.ARRANGEMENT.ACTIVITY",
-        "payload": {
-            "recId": "AA221534HKT2-CRINTEREST-ACCRUAL",
-            "ArrSequence": null,
-            "Arrangement": "AA221534HKT2",
-            "Activity": "ACCOUNTS-ACCRUE-CRINTEREST",
-            "EffectiveDate": "20231130",
-            "ARRAY_Customer": [],
-            "TradeDate": null,
-            "AlternateId": null,
-            "Remarks": null,
-            "ArrangementLinkType": null,
-            "MasterArrangement": null,
-            "Product": "Current.Account.Extra",
-            "Currency": "RWF",
-            "Channel": null,
-            "ArrCompanyCode": null,
-            "Branch": null,
-            "LineOfBusiness": null,
-            "LinkedActivity": null,
-            "ARRAY_InitiationType": [
-                {
-                    "InitiationType": "SCHEDULED*EOD"
-                },
-                {
-                    "InitiationType": "NOLOG"
-                }
-            ],
-            "SecondaryType": null,
-            "ARRAY_AdjActivity": [],
-            "ARRAY_ChildActivity": [],
-            "OrigContractDate": null,
-            "MasterAaa": "AA221534HKT2-CRINTEREST-ACCRUAL",
-            "RevMasterAaa": null,
-            "Adjustment": null,
-            "RealMasterId": null,
-            "AssessmentActivity": null,
-            "TxnAmount": null,
-            "TxnAmountLcy": null,
-            "TxnExchRate": null,
-            "TxnContractId": null,
-            "TxnSystemId": null,
-            "ExposureDate": null,
-            "ARRAY_AdviceNo": [],
-            "ActivityClass": "ACCOUNTS-ACCRUE-INTEREST",
-            "ARRAY_Property": [],
-            "ARRAY_ContextName": [],
-            "ARRAY_TransCustomer": [],
-            "ARRAY_Signatory": [],
-            "ProcessingMode": null,
-            "AutoRun": null,
-            "SimRunRef": null,
-            "OrigTxnAmt": null,
-            "OrigTxnAmtLcy": null,
-            "ARRAY_Narrative": [],
-            "ExtEventRef": null,
-            "ProductVariation": null,
-            "PricingSelection": null,
-            "PricingPlan": null,
-            "ARRAY_Reason": [],
-            "EventId": null,
-            "ARRAY_AgentId": [],
-            "ARRAY_ErrorSource": [],
-            "RewardsArrId": null,
-            "OrgSystemDate": "20220602",
-            "ClosureReason": null,
-            "ARRAY_ClosureNotes": [],
-            "CrOpportunity": null,
-            "ARRAY_ActivityLinkType": [],
-            "LinkedParentRef": null,
-            "ARRAY_StmtNos": [],
-            "ARRAY_Override": [],
-            "RecordStatus": null,
-            "CurrNo": "373",
-            "ARRAY_Inputter": [
-                {
-                    "Inputter": "18360522_INPUTTER_I_INAU_OFS_AA.COB"
-                }
-            ],
-            "ARRAY_DateTime": [
-                {
-                    "DateTime": "2312010045"
-                },
-                {
-                    "DateTime": "2312010045"
-                }
-            ],
-            "Authoriser": "18360522_INPUTTER_OFS_AA.COB",
-            "CoCode": "RW0010026",
-            "DeptCode": "1",
-            "AuditorCode": null,
-            "AuditDateTime": null,
-            "ARRAY_DefDoc": [],
-            "InsuranceCom": null,
-            "InsuranceType": null,
-            "InsuredAmt": null,
-            "InsuranceChg": null,
-            "InsuranceExp": null,
-            "FrtLossPay": null,
-            "LoanAppId": null,
-            "EconSector": null,
-            "EconSectorIsi": null,
-            "EconSectorIs": null,
-            "RestReason": null,
-            "BkEcoSector": null,
-            "BkEcoSubSect": null
-        },
-        "metadata": {
-            "recIdColumn": "RECID",
-            "databasePartition": "6",
-            "partitionIdColumn": "PARTITIONID",
-            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
-            "createdTime": "1701384329178",
-            "databaseTable": "F_DATA_EVENTS"
-        }
-    },
-    "topic": "table-update",
-    "partition": 0,
-    "offset": 564246710
-}
-{
-    "key": "U18359301_63218977-7e71-450a-8582-1dc45c2f7ea0_0001_1",
-    "value": {
-        "eventId": "U18359301_63218977-7e71-450a-8582-1dc45c2f7ea0_0001",
-        "eventSize": 4,
-        "eventIndex": 0,
-        "emittedTime": 1702043593939,
-        "processingTime": 1701384333593,
-        "company": "FBNK",
-        "context": {
-            "jobName": "AA.SERVICE.PROCESS",
-            "companyCode": "RW0010001",
-            "transactionType": "BATCH",
-            "processState": "S016",
-            "processName": "BNK/AA.EOD.PROCESS",
-            "cobDate": "20231130",
-            "operation": "WRITE"
-        },
-        "entityName": "FBNK.AA.ACCOUNT.DETAILS",
-        "entityId": "AA220127LR33",
-        "application": "AA.ACCOUNT.DETAILS",
-        "payload": {
-            "recId": "AA220127LR33",
-            "ArrangementId": null,
-            "ARRAY_ContractDate": [
-                {
-                    "ContractDate": "20220112"
-                }
-            ],
-            "ValueDate": "20220112",
-            "StartDate": null,
-            "DrawdownEndDate": null,
-            "PaymentStartDate": "20220131",
-            "MaturityDate": null,
-            "ArrAgeStatus": null,
-            "RenewalDate": null,
-            "CoolingDate": null,
-            "CancelDate": null,
-            "BaseDate": "20220112",
-            "ARRAY_BillPayDate": [],
-            "AllAgeStatus": null,
-            "Suspended": null,
-            "ReportEndDate": null,
-            "ARRAY_ScheduleType": [
-                {
-                    "RECORD_ScheduleType": {
-                        "ScheduleType": "CHARGE-SUBSCRIBEFEES",
-                        "NumPayments": "23",
-                        "SUB_ARRAY_PaymentDate": [
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20231130",
-                                    "ActPayDate": "20231130",
-                                    "FinPayDate": "20231130"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20231031",
-                                    "ActPayDate": "20231031",
-                                    "FinPayDate": "20231031"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230930",
-                                    "ActPayDate": "20230930",
-                                    "FinPayDate": "20230929"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230831",
-                                    "ActPayDate": "20230831",
-                                    "FinPayDate": "20230831"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230731",
-                                    "ActPayDate": "20230731",
-                                    "FinPayDate": "20230731"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230630",
-                                    "ActPayDate": "20230630",
-                                    "FinPayDate": "20230630"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230531",
-                                    "ActPayDate": "20230531",
-                                    "FinPayDate": "20230531"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230430",
-                                    "ActPayDate": "20230430",
-                                    "FinPayDate": "20230428"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230331",
-                                    "ActPayDate": "20230331",
-                                    "FinPayDate": "20230331"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230228",
-                                    "ActPayDate": "20230228",
-                                    "FinPayDate": "20230228"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230131",
-                                    "ActPayDate": "20230131",
-                                    "FinPayDate": "20230131"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20221231",
-                                    "ActPayDate": "20221231",
-                                    "FinPayDate": "20221230"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20221130",
-                                    "ActPayDate": "20221130",
-                                    "FinPayDate": "20221130"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20221031",
-                                    "ActPayDate": "20221031",
-                                    "FinPayDate": "20221031"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220930",
-                                    "ActPayDate": "20220930",
-                                    "FinPayDate": "20220930"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220831",
-                                    "ActPayDate": "20220831",
-                                    "FinPayDate": "20220831"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220731",
-                                    "ActPayDate": "20220731",
-                                    "FinPayDate": "20220729"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220630",
-                                    "ActPayDate": "20220630",
-                                    "FinPayDate": "20220630"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220531",
-                                    "ActPayDate": "20220531",
-                                    "FinPayDate": "20220531"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220430",
-                                    "ActPayDate": "20220430",
-                                    "FinPayDate": "20220429"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220331",
-                                    "ActPayDate": "20220331",
-                                    "FinPayDate": "20220331"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220228",
-                                    "ActPayDate": "20220228",
-                                    "FinPayDate": "20220228"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220131",
-                                    "ActPayDate": "20220131",
-                                    "FinPayDate": "20220131"
-                                }
-                            }
-                        ],
-                        "SUB_ARRAY_InterimDate": []
-                    }
-                },
-                {
-                    "RECORD_ScheduleType": {
-                        "ScheduleType": "INTEREST-CRINTEREST",
-                        "NumPayments": "7",
-                        "SUB_ARRAY_PaymentDate": [
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20231012",
-                                    "ActPayDate": "20231012",
-                                    "FinPayDate": "20231012"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230712",
-                                    "ActPayDate": "20230712",
-                                    "FinPayDate": "20230712"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230412",
-                                    "ActPayDate": "20230412",
-                                    "FinPayDate": "20230412"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230112",
-                                    "ActPayDate": "20230112",
-                                    "FinPayDate": "20230112"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20221012",
-                                    "ActPayDate": "20221012",
-                                    "FinPayDate": "20221012"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220712",
-                                    "ActPayDate": "20220712",
-                                    "FinPayDate": "20220712"
-                                }
-                            },
-                            {
-                                "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220412",
-                                    "ActPayDate": "20220412",
-                                    "FinPayDate": "20220412"
-                                }
-                            }
-                        ],
-                        "SUB_ARRAY_InterimDate": []
-                    }
-                }
-            ],
-            "TakeoverArr": null,
-            "ARRAY_RepayReference": [],
-            "ARRAY_SuspStatus": [],
-            "ARRAY_LastRenewDate": [],
-            "PaymentEndDate": null,
-            "BillsSettledCnt": null,
-            "StaticUpdate": null,
-            "Reserved_D_5": null,
-            "ARRAY_RpyReference": [],
-            "ARRAY_WofActivityRef": [],
-            "ChargeoffDate": null,
-            "ARRAY_ChargeoffReference": [],
-            "Reserved_D_2": null,
-            "Reserved_D_1": null,
-            "OverdraftStatus": null,
-            "ReservedOd": null,
-            "PrimaryOdDate": null,
-            "ARRAY_ActualRenewDate": [],
-            "ARRAY_HolPaymentType": [],
-            "OnlineCapitalise": null,
-            "ArrDormancyStatus": "DOM.CLOSED",
-            "ARRAY_DormancyStatus": [
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": "DOM.CLOSED",
-                        "DormancyDate": "20230112",
-                        "DormancyProcess": "AUTO"
-                    }
-                },
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": "DORMANT",
-                        "DormancyDate": "20220712",
-                        "DormancyProcess": "AUTO"
-                    }
-                },
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": "INACTIVE",
-                        "DormancyDate": "20220412",
-                        "DormancyProcess": "AUTO"
-                    }
-                },
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": null,
-                        "DormancyDate": "20220112",
-                        "DormancyProcess": "AUTO"
-                    }
-                }
-            ],
-            "ARRAY_IntStatementType": [],
-            "PendingAdjustmentDate": null,
-            "Branch": null,
-            "LineOfBusiness": null,
-            "ARRAY_SuspendedBy": [],
-            "DeferClosureDate": null,
-            "FullChargeoff": null,
-            "BaseCcyRate": null,
-            "BaseCcyAmount": null,
-            "CurRestructureStatus": null,
-            "RiskStage": null,
-            "ARRAY_RuleEffectiveDate": [],
-            "BaseCcyOvdAmount": null,
-            "CommtExpiryDate": null,
-            "CommitmentStatus": null,
-            "ManualAgeing": null,
-            "ARRAY_ManualAgeBillType": [],
-            "ARRAY_RfrIntProperties": []
-        },
-        "metadata": {
-            "recIdColumn": "RECID",
-            "databasePartition": "6",
-            "partitionIdColumn": "PARTITIONID",
-            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
-            "createdTime": "1701384332359",
-            "databaseTable": "F_DATA_EVENTS"
-        }
-    },
-    "topic": "table-update",
-    "partition": 0,
-    "offset": 564246711
-}
-{
-    "key": "U18359301_63218977-7e71-450a-8582-1dc45c2f7ea0_0001_2",
-    "value": {
-        "eventId": "U18359301_63218977-7e71-450a-8582-1dc45c2f7ea0_0001",
-        "eventSize": 4,
-        "eventIndex": 1,
-        "emittedTime": 1702043593939,
-        "processingTime": 1701384333593,
-        "company": "FBNK",
-        "context": {
-            "jobName": "AA.SERVICE.PROCESS",
-            "companyCode": "RW0010001",
-            "transactionType": "BATCH",
-            "processState": "S016",
-            "processName": "BNK/AA.EOD.PROCESS",
-            "cobDate": "20231130",
-            "operation": "WRITE"
-        },
-        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
-        "entityId": "AAACT23334DFZSBMV6",
-        "application": "AA.ARRANGEMENT.ACTIVITY",
-        "payload": {
-            "recId": "AAACT23334DFZSBMV6",
-            "ArrSequence": null,
-            "Arrangement": "AA220127LR33",
-            "Activity": "ACCOUNTS-ISSUEBILL-SCHEDULE*CHARGE",
-            "EffectiveDate": "20231130",
-            "ARRAY_Customer": [],
-            "TradeDate": null,
-            "AlternateId": null,
-            "Remarks": null,
-            "ArrangementLinkType": null,
-            "MasterArrangement": null,
-            "Product": "BKQuickAccount",
-            "Currency": "RWF",
-            "Channel": null,
-            "ArrCompanyCode": null,
-            "Branch": null,
-            "LineOfBusiness": null,
-            "LinkedActivity": null,
-            "ARRAY_InitiationType": [
-                {
-                    "InitiationType": "SCHEDULED*EOD"
-                }
-            ],
-            "SecondaryType": null,
-            "ARRAY_AdjActivity": [],
-            "ARRAY_ChildActivity": [],
-            "OrigContractDate": null,
-            "MasterAaa": "AAACT23334DFZSBMV6",
-            "RevMasterAaa": null,
-            "Adjustment": null,
-            "RealMasterId": null,
-            "AssessmentActivity": null,
-            "TxnAmount": null,
-            "TxnAmountLcy": null,
-            "TxnExchRate": null,
-            "TxnContractId": null,
-            "TxnSystemId": null,
-            "ExposureDate": null,
-            "ARRAY_AdviceNo": [
-                {
-                    "RECORD_AdviceNo": {
-                        "AdviceNo": "AA-2003",
-                        "MappingKey": "8581.AA.1",
-                        "DeliveryRef": "D20231201342570273201"
-                    }
-                }
-            ],
-            "ActivityClass": "ACCOUNTS-ISSUEBILL-PAYMENT.SCHEDULE",
-            "ARRAY_Property": [],
-            "ARRAY_ContextName": [],
-            "ARRAY_TransCustomer": [],
-            "ARRAY_Signatory": [],
-            "ProcessingMode": null,
-            "AutoRun": null,
-            "SimRunRef": null,
-            "OrigTxnAmt": null,
-            "OrigTxnAmtLcy": null,
-            "ARRAY_Narrative": [],
-            "ExtEventRef": null,
-            "ProductVariation": null,
-            "PricingSelection": null,
-            "PricingPlan": null,
-            "ARRAY_Reason": [],
-            "EventId": null,
-            "ARRAY_AgentId": [],
-            "ARRAY_ErrorSource": [],
-            "RewardsArrId": null,
-            "OrgSystemDate": "20231130",
-            "ClosureReason": null,
-            "ARRAY_ClosureNotes": [],
-            "CrOpportunity": null,
-            "ARRAY_ActivityLinkType": [],
-            "LinkedParentRef": null,
-            "ARRAY_StmtNos": [],
-            "ARRAY_Override": [],
-            "RecordStatus": null,
-            "CurrNo": "1",
-            "ARRAY_Inputter": [
-                {
-                    "Inputter": "18359301_INPUTTER_I_INAU_OFS_AA.COB"
-                }
-            ],
-            "ARRAY_DateTime": [
-                {
-                    "DateTime": "2312010045"
-                },
-                {
-                    "DateTime": "2312010045"
-                }
-            ],
-            "Authoriser": "18359301_INPUTTER_OFS_AA.COB",
-            "CoCode": "RW0010030",
-            "DeptCode": "1",
-            "AuditorCode": null,
-            "AuditDateTime": null,
-            "ARRAY_DefDoc": [],
-            "InsuranceCom": null,
-            "InsuranceType": null,
-            "InsuredAmt": null,
-            "InsuranceChg": null,
-            "InsuranceExp": null,
-            "FrtLossPay": null,
-            "LoanAppId": null,
-            "EconSector": null,
-            "EconSectorIsi": null,
-            "EconSectorIs": null,
-            "RestReason": null,
-            "BkEcoSector": null,
-            "BkEcoSubSect": null
-        },
-        "metadata": {
-            "recIdColumn": "RECID",
-            "databasePartition": "6",
-            "partitionIdColumn": "PARTITIONID",
-            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
-            "createdTime": "1701384332359",
-            "databaseTable": "F_DATA_EVENTS"
-        }
-    },
-    "topic": "table-update",
-    "partition": 0,
-    "offset": 564246712
-}
-{
-    "key": "U18359301_63218977-7e71-450a-8582-1dc45c2f7ea0_0001_3",
-    "value": {
-        "eventId": "U18359301_63218977-7e71-450a-8582-1dc45c2f7ea0_0001",
-        "eventSize": 4,
-        "eventIndex": 2,
-        "emittedTime": 1702043593939,
-        "processingTime": 1701384333593,
-        "company": "FBNK",
-        "context": {
-            "jobName": "AA.SERVICE.PROCESS",
-            "companyCode": "RW0010001",
-            "transactionType": "BATCH",
-            "processState": "S016",
-            "processName": "BNK/AA.EOD.PROCESS",
-            "cobDate": "20231130",
-            "operation": "WRITE"
-        },
-        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
-        "entityId": "AA220127LR33-CRINTEREST-ACCRUAL",
-        "application": "AA.ARRANGEMENT.ACTIVITY",
-        "payload": {
-            "recId": "AA220127LR33-CRINTEREST-ACCRUAL",
-            "ArrSequence": null,
-            "Arrangement": "AA220127LR33",
-            "Activity": "ACCOUNTS-ACCRUE-CRINTEREST",
-            "EffectiveDate": "20231130",
-            "ARRAY_Customer": [],
-            "TradeDate": null,
-            "AlternateId": null,
-            "Remarks": null,
-            "ArrangementLinkType": null,
-            "MasterArrangement": null,
-            "Product": "BKQuickAccount",
-            "Currency": "RWF",
-            "Channel": null,
-            "ArrCompanyCode": null,
-            "Branch": null,
-            "LineOfBusiness": null,
-            "LinkedActivity": null,
-            "ARRAY_InitiationType": [
-                {
-                    "InitiationType": "SCHEDULED*EOD"
-                },
-                {
-                    "InitiationType": "NOLOG"
-                }
-            ],
-            "SecondaryType": null,
-            "ARRAY_AdjActivity": [],
-            "ARRAY_ChildActivity": [],
-            "OrigContractDate": null,
-            "MasterAaa": "AA220127LR33-CRINTEREST-ACCRUAL",
-            "RevMasterAaa": null,
-            "Adjustment": null,
-            "RealMasterId": null,
-            "AssessmentActivity": null,
-            "TxnAmount": null,
-            "TxnAmountLcy": null,
-            "TxnExchRate": null,
-            "TxnContractId": null,
-            "TxnSystemId": null,
-            "ExposureDate": null,
-            "ARRAY_AdviceNo": [],
-            "ActivityClass": "ACCOUNTS-ACCRUE-INTEREST",
-            "ARRAY_Property": [],
-            "ARRAY_ContextName": [],
-            "ARRAY_TransCustomer": [],
-            "ARRAY_Signatory": [],
-            "ProcessingMode": null,
-            "AutoRun": null,
-            "SimRunRef": null,
-            "OrigTxnAmt": null,
-            "OrigTxnAmtLcy": null,
-            "ARRAY_Narrative": [],
-            "ExtEventRef": null,
-            "ProductVariation": null,
-            "PricingSelection": null,
-            "PricingPlan": null,
-            "ARRAY_Reason": [],
-            "EventId": null,
-            "ARRAY_AgentId": [],
-            "ARRAY_ErrorSource": [],
-            "RewardsArrId": null,
-            "OrgSystemDate": "20220112",
-            "ClosureReason": null,
-            "ARRAY_ClosureNotes": [],
-            "CrOpportunity": null,
-            "ARRAY_ActivityLinkType": [],
-            "LinkedParentRef": null,
-            "ARRAY_StmtNos": [],
-            "ARRAY_Override": [],
-            "RecordStatus": null,
-            "CurrNo": "443",
-            "ARRAY_Inputter": [
-                {
-                    "Inputter": "18359301_INPUTTER_I_INAU_OFS_AA.COB"
-                }
-            ],
-            "ARRAY_DateTime": [
-                {
-                    "DateTime": "2312010045"
-                },
-                {
-                    "DateTime": "2312010045"
-                }
-            ],
-            "Authoriser": "18359301_INPUTTER_OFS_AA.COB",
-            "CoCode": "RW0010030",
-            "DeptCode": "1",
-            "AuditorCode": null,
-            "AuditDateTime": null,
-            "ARRAY_DefDoc": [],
-            "InsuranceCom": null,
-            "InsuranceType": null,
-            "InsuredAmt": null,
-            "InsuranceChg": null,
-            "InsuranceExp": null,
-            "FrtLossPay": null,
-            "LoanAppId": null,
-            "EconSector": null,
-            "EconSectorIsi": null,
-            "EconSectorIs": null,
-            "RestReason": null,
-            "BkEcoSector": null,
-            "BkEcoSubSect": null
-        },
-        "metadata": {
-            "recIdColumn": "RECID",
-            "databasePartition": "6",
-            "partitionIdColumn": "PARTITIONID",
-            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
-            "createdTime": "1701384332359",
-            "databaseTable": "F_DATA_EVENTS"
-        }
-    },
-    "topic": "table-update",
-    "partition": 0,
-    "offset": 564246713
-}
-{
-    "key": "U18359301_63218977-7e71-450a-8582-1dc45c2f7ea0_0001_4",
-    "value": {
-        "eventId": "U18359301_63218977-7e71-450a-8582-1dc45c2f7ea0_0001",
-        "eventSize": 4,
-        "eventIndex": 3,
-        "emittedTime": 1702043593939,
-        "processingTime": 1701384333593,
-        "company": "FBNK",
-        "context": {
-            "jobName": "AA.SERVICE.PROCESS",
-            "companyCode": "RW0010001",
-            "transactionType": "BATCH",
-            "processState": "S016",
-            "processName": "BNK/AA.EOD.PROCESS",
-            "cobDate": "20231130",
-            "operation": "WRITE"
-        },
-        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
-        "entityId": "AAACT23334DFZSBMV8",
-        "application": "AA.ARRANGEMENT.ACTIVITY",
-        "payload": {
-            "recId": "AAACT23334DFZSBMV8",
-            "ArrSequence": null,
-            "Arrangement": "AA220127LR33",
-            "Activity": "ACCOUNTS-CAPITALISE-SCHEDULE",
-            "EffectiveDate": "20231130",
-            "ARRAY_Customer": [],
-            "TradeDate": null,
-            "AlternateId": null,
-            "Remarks": null,
-            "ArrangementLinkType": null,
-            "MasterArrangement": null,
-            "Product": "BKQuickAccount",
-            "Currency": "RWF",
-            "Channel": null,
-            "ArrCompanyCode": null,
-            "Branch": null,
-            "LineOfBusiness": null,
-            "LinkedActivity": null,
-            "ARRAY_InitiationType": [
-                {
-                    "InitiationType": "SCHEDULED*EOD"
-                }
-            ],
-            "SecondaryType": null,
-            "ARRAY_AdjActivity": [],
-            "ARRAY_ChildActivity": [],
-            "OrigContractDate": null,
-            "MasterAaa": "AAACT23334DFZSBMV8",
-            "RevMasterAaa": null,
-            "Adjustment": null,
-            "RealMasterId": null,
-            "AssessmentActivity": null,
-            "TxnAmount": null,
-            "TxnAmountLcy": null,
-            "TxnExchRate": null,
-            "TxnContractId": null,
-            "TxnSystemId": null,
-            "ExposureDate": null,
-            "ARRAY_AdviceNo": [],
-            "ActivityClass": "ACCOUNTS-CAPITALISE-PAYMENT.SCHEDULE",
-            "ARRAY_Property": [],
-            "ARRAY_ContextName": [],
-            "ARRAY_TransCustomer": [],
-            "ARRAY_Signatory": [],
-            "ProcessingMode": null,
-            "AutoRun": null,
-            "SimRunRef": null,
-            "OrigTxnAmt": null,
-            "OrigTxnAmtLcy": null,
-            "ARRAY_Narrative": [],
-            "ExtEventRef": null,
-            "ProductVariation": null,
-            "PricingSelection": null,
-            "PricingPlan": null,
-            "ARRAY_Reason": [],
-            "EventId": null,
-            "ARRAY_AgentId": [],
-            "ARRAY_ErrorSource": [],
-            "RewardsArrId": null,
-            "OrgSystemDate": "20231130",
-            "ClosureReason": null,
-            "ARRAY_ClosureNotes": [],
-            "CrOpportunity": null,
-            "ARRAY_ActivityLinkType": [],
-            "LinkedParentRef": null,
-            "ARRAY_StmtNos": [],
-            "ARRAY_Override": [],
-            "RecordStatus": null,
-            "CurrNo": "1",
-            "ARRAY_Inputter": [
-                {
-                    "Inputter": "18359301_INPUTTER_I_INAU_OFS_AA.COB"
-                }
-            ],
-            "ARRAY_DateTime": [
-                {
-                    "DateTime": "2312010045"
-                },
-                {
-                    "DateTime": "2312010045"
-                }
-            ],
-            "Authoriser": "18359301_INPUTTER_OFS_AA.COB",
-            "CoCode": "RW0010030",
-            "DeptCode": "1",
-            "AuditorCode": null,
-            "AuditDateTime": null,
-            "ARRAY_DefDoc": [],
-            "InsuranceCom": null,
-            "InsuranceType": null,
-            "InsuredAmt": null,
-            "InsuranceChg": null,
-            "InsuranceExp": null,
-            "FrtLossPay": null,
-            "LoanAppId": null,
-            "EconSector": null,
-            "EconSectorIsi": null,
-            "EconSectorIs": null,
-            "RestReason": null,
-            "BkEcoSector": null,
-            "BkEcoSubSect": null
-        },
-        "metadata": {
-            "recIdColumn": "RECID",
-            "databasePartition": "6",
-            "partitionIdColumn": "PARTITIONID",
-            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
-            "createdTime": "1701384332359",
-            "databaseTable": "F_DATA_EVENTS"
-        }
-    },
-    "topic": "table-update",
-    "partition": 0,
-    "offset": 564246714
-}
-{
-    "key": "U18359300_fec684cf-0c23-4d56-a0c7-0ba93ec1237d_0001_1",
-    "value": {
-        "eventId": "U18359300_fec684cf-0c23-4d56-a0c7-0ba93ec1237d_0001",
-        "eventSize": 4,
-        "eventIndex": 0,
-        "emittedTime": 1702043593940,
-        "processingTime": 1701384336019,
-        "company": "FBNK",
-        "context": {
-            "jobName": "AA.SERVICE.PROCESS",
-            "companyCode": "RW0010001",
-            "transactionType": "BATCH",
-            "processState": "S016",
-            "processName": "BNK/AA.EOD.PROCESS",
-            "cobDate": "20231130",
-            "operation": "WRITE"
-        },
-        "entityName": "FBNK.AA.ACCOUNT.DETAILS",
-        "entityId": "AA2128468CHF",
-        "application": "AA.ACCOUNT.DETAILS",
-        "payload": {
-            "recId": "AA2128468CHF",
-            "ArrangementId": null,
-            "ARRAY_ContractDate": [
-                {
-                    "ContractDate": "20211011"
-                }
-            ],
-            "ValueDate": "20211011",
-            "StartDate": "20211015",
             "DrawdownEndDate": null,
             "PaymentStartDate": "20211031",
             "MaturityDate": null,
@@ -1909,7 +36,7 @@
             "RenewalDate": null,
             "CoolingDate": null,
             "CancelDate": null,
-            "BaseDate": "20211011",
+            "BaseDate": "20211015",
             "ARRAY_BillPayDate": [],
             "AllAgeStatus": null,
             "Suspended": null,
@@ -1917,7 +44,7 @@
             "ARRAY_ScheduleType": [
                 {
                     "RECORD_ScheduleType": {
-                        "ScheduleType": "CHARGE-SUBSCRIBEFEES",
+                        "ScheduleType": "INTEREST-CRINTEREST",
                         "NumPayments": "26",
                         "SUB_ARRAY_PaymentDate": [
                             {
@@ -2108,63 +235,189 @@
                 },
                 {
                     "RECORD_ScheduleType": {
-                        "ScheduleType": "INTEREST-CRINTEREST",
-                        "NumPayments": "8",
+                        "ScheduleType": "INTEREST-DRINTEREST",
+                        "NumPayments": "26",
                         "SUB_ARRAY_PaymentDate": [
                             {
                                 "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20231011",
-                                    "ActPayDate": "20231011",
-                                    "FinPayDate": "20231011"
+                                    "PaymentDate": "20231130",
+                                    "ActPayDate": "20231130",
+                                    "FinPayDate": "20231130"
                                 }
                             },
                             {
                                 "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230711",
-                                    "ActPayDate": "20230711",
-                                    "FinPayDate": "20230711"
+                                    "PaymentDate": "20231031",
+                                    "ActPayDate": "20231031",
+                                    "FinPayDate": "20231031"
                                 }
                             },
                             {
                                 "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230411",
-                                    "ActPayDate": "20230411",
-                                    "FinPayDate": "20230411"
+                                    "PaymentDate": "20230930",
+                                    "ActPayDate": "20230930",
+                                    "FinPayDate": "20230929"
                                 }
                             },
                             {
                                 "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20230111",
-                                    "ActPayDate": "20230111",
-                                    "FinPayDate": "20230111"
+                                    "PaymentDate": "20230831",
+                                    "ActPayDate": "20230831",
+                                    "FinPayDate": "20230831"
                                 }
                             },
                             {
                                 "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20221011",
-                                    "ActPayDate": "20221011",
-                                    "FinPayDate": "20221011"
+                                    "PaymentDate": "20230731",
+                                    "ActPayDate": "20230731",
+                                    "FinPayDate": "20230731"
                                 }
                             },
                             {
                                 "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220711",
-                                    "ActPayDate": "20220711",
-                                    "FinPayDate": "20220712"
+                                    "PaymentDate": "20230630",
+                                    "ActPayDate": "20230630",
+                                    "FinPayDate": "20230630"
                                 }
                             },
                             {
                                 "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220411",
-                                    "ActPayDate": "20220411",
-                                    "FinPayDate": "20220411"
+                                    "PaymentDate": "20230531",
+                                    "ActPayDate": "20230531",
+                                    "FinPayDate": "20230531"
                                 }
                             },
                             {
                                 "SUB_RECORD_PaymentDate": {
-                                    "PaymentDate": "20220111",
-                                    "ActPayDate": "20220111",
-                                    "FinPayDate": "20220111"
+                                    "PaymentDate": "20230430",
+                                    "ActPayDate": "20230430",
+                                    "FinPayDate": "20230428"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230331",
+                                    "ActPayDate": "20230331",
+                                    "FinPayDate": "20230331"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230228",
+                                    "ActPayDate": "20230228",
+                                    "FinPayDate": "20230228"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230131",
+                                    "ActPayDate": "20230131",
+                                    "FinPayDate": "20230131"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221231",
+                                    "ActPayDate": "20221231",
+                                    "FinPayDate": "20221230"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221130",
+                                    "ActPayDate": "20221130",
+                                    "FinPayDate": "20221130"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221031",
+                                    "ActPayDate": "20221031",
+                                    "FinPayDate": "20221031"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220930",
+                                    "ActPayDate": "20220930",
+                                    "FinPayDate": "20220930"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220831",
+                                    "ActPayDate": "20220831",
+                                    "FinPayDate": "20220831"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220731",
+                                    "ActPayDate": "20220731",
+                                    "FinPayDate": "20220729"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220630",
+                                    "ActPayDate": "20220630",
+                                    "FinPayDate": "20220630"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220531",
+                                    "ActPayDate": "20220531",
+                                    "FinPayDate": "20220531"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220430",
+                                    "ActPayDate": "20220430",
+                                    "FinPayDate": "20220429"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220331",
+                                    "ActPayDate": "20220331",
+                                    "FinPayDate": "20220331"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220228",
+                                    "ActPayDate": "20220228",
+                                    "FinPayDate": "20220228"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220131",
+                                    "ActPayDate": "20220131",
+                                    "FinPayDate": "20220131"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20211231",
+                                    "ActPayDate": "20211231",
+                                    "FinPayDate": "20211231"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20211130",
+                                    "ActPayDate": "20211130",
+                                    "FinPayDate": "20211130"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20211031",
+                                    "ActPayDate": "20211031",
+                                    "FinPayDate": "20211029"
                                 }
                             }
                         ],
@@ -2192,68 +445,12 @@
             "ARRAY_ActualRenewDate": [],
             "ARRAY_HolPaymentType": [],
             "OnlineCapitalise": null,
-            "ArrDormancyStatus": null,
+            "ArrDormancyStatus": "DOM.CLOSED",
             "ARRAY_DormancyStatus": [
                 {
                     "RECORD_DormancyStatus": {
-                        "DormancyStatus": null,
-                        "DormancyDate": "20231020",
-                        "DormancyProcess": "AUTO"
-                    }
-                },
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": "DORMANT",
-                        "DormancyDate": "20230621",
-                        "DormancyProcess": "AUTO"
-                    }
-                },
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": "INACTIVE",
-                        "DormancyDate": "20230321",
-                        "DormancyProcess": "AUTO"
-                    }
-                },
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": null,
-                        "DormancyDate": "20221221",
-                        "DormancyProcess": "AUTO"
-                    }
-                },
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": "DORMANT",
-                        "DormancyDate": "20220831",
-                        "DormancyProcess": "AUTO"
-                    }
-                },
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": "INACTIVE",
-                        "DormancyDate": "20220531",
-                        "DormancyProcess": "AUTO"
-                    }
-                },
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": null,
-                        "DormancyDate": "20220228",
-                        "DormancyProcess": "AUTO"
-                    }
-                },
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": "INACTIVE",
-                        "DormancyDate": "20220118",
-                        "DormancyProcess": "AUTO"
-                    }
-                },
-                {
-                    "RECORD_DormancyStatus": {
-                        "DormancyStatus": null,
-                        "DormancyDate": "20211011",
+                        "DormancyStatus": "DOM.CLOSED",
+                        "DormancyDate": "20211015",
                         "DormancyProcess": "AUTO"
                     }
                 }
@@ -2282,11 +479,1844 @@
             "databasePartition": "6",
             "partitionIdColumn": "PARTITIONID",
             "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
-            "createdTime": "1701384333645",
+            "createdTime": "1701384335839",
             "databaseTable": "F_DATA_EVENTS"
         }
     },
     "topic": "table-update",
     "partition": 0,
-    "offset": 564246715
+    "offset": 564246719
+}
+{
+    "key": "U18359295_8855305b-6522-4b76-8072-c2a1e2e895df_0001_2",
+    "value": {
+        "eventId": "U18359295_8855305b-6522-4b76-8072-c2a1e2e895df_0001",
+        "eventSize": 4,
+        "eventIndex": 1,
+        "emittedTime": 1702043593942,
+        "processingTime": 1701384336848,
+        "company": "FBNK",
+        "context": {
+            "jobName": "AA.SERVICE.PROCESS",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S016",
+            "processName": "BNK/AA.EOD.PROCESS",
+            "cobDate": "20231130",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
+        "entityId": "AAACT23334F9R09M2H",
+        "application": "AA.ARRANGEMENT.ACTIVITY",
+        "payload": {
+            "recId": "AAACT23334F9R09M2H",
+            "ArrSequence": null,
+            "Arrangement": "AA21288MPM1T",
+            "Activity": "ACCOUNTS-CAPITALISE-SCHEDULE",
+            "EffectiveDate": "20231130",
+            "ARRAY_Customer": [],
+            "TradeDate": null,
+            "AlternateId": null,
+            "Remarks": null,
+            "ArrangementLinkType": null,
+            "MasterArrangement": null,
+            "Product": "WRITE.OFF",
+            "Currency": "RWF",
+            "Channel": null,
+            "ArrCompanyCode": null,
+            "Branch": null,
+            "LineOfBusiness": null,
+            "LinkedActivity": null,
+            "ARRAY_InitiationType": [
+                {
+                    "InitiationType": "SCHEDULED*EOD"
+                }
+            ],
+            "SecondaryType": null,
+            "ARRAY_AdjActivity": [],
+            "ARRAY_ChildActivity": [],
+            "OrigContractDate": null,
+            "MasterAaa": "AAACT23334F9R09M2H",
+            "RevMasterAaa": null,
+            "Adjustment": null,
+            "RealMasterId": null,
+            "AssessmentActivity": null,
+            "TxnAmount": null,
+            "TxnAmountLcy": null,
+            "TxnExchRate": null,
+            "TxnContractId": null,
+            "TxnSystemId": null,
+            "ExposureDate": null,
+            "ARRAY_AdviceNo": [],
+            "ActivityClass": "ACCOUNTS-CAPITALISE-PAYMENT.SCHEDULE",
+            "ARRAY_Property": [],
+            "ARRAY_ContextName": [],
+            "ARRAY_TransCustomer": [],
+            "ARRAY_Signatory": [],
+            "ProcessingMode": null,
+            "AutoRun": null,
+            "SimRunRef": null,
+            "OrigTxnAmt": null,
+            "OrigTxnAmtLcy": null,
+            "ARRAY_Narrative": [],
+            "ExtEventRef": null,
+            "ProductVariation": null,
+            "PricingSelection": null,
+            "PricingPlan": null,
+            "ARRAY_Reason": [],
+            "EventId": null,
+            "ARRAY_AgentId": [],
+            "ARRAY_ErrorSource": [],
+            "RewardsArrId": null,
+            "OrgSystemDate": "20231130",
+            "ClosureReason": null,
+            "ARRAY_ClosureNotes": [],
+            "CrOpportunity": null,
+            "ARRAY_ActivityLinkType": [],
+            "LinkedParentRef": null,
+            "ARRAY_StmtNos": [],
+            "ARRAY_Override": [],
+            "RecordStatus": null,
+            "CurrNo": "1",
+            "ARRAY_Inputter": [
+                {
+                    "Inputter": "18359295_INPUTTER_I_INAU_OFS_AA.COB"
+                }
+            ],
+            "ARRAY_DateTime": [
+                {
+                    "DateTime": "2312010045"
+                },
+                {
+                    "DateTime": "2312010045"
+                }
+            ],
+            "Authoriser": "18359295_INPUTTER_OFS_AA.COB",
+            "CoCode": "RW0010005",
+            "DeptCode": "1",
+            "AuditorCode": null,
+            "AuditDateTime": null,
+            "ARRAY_DefDoc": [],
+            "InsuranceCom": null,
+            "InsuranceType": null,
+            "InsuredAmt": null,
+            "InsuranceChg": null,
+            "InsuranceExp": null,
+            "FrtLossPay": null,
+            "LoanAppId": null,
+            "EconSector": null,
+            "EconSectorIsi": null,
+            "EconSectorIs": null,
+            "RestReason": null,
+            "BkEcoSector": null,
+            "BkEcoSubSect": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
+            "createdTime": "1701384335839",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 564246720
+}
+{
+    "key": "U18359295_8855305b-6522-4b76-8072-c2a1e2e895df_0001_3",
+    "value": {
+        "eventId": "U18359295_8855305b-6522-4b76-8072-c2a1e2e895df_0001",
+        "eventSize": 4,
+        "eventIndex": 2,
+        "emittedTime": 1702043593942,
+        "processingTime": 1701384336848,
+        "company": "FBNK",
+        "context": {
+            "jobName": "AA.SERVICE.PROCESS",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S016",
+            "processName": "BNK/AA.EOD.PROCESS",
+            "cobDate": "20231130",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
+        "entityId": "AA21288MPM1T-DRINTEREST-ACCRUAL",
+        "application": "AA.ARRANGEMENT.ACTIVITY",
+        "payload": {
+            "recId": "AA21288MPM1T-DRINTEREST-ACCRUAL",
+            "ArrSequence": null,
+            "Arrangement": "AA21288MPM1T",
+            "Activity": "ACCOUNTS-ACCRUE-DRINTEREST",
+            "EffectiveDate": "20231130",
+            "ARRAY_Customer": [],
+            "TradeDate": null,
+            "AlternateId": null,
+            "Remarks": null,
+            "ArrangementLinkType": null,
+            "MasterArrangement": null,
+            "Product": "WRITE.OFF",
+            "Currency": "RWF",
+            "Channel": null,
+            "ArrCompanyCode": null,
+            "Branch": null,
+            "LineOfBusiness": null,
+            "LinkedActivity": null,
+            "ARRAY_InitiationType": [
+                {
+                    "InitiationType": "SCHEDULED*EOD"
+                },
+                {
+                    "InitiationType": "NOLOG"
+                }
+            ],
+            "SecondaryType": null,
+            "ARRAY_AdjActivity": [],
+            "ARRAY_ChildActivity": [],
+            "OrigContractDate": null,
+            "MasterAaa": "AA21288MPM1T-DRINTEREST-ACCRUAL",
+            "RevMasterAaa": null,
+            "Adjustment": null,
+            "RealMasterId": null,
+            "AssessmentActivity": null,
+            "TxnAmount": null,
+            "TxnAmountLcy": null,
+            "TxnExchRate": null,
+            "TxnContractId": null,
+            "TxnSystemId": null,
+            "ExposureDate": null,
+            "ARRAY_AdviceNo": [],
+            "ActivityClass": "ACCOUNTS-ACCRUE-INTEREST",
+            "ARRAY_Property": [],
+            "ARRAY_ContextName": [],
+            "ARRAY_TransCustomer": [],
+            "ARRAY_Signatory": [],
+            "ProcessingMode": null,
+            "AutoRun": null,
+            "SimRunRef": null,
+            "OrigTxnAmt": null,
+            "OrigTxnAmtLcy": null,
+            "ARRAY_Narrative": [],
+            "ExtEventRef": null,
+            "ProductVariation": null,
+            "PricingSelection": null,
+            "PricingPlan": null,
+            "ARRAY_Reason": [],
+            "EventId": null,
+            "ARRAY_AgentId": [],
+            "ARRAY_ErrorSource": [],
+            "RewardsArrId": null,
+            "OrgSystemDate": "20211015",
+            "ClosureReason": null,
+            "ARRAY_ClosureNotes": [],
+            "CrOpportunity": null,
+            "ARRAY_ActivityLinkType": [],
+            "LinkedParentRef": null,
+            "ARRAY_StmtNos": [],
+            "ARRAY_Override": [],
+            "RecordStatus": null,
+            "CurrNo": "472",
+            "ARRAY_Inputter": [
+                {
+                    "Inputter": "18359295_INPUTTER_I_INAU_OFS_AA.COB"
+                }
+            ],
+            "ARRAY_DateTime": [
+                {
+                    "DateTime": "2312010045"
+                },
+                {
+                    "DateTime": "2312010045"
+                }
+            ],
+            "Authoriser": "18359295_INPUTTER_OFS_AA.COB",
+            "CoCode": "RW0010005",
+            "DeptCode": "1",
+            "AuditorCode": null,
+            "AuditDateTime": null,
+            "ARRAY_DefDoc": [],
+            "InsuranceCom": null,
+            "InsuranceType": null,
+            "InsuredAmt": null,
+            "InsuranceChg": null,
+            "InsuranceExp": null,
+            "FrtLossPay": null,
+            "LoanAppId": null,
+            "EconSector": null,
+            "EconSectorIsi": null,
+            "EconSectorIs": null,
+            "RestReason": null,
+            "BkEcoSector": null,
+            "BkEcoSubSect": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
+            "createdTime": "1701384335839",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 564246721
+}
+{
+    "key": "U18359295_8855305b-6522-4b76-8072-c2a1e2e895df_0001_4",
+    "value": {
+        "eventId": "U18359295_8855305b-6522-4b76-8072-c2a1e2e895df_0001",
+        "eventSize": 4,
+        "eventIndex": 3,
+        "emittedTime": 1702043593942,
+        "processingTime": 1701384336848,
+        "company": "FBNK",
+        "context": {
+            "jobName": "AA.SERVICE.PROCESS",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S016",
+            "processName": "BNK/AA.EOD.PROCESS",
+            "cobDate": "20231130",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
+        "entityId": "AA21288MPM1T-CRINTEREST-ACCRUAL",
+        "application": "AA.ARRANGEMENT.ACTIVITY",
+        "payload": {
+            "recId": "AA21288MPM1T-CRINTEREST-ACCRUAL",
+            "ArrSequence": null,
+            "Arrangement": "AA21288MPM1T",
+            "Activity": "ACCOUNTS-ACCRUE-CRINTEREST",
+            "EffectiveDate": "20231130",
+            "ARRAY_Customer": [],
+            "TradeDate": null,
+            "AlternateId": null,
+            "Remarks": null,
+            "ArrangementLinkType": null,
+            "MasterArrangement": null,
+            "Product": "WRITE.OFF",
+            "Currency": "RWF",
+            "Channel": null,
+            "ArrCompanyCode": null,
+            "Branch": null,
+            "LineOfBusiness": null,
+            "LinkedActivity": null,
+            "ARRAY_InitiationType": [
+                {
+                    "InitiationType": "SCHEDULED*EOD"
+                },
+                {
+                    "InitiationType": "NOLOG"
+                }
+            ],
+            "SecondaryType": null,
+            "ARRAY_AdjActivity": [],
+            "ARRAY_ChildActivity": [],
+            "OrigContractDate": null,
+            "MasterAaa": "AA21288MPM1T-CRINTEREST-ACCRUAL",
+            "RevMasterAaa": null,
+            "Adjustment": null,
+            "RealMasterId": null,
+            "AssessmentActivity": null,
+            "TxnAmount": null,
+            "TxnAmountLcy": null,
+            "TxnExchRate": null,
+            "TxnContractId": null,
+            "TxnSystemId": null,
+            "ExposureDate": null,
+            "ARRAY_AdviceNo": [],
+            "ActivityClass": "ACCOUNTS-ACCRUE-INTEREST",
+            "ARRAY_Property": [],
+            "ARRAY_ContextName": [],
+            "ARRAY_TransCustomer": [],
+            "ARRAY_Signatory": [],
+            "ProcessingMode": null,
+            "AutoRun": null,
+            "SimRunRef": null,
+            "OrigTxnAmt": null,
+            "OrigTxnAmtLcy": null,
+            "ARRAY_Narrative": [],
+            "ExtEventRef": null,
+            "ProductVariation": null,
+            "PricingSelection": null,
+            "PricingPlan": null,
+            "ARRAY_Reason": [],
+            "EventId": null,
+            "ARRAY_AgentId": [],
+            "ARRAY_ErrorSource": [],
+            "RewardsArrId": null,
+            "OrgSystemDate": "20211015",
+            "ClosureReason": null,
+            "ARRAY_ClosureNotes": [],
+            "CrOpportunity": null,
+            "ARRAY_ActivityLinkType": [],
+            "LinkedParentRef": null,
+            "ARRAY_StmtNos": [],
+            "ARRAY_Override": [],
+            "RecordStatus": null,
+            "CurrNo": "472",
+            "ARRAY_Inputter": [
+                {
+                    "Inputter": "18359295_INPUTTER_I_INAU_OFS_AA.COB"
+                }
+            ],
+            "ARRAY_DateTime": [
+                {
+                    "DateTime": "2312010045"
+                },
+                {
+                    "DateTime": "2312010045"
+                }
+            ],
+            "Authoriser": "18359295_INPUTTER_OFS_AA.COB",
+            "CoCode": "RW0010005",
+            "DeptCode": "1",
+            "AuditorCode": null,
+            "AuditDateTime": null,
+            "ARRAY_DefDoc": [],
+            "InsuranceCom": null,
+            "InsuranceType": null,
+            "InsuredAmt": null,
+            "InsuranceChg": null,
+            "InsuranceExp": null,
+            "FrtLossPay": null,
+            "LoanAppId": null,
+            "EconSector": null,
+            "EconSectorIsi": null,
+            "EconSectorIs": null,
+            "RestReason": null,
+            "BkEcoSector": null,
+            "BkEcoSubSect": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
+            "createdTime": "1701384335839",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 564246722
+}
+{
+    "key": "U18360509_27810fcd-c8a1-4e31-a301-cd91c662b5d1_0001_1",
+    "value": {
+        "eventId": "U18360509_27810fcd-c8a1-4e31-a301-cd91c662b5d1_0001",
+        "eventSize": 5,
+        "eventIndex": 0,
+        "emittedTime": 1702043593943,
+        "processingTime": 1701384336849,
+        "company": "FBNK",
+        "context": {
+            "jobName": "AA.SERVICE.PROCESS",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S016",
+            "processName": "BNK/AA.EOD.PROCESS",
+            "cobDate": "20231130",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.AA.ACCOUNT.DETAILS",
+        "entityId": "AA221861ZBFF",
+        "application": "AA.ACCOUNT.DETAILS",
+        "payload": {
+            "recId": "AA221861ZBFF",
+            "ArrangementId": null,
+            "ARRAY_ContractDate": [
+                {
+                    "ContractDate": "20220705"
+                }
+            ],
+            "ValueDate": "20220705",
+            "StartDate": null,
+            "DrawdownEndDate": null,
+            "PaymentStartDate": "20220731",
+            "MaturityDate": null,
+            "ArrAgeStatus": null,
+            "RenewalDate": null,
+            "CoolingDate": null,
+            "CancelDate": null,
+            "BaseDate": "20220705",
+            "ARRAY_BillPayDate": [],
+            "AllAgeStatus": null,
+            "Suspended": null,
+            "ReportEndDate": null,
+            "ARRAY_ScheduleType": [
+                {
+                    "RECORD_ScheduleType": {
+                        "ScheduleType": "INTEREST-CRINTEREST",
+                        "NumPayments": "17",
+                        "SUB_ARRAY_PaymentDate": [
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20231130",
+                                    "ActPayDate": "20231130",
+                                    "FinPayDate": "20231130"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20231031",
+                                    "ActPayDate": "20231031",
+                                    "FinPayDate": "20231031"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230930",
+                                    "ActPayDate": "20230930",
+                                    "FinPayDate": "20230929"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230831",
+                                    "ActPayDate": "20230831",
+                                    "FinPayDate": "20230831"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230731",
+                                    "ActPayDate": "20230731",
+                                    "FinPayDate": "20230731"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230630",
+                                    "ActPayDate": "20230630",
+                                    "FinPayDate": "20230630"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230531",
+                                    "ActPayDate": "20230531",
+                                    "FinPayDate": "20230531"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230430",
+                                    "ActPayDate": "20230430",
+                                    "FinPayDate": "20230428"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230331",
+                                    "ActPayDate": "20230331",
+                                    "FinPayDate": "20230331"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230228",
+                                    "ActPayDate": "20230228",
+                                    "FinPayDate": "20230228"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230131",
+                                    "ActPayDate": "20230131",
+                                    "FinPayDate": "20230131"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221231",
+                                    "ActPayDate": "20221231",
+                                    "FinPayDate": "20221230"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221130",
+                                    "ActPayDate": "20221130",
+                                    "FinPayDate": "20221130"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221031",
+                                    "ActPayDate": "20221031",
+                                    "FinPayDate": "20221031"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220930",
+                                    "ActPayDate": "20220930",
+                                    "FinPayDate": "20220930"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220831",
+                                    "ActPayDate": "20220831",
+                                    "FinPayDate": "20220831"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220731",
+                                    "ActPayDate": "20220731",
+                                    "FinPayDate": "20220729"
+                                }
+                            }
+                        ],
+                        "SUB_ARRAY_InterimDate": []
+                    }
+                },
+                {
+                    "RECORD_ScheduleType": {
+                        "ScheduleType": "INTEREST-DRINTEREST",
+                        "NumPayments": "17",
+                        "SUB_ARRAY_PaymentDate": [
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20231130",
+                                    "ActPayDate": "20231130",
+                                    "FinPayDate": "20231130"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20231031",
+                                    "ActPayDate": "20231031",
+                                    "FinPayDate": "20231031"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230930",
+                                    "ActPayDate": "20230930",
+                                    "FinPayDate": "20230929"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230831",
+                                    "ActPayDate": "20230831",
+                                    "FinPayDate": "20230831"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230731",
+                                    "ActPayDate": "20230731",
+                                    "FinPayDate": "20230731"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230630",
+                                    "ActPayDate": "20230630",
+                                    "FinPayDate": "20230630"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230531",
+                                    "ActPayDate": "20230531",
+                                    "FinPayDate": "20230531"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230430",
+                                    "ActPayDate": "20230430",
+                                    "FinPayDate": "20230428"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230331",
+                                    "ActPayDate": "20230331",
+                                    "FinPayDate": "20230331"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230228",
+                                    "ActPayDate": "20230228",
+                                    "FinPayDate": "20230228"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230131",
+                                    "ActPayDate": "20230131",
+                                    "FinPayDate": "20230131"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221231",
+                                    "ActPayDate": "20221231",
+                                    "FinPayDate": "20221230"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221130",
+                                    "ActPayDate": "20221130",
+                                    "FinPayDate": "20221130"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221031",
+                                    "ActPayDate": "20221031",
+                                    "FinPayDate": "20221031"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220930",
+                                    "ActPayDate": "20220930",
+                                    "FinPayDate": "20220930"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220831",
+                                    "ActPayDate": "20220831",
+                                    "FinPayDate": "20220831"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220731",
+                                    "ActPayDate": "20220731",
+                                    "FinPayDate": "20220729"
+                                }
+                            }
+                        ],
+                        "SUB_ARRAY_InterimDate": []
+                    }
+                },
+                {
+                    "RECORD_ScheduleType": {
+                        "ScheduleType": "CHARGE-SUBSCRIBEFEES",
+                        "NumPayments": "17",
+                        "SUB_ARRAY_PaymentDate": [
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20231130",
+                                    "ActPayDate": "20231130",
+                                    "FinPayDate": "20231130"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20231031",
+                                    "ActPayDate": "20231031",
+                                    "FinPayDate": "20231031"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230930",
+                                    "ActPayDate": "20230930",
+                                    "FinPayDate": "20230929"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230831",
+                                    "ActPayDate": "20230831",
+                                    "FinPayDate": "20230831"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230731",
+                                    "ActPayDate": "20230731",
+                                    "FinPayDate": "20230731"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230630",
+                                    "ActPayDate": "20230630",
+                                    "FinPayDate": "20230630"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230531",
+                                    "ActPayDate": "20230531",
+                                    "FinPayDate": "20230531"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230430",
+                                    "ActPayDate": "20230430",
+                                    "FinPayDate": "20230428"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230331",
+                                    "ActPayDate": "20230331",
+                                    "FinPayDate": "20230331"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230228",
+                                    "ActPayDate": "20230228",
+                                    "FinPayDate": "20230228"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230131",
+                                    "ActPayDate": "20230131",
+                                    "FinPayDate": "20230131"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221231",
+                                    "ActPayDate": "20221231",
+                                    "FinPayDate": "20221230"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221130",
+                                    "ActPayDate": "20221130",
+                                    "FinPayDate": "20221130"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221031",
+                                    "ActPayDate": "20221031",
+                                    "FinPayDate": "20221031"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220930",
+                                    "ActPayDate": "20220930",
+                                    "FinPayDate": "20220930"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220831",
+                                    "ActPayDate": "20220831",
+                                    "FinPayDate": "20220831"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220731",
+                                    "ActPayDate": "20220731",
+                                    "FinPayDate": "20220729"
+                                }
+                            }
+                        ],
+                        "SUB_ARRAY_InterimDate": []
+                    }
+                }
+            ],
+            "TakeoverArr": null,
+            "ARRAY_RepayReference": [],
+            "ARRAY_SuspStatus": [],
+            "ARRAY_LastRenewDate": [],
+            "PaymentEndDate": null,
+            "BillsSettledCnt": null,
+            "StaticUpdate": null,
+            "Reserved_D_5": null,
+            "ARRAY_RpyReference": [],
+            "ARRAY_WofActivityRef": [],
+            "ChargeoffDate": null,
+            "ARRAY_ChargeoffReference": [],
+            "Reserved_D_2": null,
+            "Reserved_D_1": null,
+            "OverdraftStatus": null,
+            "ReservedOd": null,
+            "PrimaryOdDate": null,
+            "ARRAY_ActualRenewDate": [],
+            "ARRAY_HolPaymentType": [],
+            "OnlineCapitalise": null,
+            "ArrDormancyStatus": "DOM.CLOSED",
+            "ARRAY_DormancyStatus": [
+                {
+                    "RECORD_DormancyStatus": {
+                        "DormancyStatus": "DOM.CLOSED",
+                        "DormancyDate": "20230712",
+                        "DormancyProcess": "AUTO"
+                    }
+                },
+                {
+                    "RECORD_DormancyStatus": {
+                        "DormancyStatus": "DORMANT",
+                        "DormancyDate": "20230112",
+                        "DormancyProcess": "AUTO"
+                    }
+                },
+                {
+                    "RECORD_DormancyStatus": {
+                        "DormancyStatus": "INACTIVE",
+                        "DormancyDate": "20221012",
+                        "DormancyProcess": "AUTO"
+                    }
+                },
+                {
+                    "RECORD_DormancyStatus": {
+                        "DormancyStatus": null,
+                        "DormancyDate": "20220705",
+                        "DormancyProcess": "AUTO"
+                    }
+                }
+            ],
+            "ARRAY_IntStatementType": [],
+            "PendingAdjustmentDate": null,
+            "Branch": null,
+            "LineOfBusiness": null,
+            "ARRAY_SuspendedBy": [],
+            "DeferClosureDate": null,
+            "FullChargeoff": null,
+            "BaseCcyRate": null,
+            "BaseCcyAmount": null,
+            "CurRestructureStatus": null,
+            "RiskStage": null,
+            "ARRAY_RuleEffectiveDate": [],
+            "BaseCcyOvdAmount": null,
+            "CommtExpiryDate": null,
+            "CommitmentStatus": null,
+            "ManualAgeing": null,
+            "ARRAY_ManualAgeBillType": [],
+            "ARRAY_RfrIntProperties": []
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
+            "createdTime": "1701384335467",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 564246723
+}
+{
+    "key": "U18360509_27810fcd-c8a1-4e31-a301-cd91c662b5d1_0001_2",
+    "value": {
+        "eventId": "U18360509_27810fcd-c8a1-4e31-a301-cd91c662b5d1_0001",
+        "eventSize": 5,
+        "eventIndex": 1,
+        "emittedTime": 1702043593943,
+        "processingTime": 1701384336849,
+        "company": "FBNK",
+        "context": {
+            "jobName": "AA.SERVICE.PROCESS",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S016",
+            "processName": "BNK/AA.EOD.PROCESS",
+            "cobDate": "20231130",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
+        "entityId": "AAACT23334RBV0T9TG",
+        "application": "AA.ARRANGEMENT.ACTIVITY",
+        "payload": {
+            "recId": "AAACT23334RBV0T9TG",
+            "ArrSequence": null,
+            "Arrangement": "AA221861ZBFF",
+            "Activity": "ACCOUNTS-CAPITALISE-SCHEDULE",
+            "EffectiveDate": "20231130",
+            "ARRAY_Customer": [],
+            "TradeDate": null,
+            "AlternateId": null,
+            "Remarks": null,
+            "ArrangementLinkType": null,
+            "MasterArrangement": null,
+            "Product": "Current.Account.Extra",
+            "Currency": "RWF",
+            "Channel": null,
+            "ArrCompanyCode": null,
+            "Branch": null,
+            "LineOfBusiness": null,
+            "LinkedActivity": null,
+            "ARRAY_InitiationType": [
+                {
+                    "InitiationType": "SCHEDULED*EOD"
+                }
+            ],
+            "SecondaryType": null,
+            "ARRAY_AdjActivity": [],
+            "ARRAY_ChildActivity": [],
+            "OrigContractDate": null,
+            "MasterAaa": "AAACT23334RBV0T9TG",
+            "RevMasterAaa": null,
+            "Adjustment": null,
+            "RealMasterId": null,
+            "AssessmentActivity": null,
+            "TxnAmount": null,
+            "TxnAmountLcy": null,
+            "TxnExchRate": null,
+            "TxnContractId": null,
+            "TxnSystemId": null,
+            "ExposureDate": null,
+            "ARRAY_AdviceNo": [],
+            "ActivityClass": "ACCOUNTS-CAPITALISE-PAYMENT.SCHEDULE",
+            "ARRAY_Property": [],
+            "ARRAY_ContextName": [],
+            "ARRAY_TransCustomer": [],
+            "ARRAY_Signatory": [],
+            "ProcessingMode": null,
+            "AutoRun": null,
+            "SimRunRef": null,
+            "OrigTxnAmt": null,
+            "OrigTxnAmtLcy": null,
+            "ARRAY_Narrative": [],
+            "ExtEventRef": null,
+            "ProductVariation": null,
+            "PricingSelection": null,
+            "PricingPlan": null,
+            "ARRAY_Reason": [],
+            "EventId": null,
+            "ARRAY_AgentId": [],
+            "ARRAY_ErrorSource": [],
+            "RewardsArrId": null,
+            "OrgSystemDate": "20231130",
+            "ClosureReason": null,
+            "ARRAY_ClosureNotes": [],
+            "CrOpportunity": null,
+            "ARRAY_ActivityLinkType": [],
+            "LinkedParentRef": null,
+            "ARRAY_StmtNos": [],
+            "ARRAY_Override": [],
+            "RecordStatus": null,
+            "CurrNo": "1",
+            "ARRAY_Inputter": [
+                {
+                    "Inputter": "18360509_INPUTTER_I_INAU_OFS_AA.COB"
+                }
+            ],
+            "ARRAY_DateTime": [
+                {
+                    "DateTime": "2312010045"
+                },
+                {
+                    "DateTime": "2312010045"
+                }
+            ],
+            "Authoriser": "18360509_INPUTTER_OFS_AA.COB",
+            "CoCode": "RW0010048",
+            "DeptCode": "1",
+            "AuditorCode": null,
+            "AuditDateTime": null,
+            "ARRAY_DefDoc": [],
+            "InsuranceCom": null,
+            "InsuranceType": null,
+            "InsuredAmt": null,
+            "InsuranceChg": null,
+            "InsuranceExp": null,
+            "FrtLossPay": null,
+            "LoanAppId": null,
+            "EconSector": null,
+            "EconSectorIsi": null,
+            "EconSectorIs": null,
+            "RestReason": null,
+            "BkEcoSector": null,
+            "BkEcoSubSect": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
+            "createdTime": "1701384335467",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 564246724
+}
+{
+    "key": "U18360509_27810fcd-c8a1-4e31-a301-cd91c662b5d1_0001_3",
+    "value": {
+        "eventId": "U18360509_27810fcd-c8a1-4e31-a301-cd91c662b5d1_0001",
+        "eventSize": 5,
+        "eventIndex": 2,
+        "emittedTime": 1702043593943,
+        "processingTime": 1701384336849,
+        "company": "FBNK",
+        "context": {
+            "jobName": "AA.SERVICE.PROCESS",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S016",
+            "processName": "BNK/AA.EOD.PROCESS",
+            "cobDate": "20231130",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
+        "entityId": "AAACT23334RBV0T9TD",
+        "application": "AA.ARRANGEMENT.ACTIVITY",
+        "payload": {
+            "recId": "AAACT23334RBV0T9TD",
+            "ArrSequence": null,
+            "Arrangement": "AA221861ZBFF",
+            "Activity": "ACCOUNTS-ISSUEBILL-SCHEDULE*CHARGE",
+            "EffectiveDate": "20231130",
+            "ARRAY_Customer": [],
+            "TradeDate": null,
+            "AlternateId": null,
+            "Remarks": null,
+            "ArrangementLinkType": null,
+            "MasterArrangement": null,
+            "Product": "Current.Account.Extra",
+            "Currency": "RWF",
+            "Channel": null,
+            "ArrCompanyCode": null,
+            "Branch": null,
+            "LineOfBusiness": null,
+            "LinkedActivity": null,
+            "ARRAY_InitiationType": [
+                {
+                    "InitiationType": "SCHEDULED*EOD"
+                }
+            ],
+            "SecondaryType": null,
+            "ARRAY_AdjActivity": [],
+            "ARRAY_ChildActivity": [],
+            "OrigContractDate": null,
+            "MasterAaa": "AAACT23334RBV0T9TD",
+            "RevMasterAaa": null,
+            "Adjustment": null,
+            "RealMasterId": null,
+            "AssessmentActivity": null,
+            "TxnAmount": null,
+            "TxnAmountLcy": null,
+            "TxnExchRate": null,
+            "TxnContractId": null,
+            "TxnSystemId": null,
+            "ExposureDate": null,
+            "ARRAY_AdviceNo": [
+                {
+                    "RECORD_AdviceNo": {
+                        "AdviceNo": "AA-2003",
+                        "MappingKey": "8581.AA.1",
+                        "DeliveryRef": "D20231201642410273501"
+                    }
+                }
+            ],
+            "ActivityClass": "ACCOUNTS-ISSUEBILL-PAYMENT.SCHEDULE",
+            "ARRAY_Property": [],
+            "ARRAY_ContextName": [],
+            "ARRAY_TransCustomer": [],
+            "ARRAY_Signatory": [],
+            "ProcessingMode": null,
+            "AutoRun": null,
+            "SimRunRef": null,
+            "OrigTxnAmt": null,
+            "OrigTxnAmtLcy": null,
+            "ARRAY_Narrative": [],
+            "ExtEventRef": null,
+            "ProductVariation": null,
+            "PricingSelection": null,
+            "PricingPlan": null,
+            "ARRAY_Reason": [],
+            "EventId": null,
+            "ARRAY_AgentId": [],
+            "ARRAY_ErrorSource": [],
+            "RewardsArrId": null,
+            "OrgSystemDate": "20231130",
+            "ClosureReason": null,
+            "ARRAY_ClosureNotes": [],
+            "CrOpportunity": null,
+            "ARRAY_ActivityLinkType": [],
+            "LinkedParentRef": null,
+            "ARRAY_StmtNos": [],
+            "ARRAY_Override": [],
+            "RecordStatus": null,
+            "CurrNo": "1",
+            "ARRAY_Inputter": [
+                {
+                    "Inputter": "18360509_INPUTTER_I_INAU_OFS_AA.COB"
+                }
+            ],
+            "ARRAY_DateTime": [
+                {
+                    "DateTime": "2312010045"
+                },
+                {
+                    "DateTime": "2312010045"
+                }
+            ],
+            "Authoriser": "18360509_INPUTTER_OFS_AA.COB",
+            "CoCode": "RW0010048",
+            "DeptCode": "1",
+            "AuditorCode": null,
+            "AuditDateTime": null,
+            "ARRAY_DefDoc": [],
+            "InsuranceCom": null,
+            "InsuranceType": null,
+            "InsuredAmt": null,
+            "InsuranceChg": null,
+            "InsuranceExp": null,
+            "FrtLossPay": null,
+            "LoanAppId": null,
+            "EconSector": null,
+            "EconSectorIsi": null,
+            "EconSectorIs": null,
+            "RestReason": null,
+            "BkEcoSector": null,
+            "BkEcoSubSect": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
+            "createdTime": "1701384335467",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 564246725
+}
+{
+    "key": "U18360509_27810fcd-c8a1-4e31-a301-cd91c662b5d1_0001_4",
+    "value": {
+        "eventId": "U18360509_27810fcd-c8a1-4e31-a301-cd91c662b5d1_0001",
+        "eventSize": 5,
+        "eventIndex": 3,
+        "emittedTime": 1702043593943,
+        "processingTime": 1701384336849,
+        "company": "FBNK",
+        "context": {
+            "jobName": "AA.SERVICE.PROCESS",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S016",
+            "processName": "BNK/AA.EOD.PROCESS",
+            "cobDate": "20231130",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
+        "entityId": "AA221861ZBFF-DRINTEREST-ACCRUAL",
+        "application": "AA.ARRANGEMENT.ACTIVITY",
+        "payload": {
+            "recId": "AA221861ZBFF-DRINTEREST-ACCRUAL",
+            "ArrSequence": null,
+            "Arrangement": "AA221861ZBFF",
+            "Activity": "ACCOUNTS-ACCRUE-DRINTEREST",
+            "EffectiveDate": "20231130",
+            "ARRAY_Customer": [],
+            "TradeDate": null,
+            "AlternateId": null,
+            "Remarks": null,
+            "ArrangementLinkType": null,
+            "MasterArrangement": null,
+            "Product": "Current.Account.Extra",
+            "Currency": "RWF",
+            "Channel": null,
+            "ArrCompanyCode": null,
+            "Branch": null,
+            "LineOfBusiness": null,
+            "LinkedActivity": null,
+            "ARRAY_InitiationType": [
+                {
+                    "InitiationType": "SCHEDULED*EOD"
+                },
+                {
+                    "InitiationType": "NOLOG"
+                }
+            ],
+            "SecondaryType": null,
+            "ARRAY_AdjActivity": [],
+            "ARRAY_ChildActivity": [],
+            "OrigContractDate": null,
+            "MasterAaa": "AA221861ZBFF-DRINTEREST-ACCRUAL",
+            "RevMasterAaa": null,
+            "Adjustment": null,
+            "RealMasterId": null,
+            "AssessmentActivity": null,
+            "TxnAmount": null,
+            "TxnAmountLcy": null,
+            "TxnExchRate": null,
+            "TxnContractId": null,
+            "TxnSystemId": null,
+            "ExposureDate": null,
+            "ARRAY_AdviceNo": [],
+            "ActivityClass": "ACCOUNTS-ACCRUE-INTEREST",
+            "ARRAY_Property": [],
+            "ARRAY_ContextName": [],
+            "ARRAY_TransCustomer": [],
+            "ARRAY_Signatory": [],
+            "ProcessingMode": null,
+            "AutoRun": null,
+            "SimRunRef": null,
+            "OrigTxnAmt": null,
+            "OrigTxnAmtLcy": null,
+            "ARRAY_Narrative": [],
+            "ExtEventRef": null,
+            "ProductVariation": null,
+            "PricingSelection": null,
+            "PricingPlan": null,
+            "ARRAY_Reason": [],
+            "EventId": null,
+            "ARRAY_AgentId": [],
+            "ARRAY_ErrorSource": [],
+            "RewardsArrId": null,
+            "OrgSystemDate": "20220705",
+            "ClosureReason": null,
+            "ARRAY_ClosureNotes": [],
+            "CrOpportunity": null,
+            "ARRAY_ActivityLinkType": [],
+            "LinkedParentRef": null,
+            "ARRAY_StmtNos": [],
+            "ARRAY_Override": [],
+            "RecordStatus": null,
+            "CurrNo": "356",
+            "ARRAY_Inputter": [
+                {
+                    "Inputter": "18360509_INPUTTER_I_INAU_OFS_AA.COB"
+                }
+            ],
+            "ARRAY_DateTime": [
+                {
+                    "DateTime": "2312010045"
+                },
+                {
+                    "DateTime": "2312010045"
+                }
+            ],
+            "Authoriser": "18360509_INPUTTER_OFS_AA.COB",
+            "CoCode": "RW0010048",
+            "DeptCode": "1",
+            "AuditorCode": null,
+            "AuditDateTime": null,
+            "ARRAY_DefDoc": [],
+            "InsuranceCom": null,
+            "InsuranceType": null,
+            "InsuredAmt": null,
+            "InsuranceChg": null,
+            "InsuranceExp": null,
+            "FrtLossPay": null,
+            "LoanAppId": null,
+            "EconSector": null,
+            "EconSectorIsi": null,
+            "EconSectorIs": null,
+            "RestReason": null,
+            "BkEcoSector": null,
+            "BkEcoSubSect": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
+            "createdTime": "1701384335467",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 564246726
+}
+{
+    "key": "U18360509_27810fcd-c8a1-4e31-a301-cd91c662b5d1_0001_5",
+    "value": {
+        "eventId": "U18360509_27810fcd-c8a1-4e31-a301-cd91c662b5d1_0001",
+        "eventSize": 5,
+        "eventIndex": 4,
+        "emittedTime": 1702043593943,
+        "processingTime": 1701384336849,
+        "company": "FBNK",
+        "context": {
+            "jobName": "AA.SERVICE.PROCESS",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S016",
+            "processName": "BNK/AA.EOD.PROCESS",
+            "cobDate": "20231130",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.AA.ARRANGEMENT.ACTIVITY",
+        "entityId": "AA221861ZBFF-CRINTEREST-ACCRUAL",
+        "application": "AA.ARRANGEMENT.ACTIVITY",
+        "payload": {
+            "recId": "AA221861ZBFF-CRINTEREST-ACCRUAL",
+            "ArrSequence": null,
+            "Arrangement": "AA221861ZBFF",
+            "Activity": "ACCOUNTS-ACCRUE-CRINTEREST",
+            "EffectiveDate": "20231130",
+            "ARRAY_Customer": [],
+            "TradeDate": null,
+            "AlternateId": null,
+            "Remarks": null,
+            "ArrangementLinkType": null,
+            "MasterArrangement": null,
+            "Product": "Current.Account.Extra",
+            "Currency": "RWF",
+            "Channel": null,
+            "ArrCompanyCode": null,
+            "Branch": null,
+            "LineOfBusiness": null,
+            "LinkedActivity": null,
+            "ARRAY_InitiationType": [
+                {
+                    "InitiationType": "SCHEDULED*EOD"
+                },
+                {
+                    "InitiationType": "NOLOG"
+                }
+            ],
+            "SecondaryType": null,
+            "ARRAY_AdjActivity": [],
+            "ARRAY_ChildActivity": [],
+            "OrigContractDate": null,
+            "MasterAaa": "AA221861ZBFF-CRINTEREST-ACCRUAL",
+            "RevMasterAaa": null,
+            "Adjustment": null,
+            "RealMasterId": null,
+            "AssessmentActivity": null,
+            "TxnAmount": null,
+            "TxnAmountLcy": null,
+            "TxnExchRate": null,
+            "TxnContractId": null,
+            "TxnSystemId": null,
+            "ExposureDate": null,
+            "ARRAY_AdviceNo": [],
+            "ActivityClass": "ACCOUNTS-ACCRUE-INTEREST",
+            "ARRAY_Property": [],
+            "ARRAY_ContextName": [],
+            "ARRAY_TransCustomer": [],
+            "ARRAY_Signatory": [],
+            "ProcessingMode": null,
+            "AutoRun": null,
+            "SimRunRef": null,
+            "OrigTxnAmt": null,
+            "OrigTxnAmtLcy": null,
+            "ARRAY_Narrative": [],
+            "ExtEventRef": null,
+            "ProductVariation": null,
+            "PricingSelection": null,
+            "PricingPlan": null,
+            "ARRAY_Reason": [],
+            "EventId": null,
+            "ARRAY_AgentId": [],
+            "ARRAY_ErrorSource": [],
+            "RewardsArrId": null,
+            "OrgSystemDate": "20220705",
+            "ClosureReason": null,
+            "ARRAY_ClosureNotes": [],
+            "CrOpportunity": null,
+            "ARRAY_ActivityLinkType": [],
+            "LinkedParentRef": null,
+            "ARRAY_StmtNos": [],
+            "ARRAY_Override": [],
+            "RecordStatus": null,
+            "CurrNo": "356",
+            "ARRAY_Inputter": [
+                {
+                    "Inputter": "18360509_INPUTTER_I_INAU_OFS_AA.COB"
+                }
+            ],
+            "ARRAY_DateTime": [
+                {
+                    "DateTime": "2312010045"
+                },
+                {
+                    "DateTime": "2312010045"
+                }
+            ],
+            "Authoriser": "18360509_INPUTTER_OFS_AA.COB",
+            "CoCode": "RW0010048",
+            "DeptCode": "1",
+            "AuditorCode": null,
+            "AuditDateTime": null,
+            "ARRAY_DefDoc": [],
+            "InsuranceCom": null,
+            "InsuranceType": null,
+            "InsuredAmt": null,
+            "InsuranceChg": null,
+            "InsuranceExp": null,
+            "FrtLossPay": null,
+            "LoanAppId": null,
+            "EconSector": null,
+            "EconSectorIsi": null,
+            "EconSectorIs": null,
+            "RestReason": null,
+            "BkEcoSector": null,
+            "BkEcoSubSect": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
+            "createdTime": "1701384335467",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 564246727
+}
+{
+    "key": "U18359292_cf209f9f-1b6c-43aa-816a-8cb5b83e5972_0001_1",
+    "value": {
+        "eventId": "U18359292_cf209f9f-1b6c-43aa-816a-8cb5b83e5972_0001",
+        "eventSize": 4,
+        "eventIndex": 0,
+        "emittedTime": 1702043593944,
+        "processingTime": 1701384339819,
+        "company": "FBNK",
+        "context": {
+            "jobName": "AA.SERVICE.PROCESS",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S016",
+            "processName": "BNK/AA.EOD.PROCESS",
+            "cobDate": "20231130",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.AA.ACCOUNT.DETAILS",
+        "entityId": "AA22096PSS9K",
+        "application": "AA.ACCOUNT.DETAILS",
+        "payload": {
+            "recId": "AA22096PSS9K",
+            "ArrangementId": null,
+            "ARRAY_ContractDate": [
+                {
+                    "ContractDate": "20220406"
+                }
+            ],
+            "ValueDate": "20220406",
+            "StartDate": null,
+            "DrawdownEndDate": null,
+            "PaymentStartDate": "20220430",
+            "MaturityDate": null,
+            "ArrAgeStatus": null,
+            "RenewalDate": null,
+            "CoolingDate": null,
+            "CancelDate": null,
+            "BaseDate": "20220406",
+            "ARRAY_BillPayDate": [],
+            "AllAgeStatus": null,
+            "Suspended": null,
+            "ReportEndDate": null,
+            "ARRAY_ScheduleType": [
+                {
+                    "RECORD_ScheduleType": {
+                        "ScheduleType": "CHARGE-SUBSCRIBEFEES",
+                        "NumPayments": "20",
+                        "SUB_ARRAY_PaymentDate": [
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20231130",
+                                    "ActPayDate": "20231130",
+                                    "FinPayDate": "20231130"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20231031",
+                                    "ActPayDate": "20231031",
+                                    "FinPayDate": "20231031"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230930",
+                                    "ActPayDate": "20230930",
+                                    "FinPayDate": "20230929"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230831",
+                                    "ActPayDate": "20230831",
+                                    "FinPayDate": "20230831"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230731",
+                                    "ActPayDate": "20230731",
+                                    "FinPayDate": "20230731"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230630",
+                                    "ActPayDate": "20230630",
+                                    "FinPayDate": "20230630"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230531",
+                                    "ActPayDate": "20230531",
+                                    "FinPayDate": "20230531"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230430",
+                                    "ActPayDate": "20230430",
+                                    "FinPayDate": "20230428"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230331",
+                                    "ActPayDate": "20230331",
+                                    "FinPayDate": "20230331"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230228",
+                                    "ActPayDate": "20230228",
+                                    "FinPayDate": "20230228"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230131",
+                                    "ActPayDate": "20230131",
+                                    "FinPayDate": "20230131"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221231",
+                                    "ActPayDate": "20221231",
+                                    "FinPayDate": "20221230"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221130",
+                                    "ActPayDate": "20221130",
+                                    "FinPayDate": "20221130"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221031",
+                                    "ActPayDate": "20221031",
+                                    "FinPayDate": "20221031"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220930",
+                                    "ActPayDate": "20220930",
+                                    "FinPayDate": "20220930"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220831",
+                                    "ActPayDate": "20220831",
+                                    "FinPayDate": "20220831"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220731",
+                                    "ActPayDate": "20220731",
+                                    "FinPayDate": "20220729"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220630",
+                                    "ActPayDate": "20220630",
+                                    "FinPayDate": "20220630"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220531",
+                                    "ActPayDate": "20220531",
+                                    "FinPayDate": "20220531"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220430",
+                                    "ActPayDate": "20220430",
+                                    "FinPayDate": "20220429"
+                                }
+                            }
+                        ],
+                        "SUB_ARRAY_InterimDate": []
+                    }
+                },
+                {
+                    "RECORD_ScheduleType": {
+                        "ScheduleType": "INTEREST-CRINTEREST",
+                        "NumPayments": "6",
+                        "SUB_ARRAY_PaymentDate": [
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20231006",
+                                    "ActPayDate": "20231006",
+                                    "FinPayDate": "20231006"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230706",
+                                    "ActPayDate": "20230706",
+                                    "FinPayDate": "20230706"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230406",
+                                    "ActPayDate": "20230406",
+                                    "FinPayDate": "20230406"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20230106",
+                                    "ActPayDate": "20230106",
+                                    "FinPayDate": "20230106"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20221006",
+                                    "ActPayDate": "20221006",
+                                    "FinPayDate": "20221006"
+                                }
+                            },
+                            {
+                                "SUB_RECORD_PaymentDate": {
+                                    "PaymentDate": "20220706",
+                                    "ActPayDate": "20220706",
+                                    "FinPayDate": "20220706"
+                                }
+                            }
+                        ],
+                        "SUB_ARRAY_InterimDate": []
+                    }
+                }
+            ],
+            "TakeoverArr": null,
+            "ARRAY_RepayReference": [],
+            "ARRAY_SuspStatus": [],
+            "ARRAY_LastRenewDate": [],
+            "PaymentEndDate": null,
+            "BillsSettledCnt": null,
+            "StaticUpdate": null,
+            "Reserved_D_5": null,
+            "ARRAY_RpyReference": [],
+            "ARRAY_WofActivityRef": [],
+            "ChargeoffDate": null,
+            "ARRAY_ChargeoffReference": [],
+            "Reserved_D_2": null,
+            "Reserved_D_1": null,
+            "OverdraftStatus": null,
+            "ReservedOd": null,
+            "PrimaryOdDate": null,
+            "ARRAY_ActualRenewDate": [],
+            "ARRAY_HolPaymentType": [],
+            "OnlineCapitalise": null,
+            "ArrDormancyStatus": "DOM.CLOSED",
+            "ARRAY_DormancyStatus": [
+                {
+                    "RECORD_DormancyStatus": {
+                        "DormancyStatus": "DOM.CLOSED",
+                        "DormancyDate": "20230831",
+                        "DormancyProcess": "AUTO"
+                    }
+                },
+                {
+                    "RECORD_DormancyStatus": {
+                        "DormancyStatus": "DORMANT",
+                        "DormancyDate": "20230228",
+                        "DormancyProcess": "AUTO"
+                    }
+                },
+                {
+                    "RECORD_DormancyStatus": {
+                        "DormancyStatus": "INACTIVE",
+                        "DormancyDate": "20221129",
+                        "DormancyProcess": "AUTO"
+                    }
+                },
+                {
+                    "RECORD_DormancyStatus": {
+                        "DormancyStatus": null,
+                        "DormancyDate": "20220829",
+                        "DormancyProcess": "AUTO"
+                    }
+                },
+                {
+                    "RECORD_DormancyStatus": {
+                        "DormancyStatus": "INACTIVE",
+                        "DormancyDate": "20220706",
+                        "DormancyProcess": "AUTO"
+                    }
+                },
+                {
+                    "RECORD_DormancyStatus": {
+                        "DormancyStatus": null,
+                        "DormancyDate": "20220406",
+                        "DormancyProcess": "AUTO"
+                    }
+                }
+            ],
+            "ARRAY_IntStatementType": [],
+            "PendingAdjustmentDate": null,
+            "Branch": null,
+            "LineOfBusiness": null,
+            "ARRAY_SuspendedBy": [],
+            "DeferClosureDate": null,
+            "FullChargeoff": null,
+            "BaseCcyRate": null,
+            "BaseCcyAmount": null,
+            "CurRestructureStatus": null,
+            "RiskStage": null,
+            "ARRAY_RuleEffectiveDate": [],
+            "BaseCcyOvdAmount": null,
+            "CommtExpiryDate": null,
+            "CommitmentStatus": null,
+            "ManualAgeing": null,
+            "ARRAY_ManualAgeBillType": [],
+            "ARRAY_RfrIntProperties": []
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:e79cc744-f53c-4e4b-b1d2-716ab3304624",
+            "createdTime": "1701384338595",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 564246728
 }
