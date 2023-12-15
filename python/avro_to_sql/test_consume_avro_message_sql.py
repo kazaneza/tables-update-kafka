@@ -6,7 +6,7 @@ from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.avro import AvroDeserializer
 
 def main():
-    # Kafka configuration
+    # Kafka configuration 
     schema_registry_conf = {'url': 'http://10.24.36.25:35003'}
     schema_registry_client = SchemaRegistryClient(schema_registry_conf)
 
@@ -33,9 +33,8 @@ def main():
     cnxn = pyodbc.connect(conn_str)
     cursor = cnxn.cursor()
 
-    try:
-        message_count = 0
-        while message_count < 3:
+    try: 
+        while True:
             msg = consumer.poll(1.0)
             if msg is None:
                 continue
@@ -58,7 +57,6 @@ def main():
             cursor.execute(insert_query, json_data)
             cnxn.commit()
 
-            message_count += 1
     except KeyboardInterrupt:
         pass
     except Exception as e:
