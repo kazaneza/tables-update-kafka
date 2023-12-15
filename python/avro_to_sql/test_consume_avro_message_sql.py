@@ -26,7 +26,7 @@ def main():
     # Database configuration
     conn_str = (
         "Driver={SQL Server};"
-        "Server=localhost;"
+        "Server=ACADEMY06;"
         "Database=KafkaMessageJson;"
         "Trusted_Connection=yes;"
     )
@@ -34,8 +34,7 @@ def main():
     cursor = cnxn.cursor()
 
     try:
-        message_count = 0
-        while message_count < 3:
+        while True:  # Run indefinitely until interrupted
             msg = consumer.poll(1.0)
             if msg is None:
                 continue
@@ -58,7 +57,6 @@ def main():
             cursor.execute(insert_query, json_data)
             cnxn.commit()
 
-            message_count += 1
     except KeyboardInterrupt:
         pass
     except Exception as e:
