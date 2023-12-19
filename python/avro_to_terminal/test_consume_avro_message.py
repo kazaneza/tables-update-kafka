@@ -20,20 +20,9 @@ def main():
     consumer = DeserializingConsumer(consumer_config)
     consumer.subscribe(['table-update'])
 
-    try: 
+    try:
         while True:
             msg = consumer.poll(1.0)
             if msg is None:
                 continue
-            if msg.error():
-                print("Consumer error: {}".format(msg.error()))
-                continue
-
-            print(f"Consumed record with key {msg.key()} and value {msg.value()}")
-    except KeyboardInterrupt:
-        pass
-    finally: 
-        consumer.close()
-
-if __name__ == '__main__':
-    main()
+            if msg.error

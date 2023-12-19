@@ -6,7 +6,7 @@ from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.avro import AvroDeserializer
 
 def main():
-    # Kafka configuration 
+    # Kafka configuration
     schema_registry_conf = {'url': 'http://10.24.36.25:35003'}
     schema_registry_client = SchemaRegistryClient(schema_registry_conf)
 
@@ -33,8 +33,8 @@ def main():
     cnxn = pyodbc.connect(conn_str)
     cursor = cnxn.cursor()
 
-    try: 
-        while True:
+    try:
+        while True: 
             msg = consumer.poll(1.0)
             if msg is None:
                 continue
@@ -42,8 +42,8 @@ def main():
                 print("Consumer error: {}".format(msg.error()))
                 continue
 
-            # Convert message to JSON
-            message_json = {
+            # Convert message to Json
+            message_json ={
                 "key": msg.key(),
                 "value": msg.value(),
                 "topic": msg.topic(),
@@ -51,7 +51,7 @@ def main():
                 "offset": msg.offset()
             }
 
-            # Insert JSON data into SQL Server
+            # Insert Json data into SQL Server
             json_data = json.dumps(message_json, default=str)
             insert_query = "INSERT INTO KafkaMessages (JsonData) VALUES (?)"
             cursor.execute(insert_query, json_data)
