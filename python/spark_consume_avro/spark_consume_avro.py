@@ -24,18 +24,13 @@ spark = SparkSession.builder \
 
 # Schema Registry URL
 schema_registry_url = "http://10.24.36.25:35003"
-kafka_topic = "table-update"
 
-# List all subjects
-subjects = list_schema_registry_subjects(schema_registry_url)
-
-# Find the correct subject for the Kafka topic
-subject_for_topic = next((sub for sub in subjects if kafka_topic in sub), None)
-if not subject_for_topic:
-    raise Exception(f"No subject found for topic {kafka_topic}")
+# Kafka Topic and Schema Registry Subject
+kafka_topic = "table-update"  # Update this if your Kafka topic name is different
+schema_registry_subject = "CUSTOMER"  # The subject in the Schema Registry
 
 # Fetch the Avro schema for the subject
-avro_schema = fetch_schema_from_registry(schema_registry_url, subject_for_topic)
+avro_schema = fetch_schema_from_registry(schema_registry_url, schema_registry_subject)
 
 # Kafka Configuration
 kafka_bootstrap_servers = "10.24.36.25:35002"
