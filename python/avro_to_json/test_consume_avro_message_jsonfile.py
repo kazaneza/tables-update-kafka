@@ -12,7 +12,7 @@ def main():
 
     consumer_config = {
         'bootstrap.servers': '10.24.36.25:35002',
-        'group.id': 'table-update',
+        'group.id': 'test',
         'auto.offset.reset': 'earliest',
         'key.deserializer': StringDeserializer('utf_8'),
         'value.deserializer': value_deserializer
