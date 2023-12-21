@@ -34,7 +34,7 @@ def main():
     cursor = cnxn.cursor()
 
     try:
-        while True: 
+        while True:  # Run indefinitely until interrupted
             msg = consumer.poll(1.0)
             if msg is None:
                 continue
@@ -42,8 +42,8 @@ def main():
                 print("Consumer error: {}".format(msg.error()))
                 continue
 
-            # Convert message to Json
-            message_json ={
+            # Convert message to JSON
+            message_json = {
                 "key": msg.key(),
                 "value": msg.value(),
                 "topic": msg.topic(),
@@ -51,7 +51,7 @@ def main():
                 "offset": msg.offset()
             }
 
-            # Insert Json data into SQL Server
+            # Insert JSON data into SQL Server
             json_data = json.dumps(message_json, default=str)
             insert_query = "INSERT INTO KafkaMessages (JsonData) VALUES (?)"
             cursor.execute(insert_query, json_data)
