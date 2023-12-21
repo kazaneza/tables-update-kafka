@@ -1,5 +1,5 @@
 from confluent_kafka import DeserializingConsumer
-from confluent_kafka.serialization import StringDeserializer
+from confluent_kafka.serialization import StringDeserializer, SerializationContext, MessageField
 from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.avro import AvroDeserializer
 
@@ -25,4 +25,15 @@ def main():
             msg = consumer.poll(1.0)
             if msg is None:
                 continue
-            if msg.error
+            if msg.error():
+                print("Consumer error: {}".format(msg.error()))
+                continue
+
+            print(f"Consumed record with key {msg.key()} and value {msg.value()}")
+    except KeyboardInterrupt:
+        pass
+    finally:
+        consumer.close()
+
+if __name__ == '__main__':
+    main()
