@@ -14,7 +14,7 @@ def main():
 
     consumer_config = {
         'bootstrap.servers': '10.24.36.25:35002',
-        'group.id': 'test25/12/2023',
+        'group.id': 'streaming_db27/12/2023',
         'auto.offset.reset': 'earliest',
         'key.deserializer': StringDeserializer('utf_8'),
         'value.deserializer': value_deserializer
@@ -26,15 +26,16 @@ def main():
     # Database configuration
     conn_str = (
         "Driver={SQL Server};"
-        "Server=ACADEMY06;"
-        "Database=KafkaMessageJson;"
+        "Server=10.24.37.99;"
+        "Database=DATA_STREAMING_DB;"
         "Trusted_Connection=yes;"
+        "Auto_Commit=true;"
     )
     cnxn = pyodbc.connect(conn_str)
     cursor = cnxn.cursor()
 
     try:
-        while True:  # Run indefinitely until interrupted
+        while True: 
             msg = consumer.poll(1.0)
             if msg is None:
                 continue
@@ -51,10 +52,20 @@ def main():
                 "offset": msg.offset()
             }
 
-            # Insert JSON data into SQL Server
+            # Extract additional fields
+            processing_time = msg.value().get('processingTime', None)
+            entity_name = msg.value().get('entityName', None)
+            entity_id = msg.value().get('entityId', None)
+
+            # Prepare Json data
             json_data = json.dumps(message_json, default=str)
-            insert_query = "INSERT INTO KafkaMessages (JsonData) VALUES (?)"
-            cursor.execute(insert_query, json_data)
+
+            # Updated insert query with new columns
+            insert_query = """
+            INSERT INTO Data_Event (JsonData, ProcessingTime, EntityName, EntityId) 
+            VALUES (?, ?, ?, ?)
+            """
+            cursor.execute(insert_query, json_data, processing_time, entity_name, entity_id)
             cnxn.commit()
 
     except KeyboardInterrupt:
