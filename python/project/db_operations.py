@@ -11,5 +11,5 @@ def get_db_connection():
 
     return pyodbc.connect(conn_str)
 
-def execute_insert_query(cursor, query, json_data, processing_time, entity_name, entity_id, ShortName):
-    cursor.execute(query, json_data, processing_time, entity_name, entity_id, ShortName)
+def execute_insert_query(cursor, query, values):
+    cursor.execute(query, *values)

@@ -36,7 +36,7 @@ def main():
                 values = [message_json] + [message_fields.get(column) for column in columns[1:]]
 
                 # Execute the query
-                execute_insert_query(cursor, insert_query, *values)
+                execute_insert_query(cursor, insert_query, values)
                 cnxn.commit()
                 
 
