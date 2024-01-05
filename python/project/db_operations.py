@@ -6,8 +6,9 @@ def get_db_connection():
         "Server=ACADEMY06;"
         "Database=KafkaMessageJson;"
         "Trusted_Connection=yes;"
-        "Auto_Commit=true;"
+        "Auto_commit=true;"
     )
+
     return pyodbc.connect(conn_str)
 
 def execute_insert_query(cursor, query, json_data, processing_time, entity_name, entity_id):

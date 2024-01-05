@@ -15,6 +15,7 @@ def process_message(msg):
     entity_name = msg.value().get('entityName', None)
     entity_id = msg.value().get('entityId', None)
 
+
     # Prepare Json data
     json_data = json.dumps(message_json, default=str)
 
