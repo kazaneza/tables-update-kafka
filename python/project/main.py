@@ -18,7 +18,7 @@ def main():
             if msg is None or msg.error():
                 continue
 
-            message_json, message_fields = process_message(msg)
+            message_json, message_fields = process_message(msg, config)
             entity_name = message_fields.get('entityName')
 
             if entity_name in config:
