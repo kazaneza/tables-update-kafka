@@ -1,0 +1,3334 @@
+{
+    "key": "U18138265_1b373de4-46b6-455c-adb1-cb6702623246_0001_1",
+    "value": {
+        "eventId": "U18138265_1b373de4-46b6-455c-adb1-cb6702623246_0001",
+        "eventSize": 1,
+        "eventIndex": 0,
+        "emittedTime": 1702287366894,
+        "processingTime": 1700519686415,
+        "company": "FBNK",
+        "context": {
+            "jobName": "RE.STATIC.CHANGE",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S040",
+            "processName": "BNK/SYSTEM.END.OF.DAY5",
+            "cobDate": "20231120",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.EB.CONTRACT.BALANCES",
+        "entityId": "100084315618",
+        "application": "EB.CONTRACT.BALANCES",
+        "payload": {
+            "recId": "100084315618",
+            "ContractBalId": null,
+            "Currency": "RWF",
+            "ARRAY_TypeSysdate": [
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "500",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT-20230322",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": "198000",
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT-20230323",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": "-198000",
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                }
+            ],
+            "ConsolKey": "AC.1.TR.RWF.1030.1000.RW....1..301072....RW0010063",
+            "OpenAssetType": "CREDIT",
+            "CoCode": "RW0010063",
+            "PossSignChange": null,
+            "NsUpdateIndicator": null,
+            "Application": "ACCOUNT",
+            "Product": "AC",
+            "DateLastUpdate": "20231120",
+            "Customer": "1782932",
+            "InterestRate": null,
+            "InterestKey": null,
+            "InterestBasis": null,
+            "InterestSpread": null,
+            "ARRAY_ReportItem": [],
+            "PrevConsolKey": null,
+            "PrevAssetType": null,
+            "ContractValueDate": null,
+            "ARRAY_BalanceType": [],
+            "ARRAY_ActivityId": [],
+            "ARRAY_StmtEntIds": [],
+            "StmtSplitId": null,
+            "ARRAY_ConsolEntIds": [],
+            "ConsolSplitId": null,
+            "ARRAY_CategEntIds": [],
+            "CategSplitId": null,
+            "ARRAY_AccrCategory": [],
+            "ARRAY_ActivityMonths": [],
+            "ARRAY_BalType": [
+                {
+                    "RECORD_BalType": {
+                        "BalType": "CURBALANCE",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202209"
+                            },
+                            {
+                                "BtActMonths": "202210"
+                            },
+                            {
+                                "BtActMonths": "202301"
+                            },
+                            {
+                                "BtActMonths": "202303"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ARRAY_CollatRight": [],
+            "ARRAY_Collateral": [],
+            "ARRAY_StmtProcDate": [
+                {
+                    "RECORD_StmtProcDate": {
+                        "StmtProcDate": "20230323",
+                        "NoOfStmt": "2"
+                    }
+                }
+            ],
+            "RiskLimitRef": null,
+            "ARRAY_RiskCollRgtId": [],
+            "ARRAY_CategProcessDate": [],
+            "OpenActualBal": "500",
+            "OpenClearedBal": "500",
+            "OnlineActualBal": "500",
+            "OnlineClearedBal": "500",
+            "WorkingBalance": "500",
+            "OpenAvailableBal": null,
+            "ARRAY_AvailableDate": [],
+            "FirstAfDate": null,
+            "NextAfDate": null,
+            "NextExpDate": null,
+            "ARRAY_ExposureDates": [],
+            "ARRAY_InitiatorType": [
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "CUST-CR",
+                        "DateLast": "20230322",
+                        "AmntLast": "198000",
+                        "TransLast": "1089"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "CUST-DR",
+                        "DateLast": "20230323",
+                        "AmntLast": "-196000",
+                        "TransLast": "1241"
+                    }
+                }
+            ],
+            "LastAcBalUpd": "20230323",
+            "BalanceMoved": "LCK",
+            "AuthPayMvmt": "0",
+            "AuthReceiveMvmt": "0",
+            "TradeDatedGlBal": "500",
+            "TotUnauthCr": "0",
+            "TotUnauthDb": "0",
+            "TotFwdUnauCr": null,
+            "TotFwdUnauDb": null,
+            "ARRAY_UnauthKey": [],
+            "ARRAY_FwdUnauthKey": [],
+            "HvtFlag": null,
+            "LastUpdateTime": "21:41:12 23 MAR 2023",
+            "AccountingCompany": null,
+            "ARRAY_CcyList": [],
+            "ARRAY_FromDate": [],
+            "AuthFutExpBal": null,
+            "UnauFutExpBal": null,
+            "UnauFwdMvmt": null,
+            "ARRAY_SweepAccount": [],
+            "ARRAY_CollateralRightId": [],
+            "ARRAY_CrFromDate": [],
+            "EndOfRecCrf": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:8718edc5-3c24-41ba-8714-38e711d08603",
+            "createdTime": "1700519686389",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 567591233
+}
+{
+    "key": "U18138376_f4408d38-167f-4a13-af6d-10766905552d_0001_1",
+    "value": {
+        "eventId": "U18138376_f4408d38-167f-4a13-af6d-10766905552d_0001",
+        "eventSize": 1,
+        "eventIndex": 0,
+        "emittedTime": 1702287366895,
+        "processingTime": 1700519686435,
+        "company": "FBNK",
+        "context": {
+            "jobName": "RE.STATIC.CHANGE",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S040",
+            "processName": "BNK/SYSTEM.END.OF.DAY5",
+            "cobDate": "20231120",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.EB.CONTRACT.BALANCES",
+        "entityId": "100078389677",
+        "application": "EB.CONTRACT.BALANCES",
+        "payload": {
+            "recId": "100078389677",
+            "ContractBalId": null,
+            "Currency": "RWF",
+            "ARRAY_TypeSysdate": [
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "441",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT-20231030",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": "55196",
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "ACCCRINTEREST-20231030",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": "8",
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "ACCCRINTEREST"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT-20231031",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": "-55000",
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                }
+            ],
+            "ConsolKey": "AC.1.TR.RWF.6002.1000.RW....20..301065....RW0010041",
+            "OpenAssetType": "CREDIT",
+            "CoCode": "RW0010041",
+            "PossSignChange": null,
+            "NsUpdateIndicator": null,
+            "Application": "ACCOUNT",
+            "Product": "AC",
+            "DateLastUpdate": "20231120",
+            "Customer": "1747512",
+            "InterestRate": null,
+            "InterestKey": null,
+            "InterestBasis": null,
+            "InterestSpread": null,
+            "ARRAY_ReportItem": [],
+            "PrevConsolKey": null,
+            "PrevAssetType": null,
+            "ContractValueDate": null,
+            "ARRAY_BalanceType": [],
+            "ARRAY_ActivityId": [],
+            "ARRAY_StmtEntIds": [],
+            "StmtSplitId": null,
+            "ARRAY_ConsolEntIds": [],
+            "ConsolSplitId": null,
+            "ARRAY_CategEntIds": [],
+            "CategSplitId": null,
+            "ARRAY_AccrCategory": [],
+            "ARRAY_ActivityMonths": [],
+            "ARRAY_BalType": [
+                {
+                    "RECORD_BalType": {
+                        "BalType": "ACCCRINTEREST",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202204"
+                            },
+                            {
+                                "BtActMonths": "202205"
+                            },
+                            {
+                                "BtActMonths": "202207"
+                            },
+                            {
+                                "BtActMonths": "202211"
+                            },
+                            {
+                                "BtActMonths": "202212"
+                            },
+                            {
+                                "BtActMonths": "202301"
+                            },
+                            {
+                                "BtActMonths": "202303"
+                            },
+                            {
+                                "BtActMonths": "202304"
+                            },
+                            {
+                                "BtActMonths": "202309"
+                            },
+                            {
+                                "BtActMonths": "202310"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "RECORD_BalType": {
+                        "BalType": "CURBALANCE",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202204"
+                            },
+                            {
+                                "BtActMonths": "202205"
+                            },
+                            {
+                                "BtActMonths": "202206"
+                            },
+                            {
+                                "BtActMonths": "202207"
+                            },
+                            {
+                                "BtActMonths": "202208"
+                            },
+                            {
+                                "BtActMonths": "202209"
+                            },
+                            {
+                                "BtActMonths": "202210"
+                            },
+                            {
+                                "BtActMonths": "202211"
+                            },
+                            {
+                                "BtActMonths": "202212"
+                            },
+                            {
+                                "BtActMonths": "202301"
+                            },
+                            {
+                                "BtActMonths": "202302"
+                            },
+                            {
+                                "BtActMonths": "202303"
+                            },
+                            {
+                                "BtActMonths": "202304"
+                            },
+                            {
+                                "BtActMonths": "202305"
+                            },
+                            {
+                                "BtActMonths": "202306"
+                            },
+                            {
+                                "BtActMonths": "202307"
+                            },
+                            {
+                                "BtActMonths": "202308"
+                            },
+                            {
+                                "BtActMonths": "202309"
+                            },
+                            {
+                                "BtActMonths": "202310"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ARRAY_CollatRight": [],
+            "ARRAY_Collateral": [],
+            "ARRAY_StmtProcDate": [
+                {
+                    "RECORD_StmtProcDate": {
+                        "StmtProcDate": "20231031",
+                        "NoOfStmt": "1"
+                    }
+                }
+            ],
+            "RiskLimitRef": null,
+            "ARRAY_RiskCollRgtId": [],
+            "ARRAY_CategProcessDate": [
+                {
+                    "RECORD_CategProcessDate": {
+                        "CategProcessDate": "20231030",
+                        "SUB_ARRAY_CategEntryIds": [
+                            {
+                                "CategEntryIds": "203933279600742.000001*17819963"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "OpenActualBal": "637",
+            "OpenClearedBal": "637",
+            "OnlineActualBal": "637",
+            "OnlineClearedBal": "637",
+            "WorkingBalance": "637",
+            "OpenAvailableBal": null,
+            "ARRAY_AvailableDate": [],
+            "FirstAfDate": null,
+            "NextAfDate": null,
+            "NextExpDate": null,
+            "ARRAY_ExposureDates": [],
+            "ARRAY_InitiatorType": [
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "CUST-CR",
+                        "DateLast": "20231030",
+                        "AmntLast": "55196",
+                        "TransLast": "258"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "CUST-DR",
+                        "DateLast": "20231031",
+                        "AmntLast": "-55000",
+                        "TransLast": "1561"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-CR",
+                        "DateLast": "20231026",
+                        "AmntLast": "8",
+                        "TransLast": "831"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-DR",
+                        "DateLast": "20231026",
+                        "AmntLast": "-1",
+                        "TransLast": "891"
+                    }
+                }
+            ],
+            "LastAcBalUpd": "20231031",
+            "BalanceMoved": "LCK",
+            "AuthPayMvmt": "0",
+            "AuthReceiveMvmt": "0",
+            "TradeDatedGlBal": "637",
+            "TotUnauthCr": "0",
+            "TotUnauthDb": "0",
+            "TotFwdUnauCr": null,
+            "TotFwdUnauDb": null,
+            "ARRAY_UnauthKey": [],
+            "ARRAY_FwdUnauthKey": [],
+            "HvtFlag": null,
+            "LastUpdateTime": "01:08:30 01 NOV 2023",
+            "AccountingCompany": null,
+            "ARRAY_CcyList": [],
+            "ARRAY_FromDate": [],
+            "AuthFutExpBal": null,
+            "UnauFutExpBal": null,
+            "UnauFwdMvmt": null,
+            "ARRAY_SweepAccount": [],
+            "ARRAY_CollateralRightId": [],
+            "ARRAY_CrFromDate": [],
+            "EndOfRecCrf": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:8718edc5-3c24-41ba-8714-38e711d08603",
+            "createdTime": "1700519686322",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 567591234
+}
+{
+    "key": "U18138381_fcf084c3-3eea-43f9-ac3f-7bebe2bf8b4d_0001_1",
+    "value": {
+        "eventId": "U18138381_fcf084c3-3eea-43f9-ac3f-7bebe2bf8b4d_0001",
+        "eventSize": 1,
+        "eventIndex": 0,
+        "emittedTime": 1702287366895,
+        "processingTime": 1700519686439,
+        "company": "FBNK",
+        "context": {
+            "jobName": "RE.STATIC.CHANGE",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S040",
+            "processName": "BNK/SYSTEM.END.OF.DAY5",
+            "cobDate": "20231120",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.EB.CONTRACT.BALANCES",
+        "entityId": "100011654759",
+        "application": "EB.CONTRACT.BALANCES",
+        "payload": {
+            "recId": "100011654759",
+            "ContractBalId": null,
+            "Currency": "RWF",
+            "ARRAY_TypeSysdate": [
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "DEBIT",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "-1039",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "DEBIT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "ACCDRINTEREST",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "-15",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "ACCDRINTEREST"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "DEBIT-20221230",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": "1054",
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": "-15",
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "DEBIT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "ACCDRINTEREST-20221230",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": "15",
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "ACCDRINTEREST"
+                    }
+                }
+            ],
+            "ConsolKey": "AC.1.TR.RWF.1007.1000.RW....7..301058....RW0010038",
+            "OpenAssetType": "DEBIT",
+            "CoCode": "RW0010038",
+            "PossSignChange": null,
+            "NsUpdateIndicator": null,
+            "Application": "ACCOUNT",
+            "Product": "AC",
+            "DateLastUpdate": "20231120",
+            "Customer": "1176856",
+            "InterestRate": null,
+            "InterestKey": null,
+            "InterestBasis": null,
+            "InterestSpread": null,
+            "ARRAY_ReportItem": [],
+            "PrevConsolKey": null,
+            "PrevAssetType": null,
+            "ContractValueDate": null,
+            "ARRAY_BalanceType": [],
+            "ARRAY_ActivityId": [],
+            "ARRAY_StmtEntIds": [],
+            "StmtSplitId": null,
+            "ARRAY_ConsolEntIds": [],
+            "ConsolSplitId": null,
+            "ARRAY_CategEntIds": [],
+            "CategSplitId": null,
+            "ARRAY_AccrCategory": [],
+            "ARRAY_ActivityMonths": [],
+            "ARRAY_BalType": [
+                {
+                    "RECORD_BalType": {
+                        "BalType": "ACCDRINTEREST",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202110"
+                            },
+                            {
+                                "BtActMonths": "202111"
+                            },
+                            {
+                                "BtActMonths": "202112"
+                            },
+                            {
+                                "BtActMonths": "202201"
+                            },
+                            {
+                                "BtActMonths": "202202"
+                            },
+                            {
+                                "BtActMonths": "202203"
+                            },
+                            {
+                                "BtActMonths": "202204"
+                            },
+                            {
+                                "BtActMonths": "202205"
+                            },
+                            {
+                                "BtActMonths": "202206"
+                            },
+                            {
+                                "BtActMonths": "202207"
+                            },
+                            {
+                                "BtActMonths": "202208"
+                            },
+                            {
+                                "BtActMonths": "202209"
+                            },
+                            {
+                                "BtActMonths": "202210"
+                            },
+                            {
+                                "BtActMonths": "202211"
+                            },
+                            {
+                                "BtActMonths": "202212"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "RECORD_BalType": {
+                        "BalType": "CURBALANCE",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202110"
+                            },
+                            {
+                                "BtActMonths": "202111"
+                            },
+                            {
+                                "BtActMonths": "202112"
+                            },
+                            {
+                                "BtActMonths": "202201"
+                            },
+                            {
+                                "BtActMonths": "202202"
+                            },
+                            {
+                                "BtActMonths": "202203"
+                            },
+                            {
+                                "BtActMonths": "202204"
+                            },
+                            {
+                                "BtActMonths": "202205"
+                            },
+                            {
+                                "BtActMonths": "202206"
+                            },
+                            {
+                                "BtActMonths": "202207"
+                            },
+                            {
+                                "BtActMonths": "202208"
+                            },
+                            {
+                                "BtActMonths": "202209"
+                            },
+                            {
+                                "BtActMonths": "202210"
+                            },
+                            {
+                                "BtActMonths": "202211"
+                            },
+                            {
+                                "BtActMonths": "202212"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ARRAY_CollatRight": [],
+            "ARRAY_Collateral": [],
+            "ARRAY_StmtProcDate": [
+                {
+                    "RECORD_StmtProcDate": {
+                        "StmtProcDate": "20221230",
+                        "NoOfStmt": "2"
+                    }
+                }
+            ],
+            "RiskLimitRef": null,
+            "ARRAY_RiskCollRgtId": [],
+            "ARRAY_CategProcessDate": [
+                {
+                    "RECORD_CategProcessDate": {
+                        "CategProcessDate": "20221228",
+                        "SUB_ARRAY_CategEntryIds": [
+                            {
+                                "CategEntryIds": "200860800080888.000001*11399352"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "OpenActualBal": "0",
+            "OpenClearedBal": "0",
+            "OnlineActualBal": "0",
+            "OnlineClearedBal": "0",
+            "WorkingBalance": "0",
+            "OpenAvailableBal": null,
+            "ARRAY_AvailableDate": [],
+            "FirstAfDate": null,
+            "NextAfDate": null,
+            "NextExpDate": null,
+            "ARRAY_ExposureDates": [],
+            "ARRAY_InitiatorType": [
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "BANK-DR",
+                        "DateLast": "20211015",
+                        "AmntLast": "-831",
+                        "TransLast": "892"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-DR",
+                        "DateLast": "20221230",
+                        "AmntLast": "-15",
+                        "TransLast": "831"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-CR",
+                        "DateLast": "20220603",
+                        "AmntLast": "15",
+                        "TransLast": "831"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "CUST-CR",
+                        "DateLast": "20221230",
+                        "AmntLast": "1054",
+                        "TransLast": "1087"
+                    }
+                }
+            ],
+            "LastAcBalUpd": "20221230",
+            "BalanceMoved": "LCK",
+            "AuthPayMvmt": "0",
+            "AuthReceiveMvmt": "0",
+            "TradeDatedGlBal": "0",
+            "TotUnauthCr": "0",
+            "TotUnauthDb": null,
+            "TotFwdUnauCr": null,
+            "TotFwdUnauDb": null,
+            "ARRAY_UnauthKey": [],
+            "ARRAY_FwdUnauthKey": [],
+            "HvtFlag": null,
+            "LastUpdateTime": "03:34:02 31 DEC 2022",
+            "AccountingCompany": null,
+            "ARRAY_CcyList": [],
+            "ARRAY_FromDate": [],
+            "AuthFutExpBal": null,
+            "UnauFutExpBal": null,
+            "UnauFwdMvmt": null,
+            "ARRAY_SweepAccount": [],
+            "ARRAY_CollateralRightId": [],
+            "ARRAY_CrFromDate": [],
+            "EndOfRecCrf": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:8718edc5-3c24-41ba-8714-38e711d08603",
+            "createdTime": "1700519686415",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 567591235
+}
+{
+    "key": "U18138380_87fceb07-fa1e-454c-b976-455bee7ddf7d_0001_1",
+    "value": {
+        "eventId": "U18138380_87fceb07-fa1e-454c-b976-455bee7ddf7d_0001",
+        "eventSize": 1,
+        "eventIndex": 0,
+        "emittedTime": 1702287366896,
+        "processingTime": 1700519686457,
+        "company": "FBNK",
+        "context": {
+            "jobName": "RE.STATIC.CHANGE",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S040",
+            "processName": "BNK/SYSTEM.END.OF.DAY5",
+            "cobDate": "20231120",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.EB.CONTRACT.BALANCES",
+        "entityId": "100027054387",
+        "application": "EB.CONTRACT.BALANCES",
+        "payload": {
+            "recId": "100027054387",
+            "ContractBalId": null,
+            "Currency": "RWF",
+            "ARRAY_TypeSysdate": [
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "3987",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT-20230315",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": "-3500",
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                }
+            ],
+            "ConsolKey": "AC.1.TR.RWF.1030.1000.RW....7..301036....RW0010058",
+            "OpenAssetType": "CREDIT",
+            "CoCode": "RW0010058",
+            "PossSignChange": null,
+            "NsUpdateIndicator": null,
+            "Application": "ACCOUNT",
+            "Product": "AC",
+            "DateLastUpdate": "20231120",
+            "Customer": "1355527",
+            "InterestRate": null,
+            "InterestKey": null,
+            "InterestBasis": null,
+            "InterestSpread": null,
+            "ARRAY_ReportItem": [],
+            "PrevConsolKey": "AC.1.TR.RWF.1001.1000.RW....7..301036....RW0010058",
+            "PrevAssetType": "DEBIT",
+            "ContractValueDate": null,
+            "ARRAY_BalanceType": [],
+            "ARRAY_ActivityId": [],
+            "ARRAY_StmtEntIds": [],
+            "StmtSplitId": null,
+            "ARRAY_ConsolEntIds": [],
+            "ConsolSplitId": null,
+            "ARRAY_CategEntIds": [],
+            "CategSplitId": null,
+            "ARRAY_AccrCategory": [],
+            "ARRAY_ActivityMonths": [],
+            "ARRAY_BalType": [
+                {
+                    "RECORD_BalType": {
+                        "BalType": "ACCDRINTEREST",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202111"
+                            },
+                            {
+                                "BtActMonths": "202112"
+                            },
+                            {
+                                "BtActMonths": "202208"
+                            },
+                            {
+                                "BtActMonths": "202209"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "RECORD_BalType": {
+                        "BalType": "CURBALANCE",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202110"
+                            },
+                            {
+                                "BtActMonths": "202111"
+                            },
+                            {
+                                "BtActMonths": "202112"
+                            },
+                            {
+                                "BtActMonths": "202201"
+                            },
+                            {
+                                "BtActMonths": "202202"
+                            },
+                            {
+                                "BtActMonths": "202203"
+                            },
+                            {
+                                "BtActMonths": "202207"
+                            },
+                            {
+                                "BtActMonths": "202208"
+                            },
+                            {
+                                "BtActMonths": "202209"
+                            },
+                            {
+                                "BtActMonths": "202303"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ARRAY_CollatRight": [],
+            "ARRAY_Collateral": [],
+            "ARRAY_StmtProcDate": [
+                {
+                    "RECORD_StmtProcDate": {
+                        "StmtProcDate": "20230315",
+                        "NoOfStmt": "2"
+                    }
+                }
+            ],
+            "RiskLimitRef": null,
+            "ARRAY_RiskCollRgtId": [],
+            "ARRAY_CategProcessDate": [
+                {
+                    "RECORD_CategProcessDate": {
+                        "CategProcessDate": "20220818",
+                        "SUB_ARRAY_CategEntryIds": [
+                            {
+                                "CategEntryIds": "199557969506572.000001*7151043"
+                            },
+                            {
+                                "CategEntryIds": "199557969506581.020001*7151043"
+                            },
+                            {
+                                "CategEntryIds": "199558880007817.000001*7151047"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "OpenActualBal": "487",
+            "OpenClearedBal": "487",
+            "OnlineActualBal": "487",
+            "OnlineClearedBal": "487",
+            "WorkingBalance": "487",
+            "OpenAvailableBal": null,
+            "ARRAY_AvailableDate": [],
+            "FirstAfDate": null,
+            "NextAfDate": null,
+            "NextExpDate": null,
+            "ARRAY_ExposureDates": [],
+            "ARRAY_InitiatorType": [
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-CR",
+                        "DateLast": "20220304",
+                        "AmntLast": "1500",
+                        "TransLast": "833"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-DR",
+                        "DateLast": "20220831",
+                        "AmntLast": "-13",
+                        "TransLast": "831"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "CUST-CR",
+                        "DateLast": "20220817",
+                        "AmntLast": "82000",
+                        "TransLast": "52"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "CUST-DR",
+                        "DateLast": "20230315",
+                        "AmntLast": "-3000",
+                        "TransLast": "2"
+                    }
+                }
+            ],
+            "LastAcBalUpd": "20230315",
+            "BalanceMoved": "LCK",
+            "AuthPayMvmt": "0",
+            "AuthReceiveMvmt": "0",
+            "TradeDatedGlBal": "487",
+            "TotUnauthCr": "0",
+            "TotUnauthDb": "0",
+            "TotFwdUnauCr": null,
+            "TotFwdUnauDb": null,
+            "ARRAY_UnauthKey": [],
+            "ARRAY_FwdUnauthKey": [],
+            "HvtFlag": null,
+            "LastUpdateTime": "21:33:27 15 MAR 2023",
+            "AccountingCompany": null,
+            "ARRAY_CcyList": [],
+            "ARRAY_FromDate": [],
+            "AuthFutExpBal": null,
+            "UnauFutExpBal": null,
+            "UnauFwdMvmt": null,
+            "ARRAY_SweepAccount": [],
+            "ARRAY_CollateralRightId": [],
+            "ARRAY_CrFromDate": [],
+            "EndOfRecCrf": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:8718edc5-3c24-41ba-8714-38e711d08603",
+            "createdTime": "1700519686407",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 567591236
+}
+{
+    "key": "U18138246_e82b3611-62a4-4f35-9e46-ba32a4bb9120_0001_1",
+    "value": {
+        "eventId": "U18138246_e82b3611-62a4-4f35-9e46-ba32a4bb9120_0001",
+        "eventSize": 1,
+        "eventIndex": 0,
+        "emittedTime": 1702287366896,
+        "processingTime": 1700519686459,
+        "company": "FBNK",
+        "context": {
+            "jobName": "RE.STATIC.CHANGE",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S040",
+            "processName": "BNK/SYSTEM.END.OF.DAY5",
+            "cobDate": "20231120",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.EB.CONTRACT.BALANCES",
+        "entityId": "100073768777",
+        "application": "EB.CONTRACT.BALANCES",
+        "payload": {
+            "recId": "100073768777",
+            "ContractBalId": null,
+            "Currency": "RWF",
+            "ARRAY_TypeSysdate": [
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "3004",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT-20221221",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": "-200",
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT-20221222",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": "-2800",
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                }
+            ],
+            "ConsolKey": "AC.1.TR.RWF.1030.1000.RW....18..402031....RW0010021",
+            "OpenAssetType": "CREDIT",
+            "CoCode": "RW0010021",
+            "PossSignChange": null,
+            "NsUpdateIndicator": null,
+            "Application": "ACCOUNT",
+            "Product": "AC",
+            "DateLastUpdate": "20231120",
+            "Customer": "1722858",
+            "InterestRate": null,
+            "InterestKey": null,
+            "InterestBasis": null,
+            "InterestSpread": null,
+            "ARRAY_ReportItem": [],
+            "PrevConsolKey": null,
+            "PrevAssetType": null,
+            "ContractValueDate": null,
+            "ARRAY_BalanceType": [],
+            "ARRAY_ActivityId": [],
+            "ARRAY_StmtEntIds": [],
+            "StmtSplitId": null,
+            "ARRAY_ConsolEntIds": [],
+            "ConsolSplitId": null,
+            "ARRAY_CategEntIds": [],
+            "CategSplitId": null,
+            "ARRAY_AccrCategory": [],
+            "ARRAY_ActivityMonths": [],
+            "ARRAY_BalType": [
+                {
+                    "RECORD_BalType": {
+                        "BalType": "CURBALANCE",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202201"
+                            },
+                            {
+                                "BtActMonths": "202202"
+                            },
+                            {
+                                "BtActMonths": "202203"
+                            },
+                            {
+                                "BtActMonths": "202205"
+                            },
+                            {
+                                "BtActMonths": "202207"
+                            },
+                            {
+                                "BtActMonths": "202212"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ARRAY_CollatRight": [],
+            "ARRAY_Collateral": [],
+            "ARRAY_StmtProcDate": [
+                {
+                    "RECORD_StmtProcDate": {
+                        "StmtProcDate": "20221222",
+                        "NoOfStmt": "3"
+                    }
+                }
+            ],
+            "RiskLimitRef": null,
+            "ARRAY_RiskCollRgtId": [],
+            "ARRAY_CategProcessDate": [],
+            "OpenActualBal": "4",
+            "OpenClearedBal": "4",
+            "OnlineActualBal": "4",
+            "OnlineClearedBal": "4",
+            "WorkingBalance": "4",
+            "OpenAvailableBal": null,
+            "ARRAY_AvailableDate": [],
+            "FirstAfDate": null,
+            "NextAfDate": null,
+            "NextExpDate": null,
+            "ARRAY_ExposureDates": [],
+            "ARRAY_InitiatorType": [
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "CUST-CR",
+                        "DateLast": "20221220",
+                        "AmntLast": "3000",
+                        "TransLast": "258"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "CUST-DR",
+                        "DateLast": "20221222",
+                        "AmntLast": "-1500",
+                        "TransLast": "1152"
+                    }
+                }
+            ],
+            "LastAcBalUpd": "20221222",
+            "BalanceMoved": "LCK",
+            "AuthPayMvmt": "0",
+            "AuthReceiveMvmt": "0",
+            "TradeDatedGlBal": "4",
+            "TotUnauthCr": "0",
+            "TotUnauthDb": "0",
+            "TotFwdUnauCr": null,
+            "TotFwdUnauDb": null,
+            "ARRAY_UnauthKey": [],
+            "ARRAY_FwdUnauthKey": [],
+            "HvtFlag": null,
+            "LastUpdateTime": "22:52:35 22 DEC 2022",
+            "AccountingCompany": null,
+            "ARRAY_CcyList": [],
+            "ARRAY_FromDate": [],
+            "AuthFutExpBal": null,
+            "UnauFutExpBal": null,
+            "UnauFwdMvmt": null,
+            "ARRAY_SweepAccount": [],
+            "ARRAY_CollateralRightId": [],
+            "ARRAY_CrFromDate": [],
+            "EndOfRecCrf": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:8718edc5-3c24-41ba-8714-38e711d08603",
+            "createdTime": "1700519686409",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 567591237
+}
+{
+    "key": "U18138382_97510712-298f-4ea6-99b3-efdebc84962c_0001_1",
+    "value": {
+        "eventId": "U18138382_97510712-298f-4ea6-99b3-efdebc84962c_0001",
+        "eventSize": 1,
+        "eventIndex": 0,
+        "emittedTime": 1702287366897,
+        "processingTime": 1700519686467,
+        "company": "FBNK",
+        "context": {
+            "jobName": "RE.STATIC.CHANGE",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S040",
+            "processName": "BNK/SYSTEM.END.OF.DAY5",
+            "cobDate": "20231120",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.EB.CONTRACT.BALANCES",
+        "entityId": "100002055273",
+        "application": "EB.CONTRACT.BALANCES",
+        "payload": {
+            "recId": "100002055273",
+            "ContractBalId": null,
+            "Currency": "RWF",
+            "ARRAY_TypeSysdate": [
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "DEBIT",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "-147",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "DEBIT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "ACCDRINTEREST",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "-2",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "ACCDRINTEREST"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "DEBIT-20230228",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": "-2",
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "DEBIT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "ACCDRINTEREST-20230228",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": "2",
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "ACCDRINTEREST"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "DEBIT-20230301",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": "149",
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "DEBIT"
+                    }
+                }
+            ],
+            "ConsolKey": "AC.1.TR.RWF.1001.1000.RW....7..301015....RW0010021",
+            "OpenAssetType": "DEBIT",
+            "CoCode": "RW0010021",
+            "PossSignChange": null,
+            "NsUpdateIndicator": null,
+            "Application": "ACCOUNT",
+            "Product": "AC",
+            "DateLastUpdate": "20231120",
+            "Customer": "1026509",
+            "InterestRate": null,
+            "InterestKey": null,
+            "InterestBasis": null,
+            "InterestSpread": null,
+            "ARRAY_ReportItem": [],
+            "PrevConsolKey": null,
+            "PrevAssetType": null,
+            "ContractValueDate": null,
+            "ARRAY_BalanceType": [],
+            "ARRAY_ActivityId": [],
+            "ARRAY_StmtEntIds": [],
+            "StmtSplitId": null,
+            "ARRAY_ConsolEntIds": [],
+            "ConsolSplitId": null,
+            "ARRAY_CategEntIds": [],
+            "CategSplitId": null,
+            "ARRAY_AccrCategory": [],
+            "ARRAY_ActivityMonths": [],
+            "ARRAY_BalType": [
+                {
+                    "RECORD_BalType": {
+                        "BalType": "ACCDRINTEREST",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202110"
+                            },
+                            {
+                                "BtActMonths": "202111"
+                            },
+                            {
+                                "BtActMonths": "202112"
+                            },
+                            {
+                                "BtActMonths": "202201"
+                            },
+                            {
+                                "BtActMonths": "202202"
+                            },
+                            {
+                                "BtActMonths": "202203"
+                            },
+                            {
+                                "BtActMonths": "202204"
+                            },
+                            {
+                                "BtActMonths": "202205"
+                            },
+                            {
+                                "BtActMonths": "202206"
+                            },
+                            {
+                                "BtActMonths": "202207"
+                            },
+                            {
+                                "BtActMonths": "202208"
+                            },
+                            {
+                                "BtActMonths": "202209"
+                            },
+                            {
+                                "BtActMonths": "202210"
+                            },
+                            {
+                                "BtActMonths": "202211"
+                            },
+                            {
+                                "BtActMonths": "202212"
+                            },
+                            {
+                                "BtActMonths": "202301"
+                            },
+                            {
+                                "BtActMonths": "202302"
+                            },
+                            {
+                                "BtActMonths": "202303"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "RECORD_BalType": {
+                        "BalType": "CURBALANCE",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202110"
+                            },
+                            {
+                                "BtActMonths": "202111"
+                            },
+                            {
+                                "BtActMonths": "202112"
+                            },
+                            {
+                                "BtActMonths": "202202"
+                            },
+                            {
+                                "BtActMonths": "202203"
+                            },
+                            {
+                                "BtActMonths": "202204"
+                            },
+                            {
+                                "BtActMonths": "202205"
+                            },
+                            {
+                                "BtActMonths": "202206"
+                            },
+                            {
+                                "BtActMonths": "202207"
+                            },
+                            {
+                                "BtActMonths": "202208"
+                            },
+                            {
+                                "BtActMonths": "202209"
+                            },
+                            {
+                                "BtActMonths": "202210"
+                            },
+                            {
+                                "BtActMonths": "202211"
+                            },
+                            {
+                                "BtActMonths": "202212"
+                            },
+                            {
+                                "BtActMonths": "202301"
+                            },
+                            {
+                                "BtActMonths": "202302"
+                            },
+                            {
+                                "BtActMonths": "202303"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ARRAY_CollatRight": [],
+            "ARRAY_Collateral": [],
+            "ARRAY_StmtProcDate": [
+                {
+                    "RECORD_StmtProcDate": {
+                        "StmtProcDate": "20230301",
+                        "NoOfStmt": "1"
+                    }
+                }
+            ],
+            "RiskLimitRef": null,
+            "ARRAY_RiskCollRgtId": [],
+            "ARRAY_CategProcessDate": [
+                {
+                    "RECORD_CategProcessDate": {
+                        "CategProcessDate": "20230221",
+                        "SUB_ARRAY_CategEntryIds": [
+                            {
+                                "CategEntryIds": "201416547982512.010001*12019107"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "OpenActualBal": "0",
+            "OpenClearedBal": "0",
+            "OnlineActualBal": "0",
+            "OnlineClearedBal": "0",
+            "WorkingBalance": "0",
+            "OpenAvailableBal": null,
+            "ARRAY_AvailableDate": [],
+            "FirstAfDate": null,
+            "NextAfDate": null,
+            "NextExpDate": null,
+            "ARRAY_ExposureDates": [],
+            "ARRAY_InitiatorType": [
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "BANK-DR",
+                        "DateLast": "20211015",
+                        "AmntLast": "-6390",
+                        "TransLast": "892"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-DR",
+                        "DateLast": "20230228",
+                        "AmntLast": "-2",
+                        "TransLast": "831"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "CUST-CR",
+                        "DateLast": "20230301",
+                        "AmntLast": "149",
+                        "TransLast": "1087"
+                    }
+                }
+            ],
+            "LastAcBalUpd": "20230301",
+            "BalanceMoved": "LCK",
+            "AuthPayMvmt": "0",
+            "AuthReceiveMvmt": "0",
+            "TradeDatedGlBal": "0",
+            "TotUnauthCr": "0",
+            "TotUnauthDb": null,
+            "TotFwdUnauCr": null,
+            "TotFwdUnauDb": null,
+            "ARRAY_UnauthKey": [],
+            "ARRAY_FwdUnauthKey": [],
+            "HvtFlag": null,
+            "LastUpdateTime": "23:55:23 01 MAR 2023",
+            "AccountingCompany": null,
+            "ARRAY_CcyList": [],
+            "ARRAY_FromDate": [],
+            "AuthFutExpBal": null,
+            "UnauFutExpBal": null,
+            "UnauFwdMvmt": null,
+            "ARRAY_SweepAccount": [],
+            "ARRAY_CollateralRightId": [],
+            "ARRAY_CrFromDate": [],
+            "EndOfRecCrf": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:8718edc5-3c24-41ba-8714-38e711d08603",
+            "createdTime": "1700519686442",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 567591238
+}
+{
+    "key": "U18138261_9e65b70f-73d2-4bdc-beb9-e5d8d50b81fc_0001_1",
+    "value": {
+        "eventId": "U18138261_9e65b70f-73d2-4bdc-beb9-e5d8d50b81fc_0001",
+        "eventSize": 1,
+        "eventIndex": 0,
+        "emittedTime": 1702287366898,
+        "processingTime": 1700519686476,
+        "company": "FBNK",
+        "context": {
+            "jobName": "RE.STATIC.CHANGE",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S040",
+            "processName": "BNK/SYSTEM.END.OF.DAY5",
+            "cobDate": "20231120",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.EB.CONTRACT.BALANCES",
+        "entityId": "100049167223",
+        "application": "EB.CONTRACT.BALANCES",
+        "payload": {
+            "recId": "100049167223",
+            "ContractBalId": null,
+            "Currency": "RWF",
+            "ARRAY_TypeSysdate": [
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "385",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "ACCCRINTEREST",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "2",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "ACCCRINTEREST"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "ACCCRINTEREST-20231117",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": "1",
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "ACCCRINTEREST"
+                    }
+                }
+            ],
+            "ConsolKey": "AC.1.TR.RWF.6007.1000.RW....7..301000....RW0010037",
+            "OpenAssetType": "CREDIT",
+            "CoCode": "RW0010037",
+            "PossSignChange": null,
+            "NsUpdateIndicator": null,
+            "Application": "ACCOUNT",
+            "Product": "AC",
+            "DateLastUpdate": "20231120",
+            "Customer": "1422010",
+            "InterestRate": null,
+            "InterestKey": null,
+            "InterestBasis": null,
+            "InterestSpread": null,
+            "ARRAY_ReportItem": [],
+            "PrevConsolKey": null,
+            "PrevAssetType": null,
+            "ContractValueDate": null,
+            "ARRAY_BalanceType": [],
+            "ARRAY_ActivityId": [],
+            "ARRAY_StmtEntIds": [],
+            "StmtSplitId": null,
+            "ARRAY_ConsolEntIds": [],
+            "ConsolSplitId": null,
+            "ARRAY_CategEntIds": [],
+            "CategSplitId": null,
+            "ARRAY_AccrCategory": [],
+            "ARRAY_ActivityMonths": [],
+            "ARRAY_BalType": [
+                {
+                    "RECORD_BalType": {
+                        "BalType": "ACCCRINTEREST",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202110"
+                            },
+                            {
+                                "BtActMonths": "202111"
+                            },
+                            {
+                                "BtActMonths": "202112"
+                            },
+                            {
+                                "BtActMonths": "202201"
+                            },
+                            {
+                                "BtActMonths": "202202"
+                            },
+                            {
+                                "BtActMonths": "202203"
+                            },
+                            {
+                                "BtActMonths": "202204"
+                            },
+                            {
+                                "BtActMonths": "202205"
+                            },
+                            {
+                                "BtActMonths": "202206"
+                            },
+                            {
+                                "BtActMonths": "202207"
+                            },
+                            {
+                                "BtActMonths": "202208"
+                            },
+                            {
+                                "BtActMonths": "202209"
+                            },
+                            {
+                                "BtActMonths": "202210"
+                            },
+                            {
+                                "BtActMonths": "202211"
+                            },
+                            {
+                                "BtActMonths": "202212"
+                            },
+                            {
+                                "BtActMonths": "202301"
+                            },
+                            {
+                                "BtActMonths": "202302"
+                            },
+                            {
+                                "BtActMonths": "202303"
+                            },
+                            {
+                                "BtActMonths": "202304"
+                            },
+                            {
+                                "BtActMonths": "202305"
+                            },
+                            {
+                                "BtActMonths": "202306"
+                            },
+                            {
+                                "BtActMonths": "202307"
+                            },
+                            {
+                                "BtActMonths": "202308"
+                            },
+                            {
+                                "BtActMonths": "202309"
+                            },
+                            {
+                                "BtActMonths": "202310"
+                            },
+                            {
+                                "BtActMonths": "202311"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "RECORD_BalType": {
+                        "BalType": "CURBALANCE",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202110"
+                            },
+                            {
+                                "BtActMonths": "202201"
+                            },
+                            {
+                                "BtActMonths": "202204"
+                            },
+                            {
+                                "BtActMonths": "202207"
+                            },
+                            {
+                                "BtActMonths": "202210"
+                            },
+                            {
+                                "BtActMonths": "202301"
+                            },
+                            {
+                                "BtActMonths": "202304"
+                            },
+                            {
+                                "BtActMonths": "202307"
+                            },
+                            {
+                                "BtActMonths": "202310"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ARRAY_CollatRight": [],
+            "ARRAY_Collateral": [],
+            "ARRAY_StmtProcDate": [
+                {
+                    "RECORD_StmtProcDate": {
+                        "StmtProcDate": "20231011",
+                        "NoOfStmt": "2"
+                    }
+                }
+            ],
+            "RiskLimitRef": null,
+            "ARRAY_RiskCollRgtId": [],
+            "ARRAY_CategProcessDate": [
+                {
+                    "RECORD_CategProcessDate": {
+                        "CategProcessDate": "20231117",
+                        "SUB_ARRAY_CategEntryIds": [
+                            {
+                                "CategEntryIds": "204103831086398.000001*18116935"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "OpenActualBal": "385",
+            "OpenClearedBal": "385",
+            "OnlineActualBal": "385",
+            "OnlineClearedBal": "385",
+            "WorkingBalance": "385",
+            "OpenAvailableBal": null,
+            "ARRAY_AvailableDate": [],
+            "FirstAfDate": null,
+            "NextAfDate": null,
+            "NextExpDate": null,
+            "ARRAY_ExposureDates": [],
+            "ARRAY_InitiatorType": [
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-CR",
+                        "DateLast": "20231011",
+                        "AmntLast": "6",
+                        "TransLast": "831"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "CUST-DR",
+                        "DateLast": "20211027",
+                        "AmntLast": "-3000",
+                        "TransLast": "213"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-DR",
+                        "DateLast": "20231011",
+                        "AmntLast": "-1",
+                        "TransLast": "891"
+                    }
+                }
+            ],
+            "LastAcBalUpd": "20231011",
+            "BalanceMoved": "LCK",
+            "AuthPayMvmt": "0",
+            "AuthReceiveMvmt": "0",
+            "TradeDatedGlBal": "385",
+            "TotUnauthCr": null,
+            "TotUnauthDb": "0",
+            "TotFwdUnauCr": null,
+            "TotFwdUnauDb": null,
+            "ARRAY_UnauthKey": [],
+            "ARRAY_FwdUnauthKey": [],
+            "HvtFlag": null,
+            "LastUpdateTime": "23:21:26 02 NOV 2023",
+            "AccountingCompany": null,
+            "ARRAY_CcyList": [],
+            "ARRAY_FromDate": [],
+            "AuthFutExpBal": null,
+            "UnauFutExpBal": null,
+            "UnauFwdMvmt": null,
+            "ARRAY_SweepAccount": [],
+            "ARRAY_CollateralRightId": [],
+            "ARRAY_CrFromDate": [],
+            "EndOfRecCrf": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:8718edc5-3c24-41ba-8714-38e711d08603",
+            "createdTime": "1700519686447",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 567591239
+}
+{
+    "key": "U18138265_43660b4e-daff-47be-b4db-d3dd653c1e4e_0001_1",
+    "value": {
+        "eventId": "U18138265_43660b4e-daff-47be-b4db-d3dd653c1e4e_0001",
+        "eventSize": 1,
+        "eventIndex": 0,
+        "emittedTime": 1702287366898,
+        "processingTime": 1700519686485,
+        "company": "FBNK",
+        "context": {
+            "jobName": "RE.STATIC.CHANGE",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S040",
+            "processName": "BNK/SYSTEM.END.OF.DAY5",
+            "cobDate": "20231120",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.EB.CONTRACT.BALANCES",
+        "entityId": "100084316266",
+        "application": "EB.CONTRACT.BALANCES",
+        "payload": {
+            "recId": "100084316266",
+            "ContractBalId": null,
+            "Currency": "RWF",
+            "ARRAY_TypeSysdate": [
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "284354",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "ACCCRINTEREST",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "3051",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "ACCCRINTEREST"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "ACCCRINTEREST-20231117",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": "117",
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "ACCCRINTEREST"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "ACCCRINTEREST-20231120",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": "39",
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "ACCCRINTEREST"
+                    }
+                }
+            ],
+            "ConsolKey": "AC.1.TR.RWF.6003.1000.RW....17..403092....RW0010061",
+            "OpenAssetType": "CREDIT",
+            "CoCode": "RW0010061",
+            "PossSignChange": null,
+            "NsUpdateIndicator": null,
+            "Application": "ACCOUNT",
+            "Product": "AC",
+            "DateLastUpdate": "20231120",
+            "Customer": "1782800",
+            "InterestRate": null,
+            "InterestKey": null,
+            "InterestBasis": null,
+            "InterestSpread": null,
+            "ARRAY_ReportItem": [],
+            "PrevConsolKey": null,
+            "PrevAssetType": null,
+            "ContractValueDate": null,
+            "ARRAY_BalanceType": [],
+            "ARRAY_ActivityId": [],
+            "ARRAY_StmtEntIds": [],
+            "StmtSplitId": null,
+            "ARRAY_ConsolEntIds": [],
+            "ConsolSplitId": null,
+            "ARRAY_CategEntIds": [],
+            "CategSplitId": null,
+            "ARRAY_AccrCategory": [],
+            "ARRAY_ActivityMonths": [],
+            "ARRAY_BalType": [
+                {
+                    "RECORD_BalType": {
+                        "BalType": "ACCCRINTEREST",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202211"
+                            },
+                            {
+                                "BtActMonths": "202212"
+                            },
+                            {
+                                "BtActMonths": "202301"
+                            },
+                            {
+                                "BtActMonths": "202302"
+                            },
+                            {
+                                "BtActMonths": "202303"
+                            },
+                            {
+                                "BtActMonths": "202304"
+                            },
+                            {
+                                "BtActMonths": "202305"
+                            },
+                            {
+                                "BtActMonths": "202306"
+                            },
+                            {
+                                "BtActMonths": "202307"
+                            },
+                            {
+                                "BtActMonths": "202308"
+                            },
+                            {
+                                "BtActMonths": "202309"
+                            },
+                            {
+                                "BtActMonths": "202310"
+                            },
+                            {
+                                "BtActMonths": "202311"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "RECORD_BalType": {
+                        "BalType": "CURBALANCE",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202209"
+                            },
+                            {
+                                "BtActMonths": "202210"
+                            },
+                            {
+                                "BtActMonths": "202211"
+                            },
+                            {
+                                "BtActMonths": "202212"
+                            },
+                            {
+                                "BtActMonths": "202301"
+                            },
+                            {
+                                "BtActMonths": "202302"
+                            },
+                            {
+                                "BtActMonths": "202303"
+                            },
+                            {
+                                "BtActMonths": "202304"
+                            },
+                            {
+                                "BtActMonths": "202305"
+                            },
+                            {
+                                "BtActMonths": "202306"
+                            },
+                            {
+                                "BtActMonths": "202307"
+                            },
+                            {
+                                "BtActMonths": "202308"
+                            },
+                            {
+                                "BtActMonths": "202309"
+                            },
+                            {
+                                "BtActMonths": "202310"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ARRAY_CollatRight": [],
+            "ARRAY_Collateral": [],
+            "ARRAY_StmtProcDate": [
+                {
+                    "RECORD_StmtProcDate": {
+                        "StmtProcDate": "20231030",
+                        "NoOfStmt": "1"
+                    }
+                }
+            ],
+            "RiskLimitRef": null,
+            "ARRAY_RiskCollRgtId": [],
+            "ARRAY_CategProcessDate": [
+                {
+                    "RECORD_CategProcessDate": {
+                        "CategProcessDate": "20231120",
+                        "SUB_ARRAY_CategEntryIds": [
+                            {
+                                "CategEntryIds": "204131906183513.020001*18137065"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "OpenActualBal": "284354",
+            "OpenClearedBal": "284354",
+            "OnlineActualBal": "284354",
+            "OnlineClearedBal": "284354",
+            "WorkingBalance": "284354",
+            "OpenAvailableBal": null,
+            "ARRAY_AvailableDate": [],
+            "FirstAfDate": null,
+            "NextAfDate": null,
+            "NextExpDate": null,
+            "ARRAY_ExposureDates": [],
+            "ARRAY_InitiatorType": [
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "CUST-CR",
+                        "DateLast": "20231030",
+                        "AmntLast": "20000",
+                        "TransLast": "214"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-CR",
+                        "DateLast": "20230822",
+                        "AmntLast": "2505",
+                        "TransLast": "831"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-DR",
+                        "DateLast": "20230822",
+                        "AmntLast": "-376",
+                        "TransLast": "891"
+                    }
+                }
+            ],
+            "LastAcBalUpd": "20231030",
+            "BalanceMoved": "LCK",
+            "AuthPayMvmt": "0",
+            "AuthReceiveMvmt": "0",
+            "TradeDatedGlBal": "284354",
+            "TotUnauthCr": null,
+            "TotUnauthDb": null,
+            "TotFwdUnauCr": "0",
+            "TotFwdUnauDb": null,
+            "ARRAY_UnauthKey": [],
+            "ARRAY_FwdUnauthKey": [],
+            "HvtFlag": null,
+            "LastUpdateTime": "23:20:03 01 NOV 2023",
+            "AccountingCompany": null,
+            "ARRAY_CcyList": [],
+            "ARRAY_FromDate": [],
+            "AuthFutExpBal": null,
+            "UnauFutExpBal": null,
+            "UnauFwdMvmt": null,
+            "ARRAY_SweepAccount": [],
+            "ARRAY_CollateralRightId": [],
+            "ARRAY_CrFromDate": [],
+            "EndOfRecCrf": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:8718edc5-3c24-41ba-8714-38e711d08603",
+            "createdTime": "1700519686467",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 567591240
+}
+{
+    "key": "U18138267_11c0680a-d7ee-4c5f-b516-86b0b67b1353_0001_1",
+    "value": {
+        "eventId": "U18138267_11c0680a-d7ee-4c5f-b516-86b0b67b1353_0001",
+        "eventSize": 1,
+        "eventIndex": 0,
+        "emittedTime": 1702287366899,
+        "processingTime": 1700519686498,
+        "company": "FBNK",
+        "context": {
+            "jobName": "RE.STATIC.CHANGE",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S040",
+            "processName": "BNK/SYSTEM.END.OF.DAY5",
+            "cobDate": "20231120",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.EB.CONTRACT.BALANCES",
+        "entityId": "100054382288",
+        "application": "EB.CONTRACT.BALANCES",
+        "payload": {
+            "recId": "100054382288",
+            "ContractBalId": null,
+            "Currency": "RWF",
+            "ARRAY_TypeSysdate": [
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "ACCPENALTYINT",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "-1379",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "ACCPENALTYINT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "WOFACCOUNT",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "-28435",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "WOFACCOUNT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "WOFACCOUNT-20221215",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": "28435",
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "WOFACCOUNT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "ACCPENALTYINT-20221215",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": "1379",
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "ACCPENALTYINT"
+                    }
+                }
+            ],
+            "ConsolKey": "AC.1.TR.RWF.3013.1000.RW....7.Y.301073....RW0010017",
+            "OpenAssetType": "DUEACCOUNT",
+            "CoCode": "RW0010017",
+            "PossSignChange": null,
+            "NsUpdateIndicator": null,
+            "Application": "ACCOUNT",
+            "Product": "AC",
+            "DateLastUpdate": "20231120",
+            "Customer": "1260762",
+            "InterestRate": null,
+            "InterestKey": null,
+            "InterestBasis": null,
+            "InterestSpread": null,
+            "ARRAY_ReportItem": [],
+            "PrevConsolKey": "AC.1.TR.RWF.3013.1000.RW.15D..WOF.7..301073....RW0010017",
+            "PrevAssetType": null,
+            "ContractValueDate": null,
+            "ARRAY_BalanceType": [],
+            "ARRAY_ActivityId": [],
+            "ARRAY_StmtEntIds": [],
+            "StmtSplitId": null,
+            "ARRAY_ConsolEntIds": [],
+            "ConsolSplitId": null,
+            "ARRAY_CategEntIds": [],
+            "CategSplitId": null,
+            "ARRAY_AccrCategory": [],
+            "ARRAY_ActivityMonths": [],
+            "ARRAY_BalType": [
+                {
+                    "RECORD_BalType": {
+                        "BalType": "ACCPENALTYINT",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202003"
+                            },
+                            {
+                                "BtActMonths": "202004"
+                            },
+                            {
+                                "BtActMonths": "202005"
+                            },
+                            {
+                                "BtActMonths": "202006"
+                            },
+                            {
+                                "BtActMonths": "202007"
+                            },
+                            {
+                                "BtActMonths": "202008"
+                            },
+                            {
+                                "BtActMonths": "202009"
+                            },
+                            {
+                                "BtActMonths": "202010"
+                            },
+                            {
+                                "BtActMonths": "202011"
+                            },
+                            {
+                                "BtActMonths": "202012"
+                            },
+                            {
+                                "BtActMonths": "202101"
+                            },
+                            {
+                                "BtActMonths": "202102"
+                            },
+                            {
+                                "BtActMonths": "202103"
+                            },
+                            {
+                                "BtActMonths": "202104"
+                            },
+                            {
+                                "BtActMonths": "202105"
+                            },
+                            {
+                                "BtActMonths": "202106"
+                            },
+                            {
+                                "BtActMonths": "202107"
+                            },
+                            {
+                                "BtActMonths": "202108"
+                            },
+                            {
+                                "BtActMonths": "202109"
+                            },
+                            {
+                                "BtActMonths": "202110"
+                            },
+                            {
+                                "BtActMonths": "202212"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "RECORD_BalType": {
+                        "BalType": "DUEACCOUNT",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202003"
+                            },
+                            {
+                                "BtActMonths": "202004"
+                            },
+                            {
+                                "BtActMonths": "202005"
+                            },
+                            {
+                                "BtActMonths": "202006"
+                            },
+                            {
+                                "BtActMonths": "202007"
+                            },
+                            {
+                                "BtActMonths": "202008"
+                            },
+                            {
+                                "BtActMonths": "202009"
+                            },
+                            {
+                                "BtActMonths": "202010"
+                            },
+                            {
+                                "BtActMonths": "202011"
+                            },
+                            {
+                                "BtActMonths": "202012"
+                            },
+                            {
+                                "BtActMonths": "202101"
+                            },
+                            {
+                                "BtActMonths": "202102"
+                            },
+                            {
+                                "BtActMonths": "202103"
+                            },
+                            {
+                                "BtActMonths": "202104"
+                            },
+                            {
+                                "BtActMonths": "202105"
+                            },
+                            {
+                                "BtActMonths": "202106"
+                            },
+                            {
+                                "BtActMonths": "202107"
+                            },
+                            {
+                                "BtActMonths": "202108"
+                            },
+                            {
+                                "BtActMonths": "202109"
+                            },
+                            {
+                                "BtActMonths": "202110"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "RECORD_BalType": {
+                        "BalType": "LOSACCOUNT",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202003"
+                            },
+                            {
+                                "BtActMonths": "202004"
+                            },
+                            {
+                                "BtActMonths": "202005"
+                            },
+                            {
+                                "BtActMonths": "202006"
+                            },
+                            {
+                                "BtActMonths": "202007"
+                            },
+                            {
+                                "BtActMonths": "202008"
+                            },
+                            {
+                                "BtActMonths": "202009"
+                            },
+                            {
+                                "BtActMonths": "202010"
+                            },
+                            {
+                                "BtActMonths": "202011"
+                            },
+                            {
+                                "BtActMonths": "202012"
+                            },
+                            {
+                                "BtActMonths": "202101"
+                            },
+                            {
+                                "BtActMonths": "202102"
+                            },
+                            {
+                                "BtActMonths": "202103"
+                            },
+                            {
+                                "BtActMonths": "202104"
+                            },
+                            {
+                                "BtActMonths": "202105"
+                            },
+                            {
+                                "BtActMonths": "202106"
+                            },
+                            {
+                                "BtActMonths": "202107"
+                            },
+                            {
+                                "BtActMonths": "202108"
+                            },
+                            {
+                                "BtActMonths": "202109"
+                            },
+                            {
+                                "BtActMonths": "202110"
+                            },
+                            {
+                                "BtActMonths": "202111"
+                            },
+                            {
+                                "BtActMonths": "202112"
+                            },
+                            {
+                                "BtActMonths": "202201"
+                            },
+                            {
+                                "BtActMonths": "202202"
+                            },
+                            {
+                                "BtActMonths": "202203"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "RECORD_BalType": {
+                        "BalType": "WOFACCOUNT",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202003"
+                            },
+                            {
+                                "BtActMonths": "202004"
+                            },
+                            {
+                                "BtActMonths": "202005"
+                            },
+                            {
+                                "BtActMonths": "202006"
+                            },
+                            {
+                                "BtActMonths": "202007"
+                            },
+                            {
+                                "BtActMonths": "202008"
+                            },
+                            {
+                                "BtActMonths": "202009"
+                            },
+                            {
+                                "BtActMonths": "202010"
+                            },
+                            {
+                                "BtActMonths": "202011"
+                            },
+                            {
+                                "BtActMonths": "202012"
+                            },
+                            {
+                                "BtActMonths": "202101"
+                            },
+                            {
+                                "BtActMonths": "202102"
+                            },
+                            {
+                                "BtActMonths": "202103"
+                            },
+                            {
+                                "BtActMonths": "202104"
+                            },
+                            {
+                                "BtActMonths": "202105"
+                            },
+                            {
+                                "BtActMonths": "202106"
+                            },
+                            {
+                                "BtActMonths": "202107"
+                            },
+                            {
+                                "BtActMonths": "202108"
+                            },
+                            {
+                                "BtActMonths": "202109"
+                            },
+                            {
+                                "BtActMonths": "202110"
+                            },
+                            {
+                                "BtActMonths": "202111"
+                            },
+                            {
+                                "BtActMonths": "202112"
+                            },
+                            {
+                                "BtActMonths": "202201"
+                            },
+                            {
+                                "BtActMonths": "202202"
+                            },
+                            {
+                                "BtActMonths": "202203"
+                            },
+                            {
+                                "BtActMonths": "202212"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ARRAY_CollatRight": [],
+            "ARRAY_Collateral": [],
+            "ARRAY_StmtProcDate": [
+                {
+                    "RECORD_StmtProcDate": {
+                        "StmtProcDate": "20221215",
+                        "NoOfStmt": "1"
+                    }
+                }
+            ],
+            "RiskLimitRef": null,
+            "ARRAY_RiskCollRgtId": [],
+            "ARRAY_CategProcessDate": [],
+            "OpenActualBal": "0",
+            "OpenClearedBal": "0",
+            "OnlineActualBal": "0",
+            "OnlineClearedBal": "0",
+            "WorkingBalance": "0",
+            "OpenAvailableBal": null,
+            "ARRAY_AvailableDate": [],
+            "FirstAfDate": null,
+            "NextAfDate": null,
+            "NextExpDate": null,
+            "ARRAY_ExposureDates": [],
+            "ARRAY_InitiatorType": [
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "BANK-DR",
+                        "DateLast": "20211015",
+                        "AmntLast": "-23477",
+                        "TransLast": "892"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-CR",
+                        "DateLast": "20220303",
+                        "AmntLast": "23477",
+                        "TransLast": "864"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-DR",
+                        "DateLast": "20220303",
+                        "AmntLast": "-23477",
+                        "TransLast": "864"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "BANK-CR",
+                        "DateLast": "20221215",
+                        "AmntLast": "28435",
+                        "TransLast": "882"
+                    }
+                }
+            ],
+            "LastAcBalUpd": "20221215",
+            "BalanceMoved": "LCK",
+            "AuthPayMvmt": "0",
+            "AuthReceiveMvmt": "0",
+            "TradeDatedGlBal": "0",
+            "TotUnauthCr": null,
+            "TotUnauthDb": null,
+            "TotFwdUnauCr": null,
+            "TotFwdUnauDb": null,
+            "ARRAY_UnauthKey": [],
+            "ARRAY_FwdUnauthKey": [],
+            "HvtFlag": null,
+            "LastUpdateTime": "21:07:59 15 DEC 2022",
+            "AccountingCompany": null,
+            "ARRAY_CcyList": [],
+            "ARRAY_FromDate": [],
+            "AuthFutExpBal": null,
+            "UnauFutExpBal": null,
+            "UnauFwdMvmt": null,
+            "ARRAY_SweepAccount": [],
+            "ARRAY_CollateralRightId": [],
+            "ARRAY_CrFromDate": [],
+            "EndOfRecCrf": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:8718edc5-3c24-41ba-8714-38e711d08603",
+            "createdTime": "1700519686478",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 567591241
+}
+{
+    "key": "U18138242_bab21cf6-cd31-459e-8fca-994aea40531e_0001_1",
+    "value": {
+        "eventId": "U18138242_bab21cf6-cd31-459e-8fca-994aea40531e_0001",
+        "eventSize": 1,
+        "eventIndex": 0,
+        "emittedTime": 1702287366900,
+        "processingTime": 1700519686501,
+        "company": "FBNK",
+        "context": {
+            "jobName": "RE.STATIC.CHANGE",
+            "companyCode": "RW0010001",
+            "transactionType": "BATCH",
+            "processState": "S040",
+            "processName": "BNK/SYSTEM.END.OF.DAY5",
+            "cobDate": "20231120",
+            "operation": "WRITE"
+        },
+        "entityName": "FBNK.EB.CONTRACT.BALANCES",
+        "entityId": "100041240177",
+        "application": "EB.CONTRACT.BALANCES",
+        "payload": {
+            "recId": "100041240177",
+            "ContractBalId": null,
+            "Currency": "RWF",
+            "ARRAY_TypeSysdate": [
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": "11258",
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": null,
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                },
+                {
+                    "RECORD_TypeSysdate": {
+                        "TypeSysdate": "CREDIT-20231024",
+                        "ValueDate": null,
+                        "SUB_ARRAY_MatDate": [
+                            {
+                                "SUB_RECORD_MatDate": {
+                                    "MatDate": null,
+                                    "OpenBalance": null,
+                                    "OpenBalLcl": null,
+                                    "CreditMvmt": "20000",
+                                    "CrMvmtLcl": null,
+                                    "DebitMvmt": null,
+                                    "DbMvmtLcl": null
+                                }
+                            }
+                        ],
+                        "NauMvmt": null,
+                        "NauTxnId": null,
+                        "CurrAssetType": "CREDIT"
+                    }
+                }
+            ],
+            "ConsolKey": "AC.1.TR.RWF.6001.1000.RW....7..301056....RW0010055",
+            "OpenAssetType": "CREDIT",
+            "CoCode": "RW0010055",
+            "PossSignChange": null,
+            "NsUpdateIndicator": null,
+            "Application": "ACCOUNT",
+            "Product": "AC",
+            "DateLastUpdate": "20231120",
+            "Customer": "1234083",
+            "InterestRate": null,
+            "InterestKey": null,
+            "InterestBasis": null,
+            "InterestSpread": null,
+            "ARRAY_ReportItem": [],
+            "PrevConsolKey": null,
+            "PrevAssetType": null,
+            "ContractValueDate": null,
+            "ARRAY_BalanceType": [],
+            "ARRAY_ActivityId": [],
+            "ARRAY_StmtEntIds": [],
+            "StmtSplitId": null,
+            "ARRAY_ConsolEntIds": [],
+            "ConsolSplitId": null,
+            "ARRAY_CategEntIds": [],
+            "CategSplitId": null,
+            "ARRAY_AccrCategory": [],
+            "ARRAY_ActivityMonths": [],
+            "ARRAY_BalType": [
+                {
+                    "RECORD_BalType": {
+                        "BalType": "ACCCRINTEREST",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202110"
+                            },
+                            {
+                                "BtActMonths": "202112"
+                            },
+                            {
+                                "BtActMonths": "202201"
+                            },
+                            {
+                                "BtActMonths": "202203"
+                            },
+                            {
+                                "BtActMonths": "202204"
+                            },
+                            {
+                                "BtActMonths": "202205"
+                            },
+                            {
+                                "BtActMonths": "202206"
+                            },
+                            {
+                                "BtActMonths": "202207"
+                            },
+                            {
+                                "BtActMonths": "202212"
+                            },
+                            {
+                                "BtActMonths": "202301"
+                            },
+                            {
+                                "BtActMonths": "202302"
+                            },
+                            {
+                                "BtActMonths": "202304"
+                            },
+                            {
+                                "BtActMonths": "202307"
+                            },
+                            {
+                                "BtActMonths": "202310"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "RECORD_BalType": {
+                        "BalType": "CURBALANCE",
+                        "SUB_ARRAY_BtActMonths": [
+                            {
+                                "BtActMonths": "202110"
+                            },
+                            {
+                                "BtActMonths": "202112"
+                            },
+                            {
+                                "BtActMonths": "202201"
+                            },
+                            {
+                                "BtActMonths": "202203"
+                            },
+                            {
+                                "BtActMonths": "202204"
+                            },
+                            {
+                                "BtActMonths": "202205"
+                            },
+                            {
+                                "BtActMonths": "202206"
+                            },
+                            {
+                                "BtActMonths": "202207"
+                            },
+                            {
+                                "BtActMonths": "202208"
+                            },
+                            {
+                                "BtActMonths": "202209"
+                            },
+                            {
+                                "BtActMonths": "202212"
+                            },
+                            {
+                                "BtActMonths": "202301"
+                            },
+                            {
+                                "BtActMonths": "202302"
+                            },
+                            {
+                                "BtActMonths": "202303"
+                            },
+                            {
+                                "BtActMonths": "202304"
+                            },
+                            {
+                                "BtActMonths": "202307"
+                            },
+                            {
+                                "BtActMonths": "202310"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ARRAY_CollatRight": [],
+            "ARRAY_Collateral": [],
+            "ARRAY_StmtProcDate": [
+                {
+                    "RECORD_StmtProcDate": {
+                        "StmtProcDate": "20231024",
+                        "NoOfStmt": "1"
+                    }
+                }
+            ],
+            "RiskLimitRef": null,
+            "ARRAY_RiskCollRgtId": [],
+            "ARRAY_CategProcessDate": [
+                {
+                    "RECORD_CategProcessDate": {
+                        "CategProcessDate": "20230719",
+                        "SUB_ARRAY_CategEntryIds": [
+                            {
+                                "CategEntryIds": "202897358277963.000001*15732020"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "OpenActualBal": "31258",
+            "OpenClearedBal": "31258",
+            "OnlineActualBal": "31258",
+            "OnlineClearedBal": "31258",
+            "WorkingBalance": "31258",
+            "OpenAvailableBal": null,
+            "ARRAY_AvailableDate": [],
+            "FirstAfDate": null,
+            "NextAfDate": null,
+            "NextExpDate": null,
+            "ARRAY_ExposureDates": [],
+            "ARRAY_InitiatorType": [
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-CR",
+                        "DateLast": "20231011",
+                        "AmntLast": "15",
+                        "TransLast": "831"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "CUST-DR",
+                        "DateLast": "20230720",
+                        "AmntLast": "-95000",
+                        "TransLast": "2"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "CUST-CR",
+                        "DateLast": "20231024",
+                        "AmntLast": "20000",
+                        "TransLast": "1560"
+                    }
+                },
+                {
+                    "RECORD_InitiatorType": {
+                        "InitiatorType": "AUTO-DR",
+                        "DateLast": "20231011",
+                        "AmntLast": "-2",
+                        "TransLast": "891"
+                    }
+                }
+            ],
+            "LastAcBalUpd": "20231024",
+            "BalanceMoved": "LCK",
+            "AuthPayMvmt": "0",
+            "AuthReceiveMvmt": "0",
+            "TradeDatedGlBal": "31258",
+            "TotUnauthCr": "0",
+            "TotUnauthDb": "0",
+            "TotFwdUnauCr": null,
+            "TotFwdUnauDb": null,
+            "ARRAY_UnauthKey": [],
+            "ARRAY_FwdUnauthKey": [],
+            "HvtFlag": null,
+            "LastUpdateTime": "22:43:54 24 OCT 2023",
+            "AccountingCompany": null,
+            "ARRAY_CcyList": [],
+            "ARRAY_FromDate": [],
+            "AuthFutExpBal": null,
+            "UnauFutExpBal": null,
+            "UnauFwdMvmt": null,
+            "ARRAY_SweepAccount": [],
+            "ARRAY_CollateralRightId": [],
+            "ARRAY_CrFromDate": [],
+            "EndOfRecCrf": null
+        },
+        "metadata": {
+            "recIdColumn": "RECID",
+            "databasePartition": "6",
+            "partitionIdColumn": "PARTITIONID",
+            "requestId": "pdcdesuat.bk.rw:6:8718edc5-3c24-41ba-8714-38e711d08603",
+            "createdTime": "1700519686477",
+            "databaseTable": "F_DATA_EVENTS"
+        }
+    },
+    "topic": "table-update",
+    "partition": 0,
+    "offset": 567591242
+}
