@@ -1,6 +1,11 @@
 from kafka_consumer import setup_kafka_consumer, poll_message
 from db_operations import get_db_connection, execute_insert_query
 from message_handler import process_message
+import json
+
+# Load config
+with open('config.json', 'r') as file:
+    config = json.load(file)
 
 def main():
     consumer = setup_kafka_consumer()
@@ -15,21 +20,18 @@ def main():
 
             json_data, processing_time, entity_name, entity_id = process_message(msg)
 
-            if entity_name == "FBNK.CUSTOMER":
-                # Define your insert query for FBNK.CUSTOMER
-                insert_query = """
-                INSERT INTO FBNK_CUSTOMER(JsonData, ProcessingTime, EntityName, EntityId)
-                VALUES(?,?,?,?)
-                """
-            else:
-                # Existing insert query for other cases
-                insert_query = """
-                INSERT INTO KafkaMessages(JsonData, ProcessingTime, EntityName, EntityId)
-                VALUES(?,?,?,?)
-                """
+            if entity_name in config:
+                table_config = config[entity_name]
+                table_name = table_config["table"]
+                columns = ', '.join(table_config["columns"])
+                placeholders = ', '.join(['?'] * len(table_config["columns"]))
+                insert_query = f"INSERT INTO {table_name}({columns}) VALUES({placeholders})"
+                values = [json_data, processing_time, entity_name, entity_id]
 
-            execute_insert_query(cursor, insert_query, json_data, processing_time, entity_name, entity_id)
-            cnxn.commit()
+                execute_insert_query(cursor, insert_query, *values)
+                cnxn.commit()
+
+            
 
     except KeyboardInterrupt:
         pass
