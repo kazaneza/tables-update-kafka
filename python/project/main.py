@@ -15,10 +15,19 @@ def main():
 
             json_data, processing_time, entity_name, entity_id = process_message(msg)
 
-            insert_query = """
-            INSERT INTO KafkaMessages (JsonData, ProcessingTime, EntityName, EntityId) 
-            VALUES (?, ?, ?, ?)
-            """
+            if entity_name == "FBNK.CUSTOMER":
+                # Define your insert query for FBNK.CUSTOMER
+                insert_query = """
+                INSERT INTO FBNK_CUSTOMER(JsonData, ProcessingTime, EntityName, EntityId)
+                VALUES(?,?,?,?)
+                """
+            else:
+                # Existing insert query for other cases
+                insert_query = """
+                INSERT INTO KafkaMessages(JsonData, ProcessingTime, EntityName, EntityId)
+                VALUES(?,?,?,?)
+                """
+
             execute_insert_query(cursor, insert_query, json_data, processing_time, entity_name, entity_id)
             cnxn.commit()
 
