@@ -1,7 +1,7 @@
 {
     "FBNK.CUSTOMER": {
         "table": "FBNK_CUSTOMER",
-        "columns": ["message_json", "processingTime", "entityName", "entityId", "ShortName"]
+        "columns": ["message_json","eventId","company","processingTime", "entityName", "entityId", "companyCode","recId"]
     },
     "AA.SERVICE.PROCESS": {
         "table": "AA_SERVICE_PROCESS",
