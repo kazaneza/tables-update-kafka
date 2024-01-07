@@ -23,7 +23,7 @@ def main():
             if msg is None or msg.error():
                 continue
 
-            # logging.info("Message received")
+            logging.info("Message received")
             message_json, message_fields = process_message(msg, config)
             entity_name = message_fields.get('entityName')
 
@@ -39,7 +39,7 @@ def main():
                 values = [message_json] + [message_fields.get(column) for column in columns[1:]]
                 execute_insert_query(cursor, insert_query, values)
                 cnxn.commit()
-                # logging.info(f"Data inserted into {table_name}")
+                logging.info(f"Data inserted into {table_name}")
 
     except KeyboardInterrupt:
         logging.info("Process interrupted by user")
