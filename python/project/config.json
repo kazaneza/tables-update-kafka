@@ -13,7 +13,7 @@
                     "payload.recId",
                     "payload.CustomerCode", 
                     "payload.Mnemonic",
-                    "payload.ARRAY_ShortName.ShortName",
+                    "payload.ShortName",
                     "payload.ARRAY_Name_D_1.Name_D_1",
                     "payload.Sector"
                      ]

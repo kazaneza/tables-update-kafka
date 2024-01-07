@@ -1,16 +1,16 @@
 
-
 def get_value_from_nested_json(data, key):
-
-    # Recursively fetch value from nested JSON
     keys = key.split('.')
-    for i, k in enumerate(keys):
-        if isinstance(data, dict) and k in data:
+    for k in keys:
+        if isinstance(data, list):  # Handle list of dictionaries
+            data = [sub_data.get(k) for sub_data in data if k in sub_data]
+        elif isinstance(data, dict) and k in data:
             data = data[k]
-        elif isinstance(data, list) and i < len(keys) - 1:
-            # Extract a list of values for the next key in all array elements
-            next_key = keys[i + 1]
-            return [element[next_key] for element in data if next_key in element]
         else:
             return None
+        
+    # Flatten the list if it contains sublists
+    if isinstance(data, list) and all(isinstance(elem, list) for elem in data):
+        data = [item for sublist in data for item in sublist]
+
     return data
