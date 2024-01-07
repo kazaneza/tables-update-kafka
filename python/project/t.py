@@ -35,7 +35,7 @@ sample_message_1 = {
 }
 
 
-def extract_from_nested_json(data, path):
+def get_value_from_nested_json(data, path):
     def inner_extract(current_data, remaining_path):
         if not remaining_path:
             return current_data
