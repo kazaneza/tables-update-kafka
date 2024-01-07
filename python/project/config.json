@@ -12,7 +12,10 @@
                     "entityId",
                     "payload.recId",
                     "payload.CustomerCode", 
-                    "payload.Mnemonic"
+                    "payload.Mnemonic",
+                    "payload.ARRAY_ShortName.ShortName",
+                    "payload.ARRAY_Name_D_1.Name_D_1",
+                    "payload.Sector"
                      ]
     },
     "AA.SERVICE.PROCESS": {
