@@ -3,10 +3,12 @@ from db_operations import get_db_connection, execute_insert_query
 from message_handler import process_message
 import json
 import logging
+from datetime import datetime
 
 logging.basicConfig(level=logging.INFO)
 
 def main():
+    start_time = datetime.now()
     logging.info("Starting main process")
     with open('config.json', 'r') as file:
         config = json.load(file)
@@ -44,7 +46,9 @@ def main():
     except Exception as e:
         logging.error(f"An error occurred: {e}")
     finally:
-        logging.info("Closing resources")
+        end_time = datetime.now()
+        duration = end_time -start_time
+        logging.info(f"Closing resources. Session duration: {duration}")
         consumer.close()
         cursor.close()
         cnxn.close()
