@@ -4,11 +4,13 @@ from message_handler import process_message
 import json
 import logging
 from datetime import datetime
+import sys
 
 logging.basicConfig(level=logging.INFO)
 
 def main():
     start_time = datetime.now()
+    message_count = 0
     logging.info("Starting main process")
     with open('config.json', 'r') as file:
         config = json.load(file)
@@ -23,7 +25,11 @@ def main():
             if msg is None or msg.error():
                 continue
 
-            logging.info("Message received")
+            # logging.info("Message received")
+            # Increment and display message counter
+            message_count +=1
+            sys.stdout.write(f"\rMessages Processed: {message_count}")
+            sys.stdout.flush()
             message_json, message_fields = process_message(msg, config)
             entity_name = message_fields.get('entityName')
 
@@ -39,13 +45,19 @@ def main():
                 values = [message_json] + [message_fields.get(column) for column in columns[1:]]
                 execute_insert_query(cursor, insert_query, values)
                 cnxn.commit()
-                logging.info(f"Data inserted into {table_name}")
+                # logging.info(f"Data inserted into {table_name}")
 
     except KeyboardInterrupt:
+        sys.stdout.write("\n")  # to start on a new line
+        sys.stdout.flush()
         logging.info("Process interrupted by user")
     except Exception as e:
+        sys.stdout.write("\n")  # to start on a new line
+        sys.stdout.flush()
         logging.error(f"An error occurred: {e}")
     finally:
+        sys.stdout.write("\n")  # to start on a new line
+        sys.stdout.flush()
         end_time = datetime.now()
         duration = end_time -start_time
         logging.info(f"Closing resources. Session duration: {duration}")
