@@ -1,12 +1,26 @@
 {
     "FBNK.CUSTOMER": {
         "table": "FBNK_CUSTOMER",
-        "columns": ["message_json","eventId","company","context.companyCode","context.transactionType","context.cobDate",    "processingTime","entityName", 
-        "entityId","payload.recId","payload.CustomerCode", "payload.Mnemonic","payload.ARRAY_ShortName.ShortName" ]
+        "columns": ["message_json",
+                    "eventId",
+                    "company",
+                    "context.companyCode",
+                    "context.transactionType",
+                    "context.cobDate",    
+                    "processingTime",
+                    "entityName", 
+                    "entityId",
+                    "payload.recId",
+                    "payload.CustomerCode", 
+                    "payload.Mnemonic"
+                     ]
     },
     "AA.SERVICE.PROCESS": {
         "table": "AA_SERVICE_PROCESS",
-        "columns": ["message_json", "ProcessingTime", "EntityName", "EntityId"]
+        "columns": ["message_json", 
+                    "ProcessingTime", 
+                    "EntityName", 
+                    "EntityId"]
     }
     
 }

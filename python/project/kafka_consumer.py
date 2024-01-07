@@ -11,7 +11,7 @@ def setup_kafka_consumer():
 
     consumer_config = {
         'bootstrap.servers': '10.24.36.25:35002',
-        'group.id': 'test04/01/20241',
+        'group.id': 'test07/01/20241',
         'auto.offset.reset': 'earliest',
         'key.deserializer': StringDeserializer('utf_8'),
         'value.deserializer': value_deserializer
